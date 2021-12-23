@@ -1,0 +1,58 @@
+{
+	"ID": "20211223160730-sp5opys",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211223160730-sp5opys",
+		"title": "patch 7afa277a3c7844c1a7c6541980bc5874",
+		"type": "doc"
+	},
+	"Children": [
+		{
+			"ID": "20211223160730-lkbvc5v",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20211223160730-lkbvc5v"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "patch"
+				}
+			]
+		},
+		{
+			"ID": "20211223160730-gw3zuze",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223160730-gw3zuze"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "单词意思: 补丁"
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "幂等性: 非"
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "描述: 部分创建"
+				}
+			]
+		}
+	]
+}

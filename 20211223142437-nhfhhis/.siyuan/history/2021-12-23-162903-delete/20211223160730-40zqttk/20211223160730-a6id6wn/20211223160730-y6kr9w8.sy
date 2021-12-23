@@ -1,0 +1,262 @@
+{
+	"ID": "20211223160730-y6kr9w8",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211223160730-y6kr9w8",
+		"title": "web通用常识 59e5769c51de4d239c983ab3f67f3303",
+		"type": "doc"
+	},
+	"Children": [
+		{
+			"ID": "20211223160730-5i3bhre",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20211223160730-5i3bhre"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "web通用常识"
+				}
+			]
+		},
+		{
+			"ID": "20211223160730-rq6puto",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1,
+				"Start": 1,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "MQ==",
+				"Num": 1
+			},
+			"Properties": {
+				"id": "20211223160730-rq6puto"
+			},
+			"Children": [
+				{
+					"ID": "20211223160730-slg2gy0",
+					"Type": "NodeListItem",
+					"Data": "1",
+					"ListData": {
+						"Typ": 1,
+						"Start": 1,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "MQ==",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20211223160730-slg2gy0"
+					},
+					"Children": [
+						{
+							"ID": "20211223160730-6yadp2p",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223160730-6yadp2p"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "http的请求类型 get 、post、delete、put、patch之间的区别"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " "
+								},
+								{
+									"Type": "NodeLink",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket",
+											"Data": "["
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "跳转"
+										},
+										{
+											"Type": "NodeCloseBracket",
+											"Data": "]"
+										},
+										{
+											"Type": "NodeOpenParen",
+											"Data": "("
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://blog.csdn.net/whatday/article/details/106229890"
+										},
+										{
+											"Type": "NodeCloseParen",
+											"Data": ")"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " "
+								},
+								{
+									"Type": "NodeLink",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket",
+											"Data": "["
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "其他参考"
+										},
+										{
+											"Type": "NodeCloseBracket",
+											"Data": "]"
+										},
+										{
+											"Type": "NodeOpenParen",
+											"Data": "("
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://blog.csdn.net/Jack_PJ/article/details/102726816"
+										},
+										{
+											"Type": "NodeCloseParen",
+											"Data": ")"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20211223160730-m66w3dk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223160730-m66w3dk"
+							},
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket",
+											"Data": "["
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "请求方式"
+										},
+										{
+											"Type": "NodeCloseBracket",
+											"Data": "]"
+										},
+										{
+											"Type": "NodeOpenParen",
+											"Data": "("
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "web%E9%80%9A%E7%94%A8%E5%B8%B8%E8%AF%86%2059e5769c51de4d239c983ab3f67f3303/%E8%AF%B7%E6%B1%82%E6%96%B9%E5%BC%8F%20bf2abbf45ebe463193b1fbb5d1377d13.csv"
+										},
+										{
+											"Type": "NodeCloseParen",
+											"Data": ")"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20211223160730-93qir6c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223160730-93qir6c"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "总是把"
+								},
+								{
+									"Type": "NodeStrong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "put"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "和"
+								},
+								{
+									"Type": "NodeStrong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "post"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "这两个记混"
+								}
+							]
+						},
+						{
+							"ID": "20211223160730-11qn79f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223160730-11qn79f"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "总结记忆方法：post比put长，所以他是增加的，非幂等的。patch也是比较长，所以也非幂等的。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

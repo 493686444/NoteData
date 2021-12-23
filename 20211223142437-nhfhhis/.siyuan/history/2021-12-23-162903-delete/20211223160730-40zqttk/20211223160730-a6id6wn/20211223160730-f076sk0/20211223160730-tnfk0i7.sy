@@ -1,0 +1,477 @@
+{
+	"ID": "20211223160730-tnfk0i7",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211223160730-tnfk0i7",
+		"title": "Yarn f669dba1346f4d2bb4c41db18e801c01",
+		"type": "doc"
+	},
+	"Children": [
+		{
+			"ID": "20211223160730-qigzi8h",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20211223160730-qigzi8h"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Yarn"
+				}
+			]
+		},
+		{
+			"ID": "20211223160730-te36imk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20211223160730-te36imk"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "简述"
+				}
+			]
+		},
+		{
+			"ID": "20211223160730-46jc675",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223160730-46jc675"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "和npm是竞争关系，开发者二选其一就行"
+				}
+			]
+		},
+		{
+			"ID": "20211223160730-qvq1sr6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20211223160730-qvq1sr6"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "yarn的安装"
+				}
+			]
+		},
+		{
+			"ID": "20211223160730-okepud2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223160730-okepud2"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "法一：下载node.js，使用npm安装"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "npm install yarn -g"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`"
+						}
+					]
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "法二：安装node.js,下载yarn的安装程序:提供一个.msi文件，在运行时将引导您在Windows上安  装Yarn"
+				}
+			]
+		},
+		{
+			"ID": "20211223160730-n35frgg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20211223160730-n35frgg"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "yarn的使用"
+				}
+			]
+		},
+		{
+			"ID": "20211223160730-7nnjdtu",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1,
+				"Start": 1,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "MQ==",
+				"Num": 1
+			},
+			"Properties": {
+				"id": "20211223160730-7nnjdtu"
+			},
+			"Children": [
+				{
+					"ID": "20211223160730-2yskd5k",
+					"Type": "NodeListItem",
+					"Data": "1",
+					"ListData": {
+						"Typ": 1,
+						"Start": 1,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "MQ==",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20211223160730-2yskd5k"
+					},
+					"Children": [
+						{
+							"ID": "20211223160730-s2dk83g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223160730-s2dk83g"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "查看版本："
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "yarn --version"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211223160730-ugjianr",
+					"Type": "NodeListItem",
+					"Data": "2",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 2,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "Mg==",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20211223160730-ugjianr"
+					},
+					"Children": [
+						{
+							"ID": "20211223160730-t41tvrd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223160730-t41tvrd"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Yarn 淘宝镜像"
+								},
+								{
+									"Type": "NodeSoftBreak",
+									"Data": "\n"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "yarn config set registry [https://registry.npm.taobao.org](https://registry.npm.taobao.org/) -g"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`"
+										}
+									]
+								},
+								{
+									"Type": "NodeSoftBreak",
+									"Data": "\n"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "yarn config set sass_binary_site [http://cdn.npm.taobao.org/dist/node-sass](http://cdn.npm.taobao.org/dist/node-sass) -g"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211223160730-5mrwzsl",
+					"Type": "NodeListItem",
+					"Data": "3",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 3,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "Mw==",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20211223160730-5mrwzsl"
+					},
+					"Children": [
+						{
+							"ID": "20211223160730-d37i33y",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223160730-d37i33y"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "添加包 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "yarn add xxx --dev"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211223160730-44g965b",
+					"Type": "NodeListItem",
+					"Data": "4",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 4,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "NA==",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20211223160730-44g965b"
+					},
+					"Children": [
+						{
+							"ID": "20211223160730-ic01g2g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223160730-ic01g2g"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "删除包 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "yarn remove xxx"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211223160730-faqooss",
+					"Type": "NodeListItem",
+					"Data": "5",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 5,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "NQ==",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20211223160730-faqooss"
+					},
+					"Children": [
+						{
+							"ID": "20211223160730-gj937x9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223160730-gj937x9"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "yarn基本使用代码"
+								}
+							]
+						},
+						{
+							"ID": "20211223160730-zqibrus",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 1,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "anN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20211223160730-zqibrus"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "yarn init       //初始化项目   同npm init，执行输入信息后，会生成package.json文件\nyarn install    //安装package.json里所有包，并将包及它的所有依赖项保存进\nyarn.lockyarn install --flat      //安装一个包的单一版本\nyarn install --force\t\t          //强制重新下载所有包\nyarn install --production \t\t    //只安装dependencies里的包\nyarn install --no-lockfile\t\t     //不读取或生成\nyarn.lockyarn install --pure-lockfile \t\t//不生成\nyarn.lockyarn add [package] \t\t// 在当前的项目中添加一个依赖包，会自动更新到package.json和yarn.lock文件中\nyarn add [package]@[version]\t  // 安装指定版本，这里指的是主要版本，如果需要精确到小版本，使用-E参数\nyarn add [package]@[tag] \t // 安装某个tag（比如beta,next或者latest） \nyarn add --dev/-D \t\t\t   // 加到 devDependencies\nyarn add --peer/-P\t\t \t   // 加到 peerDependencies\nyarn add --optional/-O \t\t // 加到 optionalDependencies\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						},
+						{
+							"ID": "20211223160730-l9tzvet",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 1,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "anN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20211223160730-l9tzvet"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "//默认安装包的主要版本里的最新版本，下面两个命令可以指定版本：\nyarn add --exact/-E \t\t// 安装包的精确版本。例如yarn add foo@1.2.3会接受1.9.1版，但是yarn add foo@1.2.3 --exact只会接受1.2.3版\nyarn add --tilde/-T \t\t//安装包的次要版本里的最新版。例如yarn add foo@1.2.3 --tilde会接受1.2.9，但不接受1.3.0\nyarn publish         //发布包\nyarn upgrade         //更新一个依赖(包);用于更新包到基于规范范围的最新版本\nyarn run             //运行脚本；用来执行在 package.json 中 scripts 属性下定义的脚本\nyarn info \u003cpackageName\u003e  //显示某个包的信息；可以用来查看某个模块的最新版本信息\nyarn cache  //缓存  \nyarn cache list      \t//列出已缓存的每个包 \nyarn cache dir  \t    //返回 全局缓存位置 \nyarn cache clean\t    //清除缓存\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

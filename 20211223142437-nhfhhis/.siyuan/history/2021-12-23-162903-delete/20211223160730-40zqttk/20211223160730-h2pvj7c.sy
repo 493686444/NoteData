@@ -1,0 +1,624 @@
+{
+	"ID": "20211223160730-h2pvj7c",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211223160730-h2pvj7c",
+		"title": "前端 e71abbaa94d54c2e9cd01b0096267cb4",
+		"type": "doc"
+	},
+	"Children": [
+		{
+			"ID": "20211223160730-1djszdz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20211223160730-1djszdz"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "前端"
+				}
+			]
+		},
+		{
+			"ID": "20211223160730-bqt6hlg",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 45,
+				"Padding": 2,
+				"Marker": "LQ==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20211223160730-bqt6hlg"
+			},
+			"Children": [
+				{
+					"ID": "20211223160730-ig9jj0z",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20211223160730-ig9jj0z"
+					},
+					"Children": [
+						{
+							"ID": "20211223160730-vk67qrp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223160730-vk67qrp"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "web前端的发展途径"
+								}
+							]
+						},
+						{
+							"ID": "20211223160730-1e1aowj",
+							"Type": "NodeList",
+							"ListData": {
+								"BulletChar": 45,
+								"Padding": 2,
+								"MarkerOffset": 2,
+								"Marker": "LQ==",
+								"Num": -1
+							},
+							"Properties": {
+								"id": "20211223160730-1e1aowj"
+							},
+							"Children": [
+								{
+									"ID": "20211223160730-3t724e4",
+									"Type": "NodeListItem",
+									"Data": "-",
+									"ListData": {
+										"BulletChar": 45,
+										"Padding": 2,
+										"MarkerOffset": 2,
+										"Marker": "LQ==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20211223160730-3t724e4"
+									},
+									"Children": [
+										{
+											"ID": "20211223160730-1hfldf4",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223160730-1hfldf4"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "2016年之前  DOM思想"
+												}
+											]
+										},
+										{
+											"ID": "20211223160730-efybzy0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223160730-efybzy0"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "html  css  JavaScript(BOM DOM)"
+												}
+											]
+										},
+										{
+											"ID": "20211223160730-fh3i6ve",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223160730-fh3i6ve"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "html5 css3 ES6"
+												}
+											]
+										},
+										{
+											"ID": "20211223160730-f79y1x3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223160730-f79y1x3"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "jQuery"
+												}
+											]
+										},
+										{
+											"ID": "20211223160730-4ipvh1b",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223160730-4ipvh1b"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "BootStrap"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211223160730-6hnsdri",
+									"Type": "NodeListItem",
+									"Data": "-",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 45,
+										"Padding": 2,
+										"MarkerOffset": 2,
+										"Marker": "LQ==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20211223160730-6hnsdri"
+									},
+									"Children": [
+										{
+											"ID": "20211223160730-u6427y9",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223160730-u6427y9"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "2016年之后（ES6出来之后） 虚拟DOM思想"
+												}
+											]
+										},
+										{
+											"ID": "20211223160730-9puit88",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223160730-9puit88"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "NPM—包管理器"
+												}
+											]
+										},
+										{
+											"ID": "20211223160730-y53ujji",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223160730-y53ujji"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "WebPack—打包工具"
+												}
+											]
+										},
+										{
+											"ID": "20211223160730-hsma2b8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223160730-hsma2b8"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "ES6"
+												}
+											]
+										},
+										{
+											"ID": "20211223160730-p08ds44",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223160730-p08ds44"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "axios 异步请求，类似于Ajax"
+												}
+											]
+										},
+										{
+											"ID": "20211223160730-64qsvse",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223160730-64qsvse"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Vue React  ... WebAPP  微信小程序"
+												}
+											]
+										},
+										{
+											"ID": "20211223160730-61dwgto",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223160730-61dwgto"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Node.js（属于后端技术，会一点就行）"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223160730-o81mlt7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223160730-o81mlt7"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "["
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Bootstrap"
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]"
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "("
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "%E5%89%8D%E7%AB%AF%20e71abbaa94d54c2e9cd01b0096267cb4/Bootstrap%2098d4d4f72e2d4eb49f5b951a5a913b02.md"
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223160730-cery925",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223160730-cery925"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "["
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "html"
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]"
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "("
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "%E5%89%8D%E7%AB%AF%20e71abbaa94d54c2e9cd01b0096267cb4/html%2082816fc0227a41c6968f43bfa27c421b.md"
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223160730-xq8nyjh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223160730-xq8nyjh"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "["
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "CSS"
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]"
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "("
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "%E5%89%8D%E7%AB%AF%20e71abbaa94d54c2e9cd01b0096267cb4/CSS%209453a36521794e2ea8723d2c8e4c45c4.md"
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223160730-vul7fac",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223160730-vul7fac"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "["
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "JavaScript"
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]"
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "("
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "%E5%89%8D%E7%AB%AF%20e71abbaa94d54c2e9cd01b0096267cb4/JavaScript%20d205a7b3c2404dd2a0ecd096100eb500.md"
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223160730-m87lbe7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223160730-m87lbe7"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "["
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "JQuery"
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]"
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "("
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "%E5%89%8D%E7%AB%AF%20e71abbaa94d54c2e9cd01b0096267cb4/JQuery%20324b816054d34ee8859b0ba3b9b34d2a.md"
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223160730-kk49joz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223160730-kk49joz"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "["
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Vue"
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]"
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "("
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "%E5%89%8D%E7%AB%AF%20e71abbaa94d54c2e9cd01b0096267cb4/Vue%20ecbb1d6c18f149f9ade3e6240f183324.md"
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223160730-ftbwpkp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223160730-ftbwpkp"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "["
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "web前端框架通用技术"
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]"
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "("
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "%E5%89%8D%E7%AB%AF%20e71abbaa94d54c2e9cd01b0096267cb4/web%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6%E9%80%9A%E7%94%A8%E6%8A%80%E6%9C%AF%201f980441aa7242e0b6bc62fcee86c6d1.md"
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223160730-cs8ph1t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223160730-cs8ph1t"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "["
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "ES6"
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]"
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "("
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "%E5%89%8D%E7%AB%AF%20e71abbaa94d54c2e9cd01b0096267cb4/ES6%2034e6204a0ecd4eff981b70c1e73dbd00.md"
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223160730-spw65r2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223160730-spw65r2"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "["
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "web通用常识"
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]"
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "("
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "%E5%89%8D%E7%AB%AF%20e71abbaa94d54c2e9cd01b0096267cb4/web%E9%80%9A%E7%94%A8%E5%B8%B8%E8%AF%86%2059e5769c51de4d239c983ab3f67f3303.md"
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")"
+						}
+					]
+				}
+			]
+		}
+	]
+}

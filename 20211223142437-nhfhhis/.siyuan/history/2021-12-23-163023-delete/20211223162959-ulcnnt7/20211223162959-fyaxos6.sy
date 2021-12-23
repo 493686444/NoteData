@@ -1,0 +1,2802 @@
+{
+	"ID": "20211223162959-fyaxos6",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211223162959-fyaxos6",
+		"title": "Home",
+		"type": "doc"
+	},
+	"Children": [
+		{
+			"ID": "20211223162959-15etjgw",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20211223162959-15etjgw"
+			},
+			"Children": [
+				{
+					"ID": "20211223162959-zfwzcwi",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20211223162959-zfwzcwi"
+					},
+					"Children": [
+						{
+							"ID": "20211223162959-n7hnzla",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223162959-n7hnzla"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "\"版本管理\"[^1]"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211223162959-sipp941",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20211223162959-sipp941"
+					},
+					"Children": [
+						{
+							"ID": "20211223162959-ffy84sx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223162959-ffy84sx"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "小知识"
+								}
+							]
+						},
+						{
+							"ID": "20211223162959-p45bmyd",
+							"Type": "NodeList",
+							"ListData": {
+								"Tight": true,
+								"BulletChar": 42,
+								"Padding": 2,
+								"Marker": "Kg==",
+								"Num": -1
+							},
+							"Properties": {
+								"id": "20211223162959-p45bmyd"
+							},
+							"Children": [
+								{
+									"ID": "20211223162959-dwjo8mw",
+									"Type": "NodeListItem",
+									"Data": "*",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 42,
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20211223162959-dwjo8mw"
+									},
+									"Children": [
+										{
+											"ID": "20211223162959-4fi0rmp",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223162959-4fi0rmp"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "目录地址写法"
+												},
+												{
+													"Type": "NodeHardBreak",
+													"Data": "\n"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "“./”  ：代表目前所在的目录。"
+												},
+												{
+													"Type": "NodeHardBreak",
+													"Data": "\n"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "“../” ：代表上一层目录。"
+												},
+												{
+													"Type": "NodeHardBreak",
+													"Data": "\n"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "”/”   ：开头：代表根目录。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211223162959-rqo8u07",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20211223162959-rqo8u07"
+					},
+					"Children": [
+						{
+							"ID": "20211223162959-zi3w886",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223162959-zi3w886"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "计算机硬件"
+								}
+							]
+						},
+						{
+							"ID": "20211223162959-fftr7py",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1,
+								"Tight": true,
+								"Start": 1,
+								"Delimiter": 46,
+								"Padding": 3,
+								"Marker": "MQ==",
+								"Num": 1
+							},
+							"Properties": {
+								"id": "20211223162959-fftr7py"
+							},
+							"Children": [
+								{
+									"ID": "20211223162959-k3m15ur",
+									"Type": "NodeListItem",
+									"Data": "1",
+									"ListData": {
+										"Typ": 1,
+										"Tight": true,
+										"Start": 1,
+										"Delimiter": 46,
+										"Padding": 3,
+										"Marker": "MQ==",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20211223162959-k3m15ur"
+									},
+									"Children": [
+										{
+											"ID": "20211223162959-mj1b55k",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223162959-mj1b55k"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "显示器"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211223162959-28mrru1",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20211223162959-28mrru1"
+					},
+					"Children": [
+						{
+							"ID": "20211223162959-uuh9959",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223162959-uuh9959"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "操作系统"
+								}
+							]
+						},
+						{
+							"ID": "20211223162959-x7dkoev",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1,
+								"Tight": true,
+								"Start": 1,
+								"Delimiter": 46,
+								"Padding": 3,
+								"Marker": "MQ==",
+								"Num": 1
+							},
+							"Properties": {
+								"id": "20211223162959-x7dkoev"
+							},
+							"Children": [
+								{
+									"ID": "20211223162959-6tl11ws",
+									"Type": "NodeListItem",
+									"Data": "1",
+									"ListData": {
+										"Typ": 1,
+										"Tight": true,
+										"Start": 1,
+										"Delimiter": 46,
+										"Padding": 3,
+										"Marker": "MQ==",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20211223162959-6tl11ws"
+									},
+									"Children": [
+										{
+											"ID": "20211223162959-2gmim3j",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223162959-2gmim3j"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Windows"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211223162959-jhspajx",
+									"Type": "NodeListItem",
+									"Data": "2",
+									"ListData": {
+										"Typ": 1,
+										"Tight": true,
+										"Start": 2,
+										"Delimiter": 46,
+										"Padding": 3,
+										"Marker": "Mg==",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20211223162959-jhspajx"
+									},
+									"Children": [
+										{
+											"ID": "20211223162959-zv0n2bh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223162959-zv0n2bh"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Linux"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211223162959-mg52pyn",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20211223162959-mg52pyn"
+					},
+					"Children": [
+						{
+							"ID": "20211223162959-n6bpapa",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223162959-n6bpapa"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "前端"
+								}
+							]
+						},
+						{
+							"ID": "20211223162959-5xkt8sm",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1,
+								"Tight": true,
+								"Start": 1,
+								"Delimiter": 46,
+								"Padding": 3,
+								"Marker": "MQ==",
+								"Num": 1
+							},
+							"Properties": {
+								"id": "20211223162959-5xkt8sm"
+							},
+							"Children": [
+								{
+									"ID": "20211223162959-kgr888e",
+									"Type": "NodeListItem",
+									"Data": "1",
+									"ListData": {
+										"Typ": 1,
+										"Tight": true,
+										"Start": 1,
+										"Delimiter": 46,
+										"Padding": 3,
+										"Marker": "MQ==",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20211223162959-kgr888e"
+									},
+									"Children": [
+										{
+											"ID": "20211223162959-3a9zzm5",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223162959-3a9zzm5"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "html"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211223162959-5tu47w6",
+									"Type": "NodeListItem",
+									"Data": "2",
+									"ListData": {
+										"Typ": 1,
+										"Tight": true,
+										"Start": 2,
+										"Delimiter": 46,
+										"Padding": 3,
+										"Marker": "Mg==",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20211223162959-5tu47w6"
+									},
+									"Children": [
+										{
+											"ID": "20211223162959-v1ecq4j",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223162959-v1ecq4j"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "css"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211223162959-0i8a5cs",
+									"Type": "NodeListItem",
+									"Data": "3",
+									"ListData": {
+										"Typ": 1,
+										"Tight": true,
+										"Start": 3,
+										"Delimiter": 46,
+										"Padding": 3,
+										"Marker": "Mw==",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20211223162959-0i8a5cs"
+									},
+									"Children": [
+										{
+											"ID": "20211223162959-gwvnayf",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223162959-gwvnayf"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "JavaScript"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211223162959-9828mbv",
+									"Type": "NodeListItem",
+									"Data": "4",
+									"ListData": {
+										"Typ": 1,
+										"Tight": true,
+										"Start": 4,
+										"Delimiter": 46,
+										"Padding": 3,
+										"Marker": "NA==",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20211223162959-9828mbv"
+									},
+									"Children": [
+										{
+											"ID": "20211223162959-pdlwpiz",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223162959-pdlwpiz"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "JQuery"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211223162959-g9e8n4x",
+									"Type": "NodeListItem",
+									"Data": "5",
+									"ListData": {
+										"Typ": 1,
+										"Tight": true,
+										"Start": 5,
+										"Delimiter": 46,
+										"Padding": 3,
+										"Marker": "NQ==",
+										"Num": 5
+									},
+									"Properties": {
+										"id": "20211223162959-g9e8n4x"
+									},
+									"Children": [
+										{
+											"ID": "20211223162959-14ix5qu",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223162959-14ix5qu"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "AJAX"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211223162959-xq0qfpj",
+									"Type": "NodeListItem",
+									"Data": "6",
+									"ListData": {
+										"Typ": 1,
+										"Tight": true,
+										"Start": 6,
+										"Delimiter": 46,
+										"Padding": 3,
+										"Marker": "Ng==",
+										"Num": 6
+									},
+									"Properties": {
+										"id": "20211223162959-xq0qfpj"
+									},
+									"Children": [
+										{
+											"ID": "20211223162959-t59nyvd",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223162959-t59nyvd"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "JSON"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211223162959-n4ruadh",
+									"Type": "NodeListItem",
+									"Data": "7",
+									"ListData": {
+										"Typ": 1,
+										"Tight": true,
+										"Start": 7,
+										"Delimiter": 46,
+										"Padding": 3,
+										"Marker": "Nw==",
+										"Num": 7
+									},
+									"Properties": {
+										"id": "20211223162959-n4ruadh"
+									},
+									"Children": [
+										{
+											"ID": "20211223162959-i3qkuv6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223162959-i3qkuv6"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Vue"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211223162959-v8p5lx2",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20211223162959-v8p5lx2"
+					},
+					"Children": [
+						{
+							"ID": "20211223162959-1pkiqcz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223162959-1pkiqcz"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "后端"
+								}
+							]
+						},
+						{
+							"ID": "20211223162959-09tneqf",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1,
+								"Tight": true,
+								"Start": 1,
+								"Delimiter": 46,
+								"Padding": 3,
+								"Marker": "MQ==",
+								"Num": 1
+							},
+							"Properties": {
+								"id": "20211223162959-09tneqf"
+							},
+							"Children": [
+								{
+									"ID": "20211223162959-yob979n",
+									"Type": "NodeListItem",
+									"Data": "1",
+									"ListData": {
+										"Typ": 1,
+										"Tight": true,
+										"Start": 1,
+										"Delimiter": 46,
+										"Padding": 3,
+										"Marker": "MQ==",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20211223162959-yob979n"
+									},
+									"Children": [
+										{
+											"ID": "20211223162959-ngy3ljv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223162959-ngy3ljv"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "C#"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211223162959-uq7hcnr",
+									"Type": "NodeListItem",
+									"Data": "2",
+									"ListData": {
+										"Typ": 1,
+										"Tight": true,
+										"Start": 2,
+										"Delimiter": 46,
+										"Padding": 3,
+										"Marker": "Mg==",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20211223162959-uq7hcnr"
+									},
+									"Children": [
+										{
+											"ID": "20211223162959-zfctklm",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223162959-zfctklm"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "JAVA"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211223162959-oyzhuxp",
+									"Type": "NodeListItem",
+									"Data": "3",
+									"ListData": {
+										"Typ": 1,
+										"Tight": true,
+										"Start": 3,
+										"Delimiter": 46,
+										"Padding": 3,
+										"Marker": "Mw==",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20211223162959-oyzhuxp"
+									},
+									"Children": [
+										{
+											"ID": "20211223162959-e8jbmln",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223162959-e8jbmln"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "golang"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211223162959-k6ai243",
+									"Type": "NodeListItem",
+									"Data": "4",
+									"ListData": {
+										"Typ": 1,
+										"Tight": true,
+										"Start": 4,
+										"Delimiter": 46,
+										"Padding": 3,
+										"Marker": "NA==",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20211223162959-k6ai243"
+									},
+									"Children": [
+										{
+											"ID": "20211223162959-u3wjh7m",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223162959-u3wjh7m"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Python"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211223162959-n1wjin5",
+									"Type": "NodeListItem",
+									"Data": "5",
+									"ListData": {
+										"Typ": 1,
+										"Tight": true,
+										"Start": 5,
+										"Delimiter": 46,
+										"Padding": 3,
+										"Marker": "NQ==",
+										"Num": 5
+									},
+									"Properties": {
+										"id": "20211223162959-n1wjin5"
+									},
+									"Children": [
+										{
+											"ID": "20211223162959-6moijki",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223162959-6moijki"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "C/C++"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211223162959-25ulxug",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20211223162959-25ulxug"
+					},
+					"Children": [
+						{
+							"ID": "20211223162959-a2joy3f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223162959-a2joy3f"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数据库"
+								}
+							]
+						},
+						{
+							"ID": "20211223162959-1i0113q",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1,
+								"Tight": true,
+								"Start": 1,
+								"Delimiter": 46,
+								"Padding": 3,
+								"Marker": "MQ==",
+								"Num": 1
+							},
+							"Properties": {
+								"id": "20211223162959-1i0113q"
+							},
+							"Children": [
+								{
+									"ID": "20211223162959-u3bnoc5",
+									"Type": "NodeListItem",
+									"Data": "1",
+									"ListData": {
+										"Typ": 1,
+										"Tight": true,
+										"Start": 1,
+										"Delimiter": 46,
+										"Padding": 3,
+										"Marker": "MQ==",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20211223162959-u3bnoc5"
+									},
+									"Children": [
+										{
+											"ID": "20211223162959-z78hkpn",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223162959-z78hkpn"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Oracle"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211223162959-t8semcl",
+									"Type": "NodeListItem",
+									"Data": "2",
+									"ListData": {
+										"Typ": 1,
+										"Tight": true,
+										"Start": 2,
+										"Delimiter": 46,
+										"Padding": 3,
+										"Marker": "Mg==",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20211223162959-t8semcl"
+									},
+									"Children": [
+										{
+											"ID": "20211223162959-4f0hy0o",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223162959-4f0hy0o"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "MySQL"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211223162959-hpm1t43",
+									"Type": "NodeListItem",
+									"Data": "3",
+									"ListData": {
+										"Typ": 1,
+										"Tight": true,
+										"Start": 3,
+										"Delimiter": 46,
+										"Padding": 3,
+										"Marker": "Mw==",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20211223162959-hpm1t43"
+									},
+									"Children": [
+										{
+											"ID": "20211223162959-v3gs8sz",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223162959-v3gs8sz"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "SQL Server"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211223162959-ibfelwg",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20211223162959-ibfelwg"
+					},
+					"Children": [
+						{
+							"ID": "20211223162959-4iny8fd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223162959-4iny8fd"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "游戏"
+								}
+							]
+						},
+						{
+							"ID": "20211223162959-67kj432",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1,
+								"Tight": true,
+								"Start": 1,
+								"Delimiter": 46,
+								"Padding": 3,
+								"Marker": "MQ==",
+								"Num": 1
+							},
+							"Properties": {
+								"id": "20211223162959-67kj432"
+							},
+							"Children": [
+								{
+									"ID": "20211223162959-fim3bkd",
+									"Type": "NodeListItem",
+									"Data": "1",
+									"ListData": {
+										"Typ": 1,
+										"Tight": true,
+										"Start": 1,
+										"Delimiter": 46,
+										"Padding": 3,
+										"Marker": "MQ==",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20211223162959-fim3bkd"
+									},
+									"Children": [
+										{
+											"ID": "20211223162959-ncxfyfg",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223162959-ncxfyfg"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Unity3D"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211223162959-g5q9498",
+									"Type": "NodeListItem",
+									"Data": "2",
+									"ListData": {
+										"Typ": 1,
+										"Tight": true,
+										"Start": 2,
+										"Delimiter": 46,
+										"Padding": 3,
+										"Marker": "Mg==",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20211223162959-g5q9498"
+									},
+									"Children": [
+										{
+											"ID": "20211223162959-ns0sp5o",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223162959-ns0sp5o"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "UE4"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211223162959-akfixd2",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20211223162959-akfixd2"
+					},
+					"Children": [
+						{
+							"ID": "20211223162959-2xxxjuz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223162959-2xxxjuz"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "IDEs"
+								}
+							]
+						},
+						{
+							"ID": "20211223162959-bzj4sll",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1,
+								"Tight": true,
+								"Start": 1,
+								"Delimiter": 46,
+								"Padding": 3,
+								"Marker": "MQ==",
+								"Num": 1
+							},
+							"Properties": {
+								"id": "20211223162959-bzj4sll"
+							},
+							"Children": [
+								{
+									"ID": "20211223162959-3judfvh",
+									"Type": "NodeListItem",
+									"Data": "1",
+									"ListData": {
+										"Typ": 1,
+										"Tight": true,
+										"Start": 1,
+										"Delimiter": 46,
+										"Padding": 3,
+										"Marker": "MQ==",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20211223162959-3judfvh"
+									},
+									"Children": [
+										{
+											"ID": "20211223162959-z5fg9ob",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223162959-z5fg9ob"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "VS 2019"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211223162959-pd1khd6",
+									"Type": "NodeListItem",
+									"Data": "2",
+									"ListData": {
+										"Typ": 1,
+										"Tight": true,
+										"Start": 2,
+										"Delimiter": 46,
+										"Padding": 3,
+										"Marker": "Mg==",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20211223162959-pd1khd6"
+									},
+									"Children": [
+										{
+											"ID": "20211223162959-zk640vu",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223162959-zk640vu"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "VS 2022"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211223162959-obie0bc",
+									"Type": "NodeListItem",
+									"Data": "3",
+									"ListData": {
+										"Typ": 1,
+										"Tight": true,
+										"Start": 3,
+										"Delimiter": 46,
+										"Padding": 3,
+										"Marker": "Mw==",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20211223162959-obie0bc"
+									},
+									"Children": [
+										{
+											"ID": "20211223162959-1nc1uxb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223162959-1nc1uxb"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "VS Code"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211223162959-8sj6r2a",
+									"Type": "NodeListItem",
+									"Data": "4",
+									"ListData": {
+										"Typ": 1,
+										"Tight": true,
+										"Start": 4,
+										"Delimiter": 46,
+										"Padding": 3,
+										"Marker": "NA==",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20211223162959-8sj6r2a"
+									},
+									"Children": [
+										{
+											"ID": "20211223162959-nqmgcrq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223162959-nqmgcrq"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "IDEA"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211223162959-lwr9f32",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20211223162959-lwr9f32"
+					},
+					"Children": [
+						{
+							"ID": "20211223162959-8cvmc07",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223162959-8cvmc07"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Adobe"
+								},
+								{
+									"Type": "NodeHardBreak",
+									"Data": "\n"
+								},
+								{
+									"Type": "NodeImage",
+									"Children": [
+										{
+											"Type": "NodeBang",
+											"Data": "!"
+										},
+										{
+											"Type": "NodeOpenBracket",
+											"Data": "["
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "Untitled"
+										},
+										{
+											"Type": "NodeCloseBracket",
+											"Data": "]"
+										},
+										{
+											"Type": "NodeOpenParen",
+											"Data": "("
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7b9164f8-f2ad-45fc-aa80-d62bb9363b13/Untitled.png"
+										},
+										{
+											"Type": "NodeCloseParen",
+											"Data": ")"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223162959-ihhdlq3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223162959-ihhdlq3"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "[^1]: ## 版本管理"
+				}
+			]
+		},
+		{
+			"ID": "20211223162959-n65adjj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223162959-n65adjj"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    ## git安装"
+				}
+			]
+		},
+		{
+			"ID": "20211223162959-u4wvqpp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223162959-u4wvqpp"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    "
+				},
+				{
+					"Type": "NodeLink",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "["
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "创建版本库 - 廖雪峰的官方网站 (liaoxuefeng.com)"
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]"
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "("
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://www.liaoxuefeng.com/wiki/896043488029600/896827951938304"
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223162959-l2bqads",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223162959-l2bqads"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    ## git命令"
+				}
+			]
+		},
+		{
+			"ID": "20211223162959-7ce615q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223162959-7ce615q"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    * ## "
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "git 基本命令"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223162959-gyiugo7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223162959-gyiugo7"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "      "
+				},
+				{
+					"Type": "NodeLink",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "["
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "git基本命令ls、cat、mv、touch简述 - 简书 (jianshu.com)"
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]"
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "("
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://www.jianshu.com/p/23b816884f89"
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223162959-fyvmfuk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223162959-fyvmfuk"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "      "
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "进入某个文件夹"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223162959-xkphwg4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223162959-xkphwg4"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "      "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "cd d:"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "  进入D盘"
+				}
+			]
+		},
+		{
+			"ID": "20211223162959-ypve645",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223162959-ypve645"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "      "
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "查看某个文件夹下的目录"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223162959-u21mibc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223162959-u21mibc"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "      "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "ls"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223162959-exu2tv5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223162959-exu2tv5"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    * ## "
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "git工作原理"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223162959-dvtlv9e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223162959-dvtlv9e"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "      {{{col"
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "      "
+				},
+				{
+					"Type": "NodeImage",
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!"
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "["
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Untitled.png"
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]"
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "("
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Untitled-20211223144107-vfturup-20211223162959-x8h71n0.png"
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223162959-qnjjl97",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223162959-qnjjl97"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "      }}}"
+				}
+			]
+		},
+		{
+			"ID": "20211223162959-z4dfoq9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223162959-z4dfoq9"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    * ## 建库和提交代码"
+				}
+			]
+		},
+		{
+			"ID": "20211223162959-13l5j2d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223162959-13l5j2d"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "      "
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "建立仓库"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeHardBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "      "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "git init"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "  当前文件夹下建立"
+				},
+				{
+					"Type": "NodeHardBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "      "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "git init x"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "  在当前文件夹下建立个文件 然后在里面建立"
+				},
+				{
+					"Type": "NodeHardBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "      "
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "提交修改的代码/提交新增文件"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeHardBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "      提交 修改/新增 到暂存区"
+				},
+				{
+					"Type": "NodeHardBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "      "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "git add one.txt"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`"
+						}
+					]
+				},
+				{
+					"Type": "NodeHardBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "      提交暂存区的内容到head区"
+				},
+				{
+					"Type": "NodeHardBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "      "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "git **commit** -m \"wrote a readme file\""
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "  "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "m"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "后面输入的是本次提交的说明"
+				},
+				{
+					"Type": "NodeHardBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "      "
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "注"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " ：修改之后的提交也要先"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "git add one.txt"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "  在提交"
+				},
+				{
+					"Type": "NodeHardBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "      "
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "掌握仓库当前的状态"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeHardBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "      "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "git status"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`"
+						}
+					]
+				},
+				{
+					"Type": "NodeHardBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "      "
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "查看difference"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeHardBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "      "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "git diff"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "  查看工作区和版本库里面最新版本（master）的区别"
+				}
+			]
+		},
+		{
+			"ID": "20211223162959-mi3uiz2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223162959-mi3uiz2"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    * ## 版本回退"
+				}
+			]
+		},
+		{
+			"ID": "20211223162959-sl6ef59",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223162959-sl6ef59"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "      自：其实本质是修改回退"
+				}
+			]
+		},
+		{
+			"ID": "20211223162959-itu61vt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223162959-itu61vt"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "      分为3个部分，分别针对 工作区、暂存区（stage）、HEAD"
+				}
+			]
+		},
+		{
+			"ID": "20211223162959-5vb2f3b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223162959-5vb2f3b"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "      * "
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "HEAD区"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223162959-x3vn2fb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223162959-x3vn2fb"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "        "
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "命令显示从最近到最远的提交日志"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeHardBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "        "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "git log"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`"
+						}
+					]
+				},
+				{
+					"Type": "NodeHardBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "        "
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "回退版本"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeHardBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "        根据head回退"
+				},
+				{
+					"Type": "NodeHardBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "        "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "git reset --hard HEAD^"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`"
+						}
+					]
+				},
+				{
+					"Type": "NodeHardBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "        HEAD表示当前的版本。上一个版本就是"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "HEAD^"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，上上一个版本就是"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "HEAD^^"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 。"
+				},
+				{
+					"Type": "NodeHardBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "        上100个版本写100个"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "^"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "比较容易数不过来，所以写成"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "HEAD~100"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`"
+						}
+					]
+				},
+				{
+					"Type": "NodeHardBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "        根据版本号回退/前进"
+				},
+				{
+					"Type": "NodeHardBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "        "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "git reset --hard 版本号"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`"
+						}
+					]
+				},
+				{
+					"Type": "NodeHardBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "        版本号没必要写全，前几位就可以了，Git会自动去找。当然也不能只写前一两位，因为Git可能会找到多个版本号，就无法确定是哪一个了。"
+				},
+				{
+					"Type": "NodeHardBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "        "
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "查看版本号"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeHardBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "        "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "commit id"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`"
+						}
+					]
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "      * "
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "暂存区（stage）"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223162959-3wkfibj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223162959-3wkfibj"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "        "
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "把暂存区的修改退回到工作区（可以把暂存区的修改撤销掉（unstage），重新放回工作区）"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeHardBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "        "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "git reset HEAD one.txt"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`"
+						}
+					]
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "      * "
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "工作区"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223162959-as4tq1u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223162959-as4tq1u"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "        "
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "其实是用版本库里的版本替换工作区的版本 ，也就是删除工作区的修改内容"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeHardBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "        "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "git checkout -- one.txt"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "  "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "--"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "这两个横一定要有"
+				}
+			]
+		},
+		{
+			"ID": "20211223162959-tvdwf5c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223162959-tvdwf5c"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    * ## 删除文件"
+				}
+			]
+		},
+		{
+			"ID": "20211223162959-swdqa3d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223162959-swdqa3d"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "      1. 直接在文件管理器中把没用的文件删了，或者用"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "rm"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "命令删"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "rm one.txt"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223162959-zmcjsr6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223162959-zmcjsr6"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "          "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "git rm one.txt"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`"
+						}
+					]
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "      2. "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "git commit -m \"remove one.txt"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223162959-cysbtvc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223162959-cysbtvc"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "    "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 3,
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "```"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "c#     public int name (){     \tvar a=1+1;     }     "
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "```"
+						}
+					]
+				}
+			]
+		}
+	]
+}

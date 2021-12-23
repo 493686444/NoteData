@@ -1,0 +1,58 @@
+{
+	"ID": "20211223160730-u4dcsob",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211223160730-u4dcsob",
+		"title": "get 16cbafb7fa72442ab2dcb8bec311f9e5",
+		"type": "doc"
+	},
+	"Children": [
+		{
+			"ID": "20211223160730-f9i1jls",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20211223160730-f9i1jls"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "get"
+				}
+			]
+		},
+		{
+			"ID": "20211223160730-wxftt98",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223160730-wxftt98"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "单词意思: 得"
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "幂等性: 有"
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "描述: 全页获取"
+				}
+			]
+		}
+	]
+}

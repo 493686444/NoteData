@@ -1,0 +1,19 @@
+{
+	"ID": "20211223160730-7bqjmc6",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211223160730-7bqjmc6",
+		"title": "web通用常识 59e5769c51de4d239c983ab3f67f3303",
+		"updated": "20211223160730"
+	},
+	"Children": [
+		{
+			"ID": "20211223160730-h79ftxf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223160730-h79ftxf",
+				"updated": "20211223160730"
+			}
+		}
+	]
+}

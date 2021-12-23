@@ -1,0 +1,58 @@
+{
+	"ID": "20211223160730-v7nqfaj",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211223160730-v7nqfaj",
+		"title": "put 4e4fc8d976254d3794ee8379004c563b",
+		"type": "doc"
+	},
+	"Children": [
+		{
+			"ID": "20211223160730-rz2w3e0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20211223160730-rz2w3e0"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "put"
+				}
+			]
+		},
+		{
+			"ID": "20211223160730-x8q4vc6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223160730-x8q4vc6"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "单词意思: 放"
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "幂等性: 有"
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "描述: 全页更新"
+				}
+			]
+		}
+	]
+}

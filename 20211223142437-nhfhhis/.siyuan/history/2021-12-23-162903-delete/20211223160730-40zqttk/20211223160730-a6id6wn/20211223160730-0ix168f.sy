@@ -1,0 +1,19 @@
+{
+	"ID": "20211223160730-0ix168f",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211223160730-0ix168f",
+		"title": "ES6 34e6204a0ecd4eff981b70c1e73dbd00",
+		"updated": "20211223160730"
+	},
+	"Children": [
+		{
+			"ID": "20211223160730-rdtz4ak",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223160730-rdtz4ak",
+				"updated": "20211223160730"
+			}
+		}
+	]
+}

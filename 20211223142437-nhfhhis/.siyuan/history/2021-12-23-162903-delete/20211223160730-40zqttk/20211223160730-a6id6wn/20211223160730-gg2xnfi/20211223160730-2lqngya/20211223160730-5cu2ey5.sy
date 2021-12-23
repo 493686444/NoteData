@@ -1,0 +1,58 @@
+{
+	"ID": "20211223160730-5cu2ey5",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211223160730-5cu2ey5",
+		"title": "position relative 346f9734df034a12a85ecbb6b74bdee2",
+		"type": "doc"
+	},
+	"Children": [
+		{
+			"ID": "20211223160730-nlucozb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20211223160730-nlucozb"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "position:relative"
+				}
+			]
+		},
+		{
+			"ID": "20211223160730-2uoe3ez",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223160730-2uoe3ez"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": ": 相对定位"
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "参照物: 本来应该在的位置"
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "脱离文档流: 不会"
+				}
+			]
+		}
+	]
+}
