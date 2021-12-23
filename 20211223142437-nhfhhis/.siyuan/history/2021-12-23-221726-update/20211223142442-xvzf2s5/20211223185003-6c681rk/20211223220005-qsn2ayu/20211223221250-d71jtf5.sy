@@ -1,0 +1,855 @@
+{
+	"ID": "20211223221250-d71jtf5",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211223221250-d71jtf5",
+		"title": "npm",
+		"updated": "20211223221725"
+	},
+	"Children": [
+		{
+			"ID": "20211223221300-d1izmko",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211223221300-d1izmko",
+				"updated": "20211223221423"
+			},
+			"Children": [
+				{
+					"ID": "20211223221311-zofmyxp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211223221311-zofmyxp",
+						"updated": "20211223221423"
+					},
+					"Children": [
+						{
+							"ID": "20211223221311-j1p2ztd",
+							"Type": "NodeHeading",
+							"HeadingLevel": 1,
+							"Properties": {
+								"id": "20211223221311-j1p2ztd",
+								"updated": "20211223221323"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "常识"
+								}
+							]
+						},
+						{
+							"ID": "20211223221324-rxhn3bj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223221324-rxhn3bj"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "官网 "
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "www.npmjs.com"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "http://www.npmjs.com"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20211223221333-dzvbrgj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223221333-dzvbrgj"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "包管理工具"
+								}
+							]
+						},
+						{
+							"ID": "20211223221343-9u175fd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223221343-9u175fd",
+								"updated": "20211223221348"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "先下载Node "
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "www.nodejs.com"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "http://www.nodejs.com"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20211223221352-cj5livi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223221352-cj5livi",
+								"updated": "20211223221358"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "下载之后一路安装;就行，没有特殊要求。"
+								}
+							]
+						},
+						{
+							"ID": "20211223221404-v6nyiv0",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20211223221404-v6nyiv0",
+								"updated": "20211223221423"
+							},
+							"Children": [
+								{
+									"ID": "20211223221413-wj4o1ww",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211223221413-wj4o1ww",
+										"updated": "20211223221423"
+									},
+									"Children": [
+										{
+											"ID": "20211223221413-3dwfqed",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223221413-3dwfqed"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "小知识"
+												}
+											]
+										},
+										{
+											"ID": "20211223221415-nds07ri",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223221415-nds07ri",
+												"updated": "20211223221423"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "install 可以简写为 i\n后面加-g就是全局的意思"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223221300-j8r7kg7",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211223221300-j8r7kg7",
+				"updated": "20211223221725"
+			},
+			"Children": [
+				{
+					"ID": "20211223221434-p8364l9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211223221434-p8364l9",
+						"updated": "20211223221725"
+					},
+					"Children": [
+						{
+							"ID": "20211223221434-42jok3n",
+							"Type": "NodeHeading",
+							"HeadingLevel": 1,
+							"Properties": {
+								"id": "20211223221434-42jok3n",
+								"updated": "20211223221446"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "npm配置"
+								}
+							]
+						},
+						{
+							"ID": "20211223221446-b6wi6xg",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20211223221446-b6wi6xg",
+								"updated": "20211223221725"
+							},
+							"Children": [
+								{
+									"ID": "20211223221453-edr2t3i",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211223221453-edr2t3i"
+									},
+									"Children": [
+										{
+											"ID": "20211223221453-n60e9ff",
+											"Type": "NodeHeading",
+											"HeadingLevel": 2,
+											"Properties": {
+												"id": "20211223221453-n60e9ff",
+												"updated": "20211223221502"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "npm镜像"
+												}
+											]
+										},
+										{
+											"ID": "20211223221513-ru1ispd",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223221513-ru1ispd"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "因为国内被墙，所以需要镜像。"
+												}
+											]
+										},
+										{
+											"ID": "20211223221513-xv5rsey",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223221513-xv5rsey"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "我们正常使用的非镜像是 "
+												},
+												{
+													"Type": "NodeLink",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "https://registery.npmjs.org"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "https://registery.npmjs.org"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20211223221513-2s989j7",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223221513-2s989j7"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "镜像如："
+												},
+												{
+													"Type": "NodeLink",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "https://npm.taobao.org/dist"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "https://npm.taobao.org/dist"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20211223221513-juo6mvo",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20211223221513-juo6mvo"
+											},
+											"Children": [
+												{
+													"ID": "20211223221513-lhrff8v",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20211223221513-lhrff8v"
+													},
+													"Children": [
+														{
+															"ID": "20211223221513-zdot2dy",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20211223221513-zdot2dy"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "方法一：（我就使用这种）"
+																}
+															]
+														},
+														{
+															"ID": "20211223221538-syjzlmg",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20211223221538-syjzlmg"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "cmd输入 npm config set registry "
+																},
+																{
+																	"Type": "NodeLink",
+																	"Data": "span",
+																	"Children": [
+																		{
+																			"Type": "NodeOpenBracket"
+																		},
+																		{
+																			"Type": "NodeLinkText",
+																			"Data": "https://registry.npm.taobao.org"
+																		},
+																		{
+																			"Type": "NodeCloseBracket"
+																		},
+																		{
+																			"Type": "NodeOpenParen"
+																		},
+																		{
+																			"Type": "NodeLinkDest",
+																			"Data": "https://registry.npm.taobao.org"
+																		},
+																		{
+																			"Type": "NodeCloseParen"
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20211223221513-twd7qfx",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20211223221513-twd7qfx"
+											},
+											"Children": [
+												{
+													"ID": "20211223221513-14erhnh",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20211223221513-14erhnh"
+													},
+													"Children": [
+														{
+															"ID": "20211223221513-bt72mdy",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20211223221513-bt72mdy",
+																"updated": "20211223221541"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "方法二："
+																}
+															]
+														},
+														{
+															"ID": "20211223221542-quncf2u",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20211223221542-quncf2u"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "cmd输入 "
+																},
+																{
+																	"Type": "NodeCodeSpan",
+																	"Data": "code",
+																	"Children": [
+																		{
+																			"Type": "NodeCodeSpanOpenMarker"
+																		},
+																		{
+																			"Type": "NodeCodeSpanContent",
+																			"Data": "npm install -g cnpm --registry=https://registry.npm.taobao.org"
+																		},
+																		{
+																			"Type": "NodeCodeSpanCloseMarker"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "\n使用 "
+																},
+																{
+																	"Type": "NodeCodeSpan",
+																	"Data": "code",
+																	"Children": [
+																		{
+																			"Type": "NodeCodeSpanOpenMarker"
+																		},
+																		{
+																			"Type": "NodeCodeSpanContent",
+																			"Data": "cnpm install x"
+																		},
+																		{
+																			"Type": "NodeCodeSpanCloseMarker"
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20211223221513-m15h262",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223221513-m15h262"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "还有其他的方法但是会一个就可以了"
+												}
+											]
+										},
+										{
+											"ID": "20211223221513-dbeeo70",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20211223221513-dbeeo70"
+											},
+											"Children": [
+												{
+													"ID": "20211223221513-6os8luq",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20211223221513-6os8luq"
+													},
+													"Children": [
+														{
+															"ID": "20211223221513-23niiku",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20211223221513-23niiku",
+																"updated": "20211223221559"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "验证是否在成功 "
+																},
+																{
+																	"Type": "NodeCodeSpan",
+																	"Data": "code",
+																	"Children": [
+																		{
+																			"Type": "NodeCodeSpanOpenMarker"
+																		},
+																		{
+																			"Type": "NodeCodeSpanContent",
+																			"Data": "npm config get registry"
+																		},
+																		{
+																			"Type": "NodeCodeSpanCloseMarker"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": " 或 "
+																},
+																{
+																	"Type": "NodeCodeSpan",
+																	"Data": "code",
+																	"Children": [
+																		{
+																			"Type": "NodeCodeSpanOpenMarker"
+																		},
+																		{
+																			"Type": "NodeCodeSpanContent",
+																			"Data": "npm info expre"
+																		},
+																		{
+																			"Type": "NodeCodeSpanCloseMarker"
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211223221620-noto9gz",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211223221620-noto9gz",
+										"updated": "20211223221725"
+									},
+									"Children": [
+										{
+											"ID": "20211223221620-uh9o7us",
+											"Type": "NodeHeading",
+											"HeadingLevel": 2,
+											"Properties": {
+												"id": "20211223221620-uh9o7us",
+												"updated": "20211223221634"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "用node 安装、升级、卸载 npm"
+												}
+											]
+										},
+										{
+											"ID": "20211223221644-n74ow4m",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1
+											},
+											"Properties": {
+												"id": "20211223221644-n74ow4m",
+												"updated": "20211223221725"
+											},
+											"Children": [
+												{
+													"ID": "20211223221647-94wb8sf",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "MS4=",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20211223221647-94wb8sf"
+													},
+													"Children": [
+														{
+															"ID": "20211223221647-5kc7j1e",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20211223221647-5kc7j1e"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "检查有没有安装node"
+																}
+															]
+														},
+														{
+															"ID": "20211223221651-5ugjt30",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20211223221651-5ugjt30"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeSpan",
+																	"Data": "code",
+																	"Children": [
+																		{
+																			"Type": "NodeCodeSpanOpenMarker"
+																		},
+																		{
+																			"Type": "NodeCodeSpanContent",
+																			"Data": "node -v"
+																		},
+																		{
+																			"Type": "NodeCodeSpanCloseMarker"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": " 注意这里的空格，没有不行"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20211223221655-7dv00mi",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "Mi4=",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20211223221655-7dv00mi",
+														"updated": "20211223221725"
+													},
+													"Children": [
+														{
+															"ID": "20211223221655-ievhvoc",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20211223221655-ievhvoc"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "重新安装最新npm版本，"
+																},
+																{
+																	"Type": "NodeStrong",
+																	"Data": "strong",
+																	"Children": [
+																		{
+																			"Type": "NodeStrongA6kOpenMarker",
+																			"Data": "**"
+																		},
+																		{
+																			"Type": "NodeText",
+																			"Data": "其实安装node的时候就会自动安装npm"
+																		},
+																		{
+																			"Type": "NodeStrongA6kCloseMarker",
+																			"Data": "**"
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"ID": "20211223221658-ke3mv1n",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20211223221658-ke3mv1n",
+																"updated": "20211223221725"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeSpan",
+																	"Data": "code",
+																	"Children": [
+																		{
+																			"Type": "NodeCodeSpanOpenMarker"
+																		},
+																		{
+																			"Type": "NodeCodeSpanContent",
+																			"Data": "node install npm -g"
+																		},
+																		{
+																			"Type": "NodeCodeSpanCloseMarker"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "  这个这是全局安装的意思"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20211223221701-nymvc2h",
+													"Type": "NodeListItem",
+													"ListData": {
+														"Typ": 1,
+														"Delimiter": 46,
+														"Marker": "My4=",
+														"Num": 3
+													},
+													"Properties": {
+														"id": "20211223221701-nymvc2h"
+													},
+													"Children": [
+														{
+															"ID": "20211223221701-6uf6hfh",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20211223221701-6uf6hfh"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "npm的卸载"
+																}
+															]
+														},
+														{
+															"ID": "20211223221705-43x7u82",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20211223221705-43x7u82"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeSpan",
+																	"Data": "code",
+																	"Children": [
+																		{
+																			"Type": "NodeCodeSpanOpenMarker"
+																		},
+																		{
+																			"Type": "NodeCodeSpanContent",
+																			"Data": "node uninstall npm"
+																		},
+																		{
+																			"Type": "NodeCodeSpanCloseMarker"
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

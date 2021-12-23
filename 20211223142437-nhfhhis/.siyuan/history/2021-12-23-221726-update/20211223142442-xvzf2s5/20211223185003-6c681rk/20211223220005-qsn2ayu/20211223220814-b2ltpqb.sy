@@ -1,0 +1,81 @@
+{
+	"ID": "20211223220814-b2ltpqb",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211223220814-b2ltpqb",
+		"title": "cmd",
+		"updated": "20211223220817"
+	},
+	"Children": [
+		{
+			"ID": "20211223220817-rs9zlsr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223220817-rs9zlsr",
+				"updated": "20211223220817"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "选择磁盘 d:"
+				}
+			]
+		},
+		{
+			"ID": "20211223220817-f5fdiyy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223220817-f5fdiyy",
+				"updated": "20211223220817"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "选择上级 \"cd ..\""
+				}
+			]
+		},
+		{
+			"ID": "20211223220817-8syh2xe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223220817-8syh2xe",
+				"updated": "20211223220817"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "选择下级 “cd 下级名”"
+				}
+			]
+		},
+		{
+			"ID": "20211223220817-2ztaw9d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223220817-2ztaw9d",
+				"updated": "20211223220817"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "查看目录结构 “dir”"
+				}
+			]
+		},
+		{
+			"ID": "20211223220817-teryg0d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223220817-teryg0d",
+				"updated": "20211223220817"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "清空上面的输入 cls"
+				}
+			]
+		}
+	]
+}

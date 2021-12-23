@@ -1,0 +1,294 @@
+{
+	"ID": "20211223220005-qsn2ayu",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211223220005-qsn2ayu",
+		"title": "Web前端框架通用技术",
+		"updated": "20211223221250"
+	},
+	"Children": [
+		{
+			"ID": "20211223220005-xajhvp5",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20211223220005-xajhvp5",
+				"updated": "20211223221250"
+			},
+			"Children": [
+				{
+					"ID": "20211223220100-8dcsikr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20211223220100-8dcsikr",
+						"updated": "20211223220130"
+					},
+					"Children": [
+						{
+							"ID": "20211223220100-kqthpbv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223220100-kqthpbv",
+								"updated": "20211223220130"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20211223220130-32m83xo"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211223220023-rhpqr5q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20211223220023-rhpqr5q",
+						"updated": "20211223220713"
+					},
+					"Children": [
+						{
+							"ID": "20211223220023-eoal6lm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223220023-eoal6lm",
+								"updated": "20211223220713"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20211223220713-lsx8x1o"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211223220028-45f0u0p",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20211223220028-45f0u0p",
+						"updated": "20211223221250"
+					},
+					"Children": [
+						{
+							"ID": "20211223220028-znxy43v",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223220028-znxy43v",
+								"updated": "20211223221250"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20211223221250-d71jtf5"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211223220031-zhyn8fp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20211223220031-zhyn8fp",
+						"updated": "20211223220840"
+					},
+					"Children": [
+						{
+							"ID": "20211223220031-5x1myvl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223220031-5x1myvl",
+								"updated": "20211223220840"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20211223220840-70xxn7c"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211223220036-m7imf27",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20211223220036-m7imf27",
+						"updated": "20211223220814"
+					},
+					"Children": [
+						{
+							"ID": "20211223220036-ctbzi49",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223220036-ctbzi49",
+								"updated": "20211223220814"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20211223220814-b2ltpqb"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211223220040-s0ryq5z",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20211223220040-s0ryq5z",
+						"updated": "20211223220053"
+					},
+					"Children": [
+						{
+							"ID": "20211223220040-eeuc9tu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223220040-eeuc9tu",
+								"updated": "20211223220053"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Webpack"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
