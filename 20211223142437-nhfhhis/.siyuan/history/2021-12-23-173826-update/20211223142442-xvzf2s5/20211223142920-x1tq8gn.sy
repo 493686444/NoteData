@@ -1,0 +1,1497 @@
+{
+	"ID": "20211223142920-x1tq8gn",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211223142920-x1tq8gn",
+		"title": "版本管理",
+		"updated": "20211223165851"
+	},
+	"Children": [
+		{
+			"ID": "20211223143128-lak38qc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20211223143128-lak38qc",
+				"updated": "20211223165847"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "git安装"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223143023-tjq03bd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223143023-tjq03bd",
+				"updated": "20211223143052"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "创建版本库 - 廖雪峰的官方网站 (liaoxuefeng.com)"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://www.liaoxuefeng.com/wiki/896043488029600/896827951938304"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223143101-3sbrddi",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20211223143101-3sbrddi",
+				"updated": "20211223165851"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "git命令"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223154719-0t3ebkq",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211223154719-0t3ebkq",
+				"updated": "20211223155635"
+			},
+			"Children": [
+				{
+					"ID": "20211223154721-r7jrnke",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211223154721-r7jrnke",
+						"updated": "20211223155635"
+					},
+					"Children": [
+						{
+							"ID": "20211223143230-rs1h0rj",
+							"Type": "NodeHeading",
+							"HeadingLevel": 2,
+							"Properties": {
+								"id": "20211223143230-rs1h0rj",
+								"updated": "20211223154717"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "git 基本命令"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20211223143207-6kav3mw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223143207-6kav3mw",
+								"updated": "20211223154731"
+							},
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "git基本命令ls、cat、mv、touch简述 - 简书 (jianshu.com)"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://www.jianshu.com/p/23b816884f89"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20211223143207-kxay37w",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223143207-kxay37w",
+								"updated": "20211223150146"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "进入某个文件夹"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20211223143207-8794rkr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223143207-8794rkr",
+								"updated": "20211223154733"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "cd d:"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "  进入D盘"
+								}
+							]
+						},
+						{
+							"ID": "20211223143207-qkcrevi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223143207-qkcrevi",
+								"updated": "20211223143207"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "查看某个文件夹下的目录"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20211223143207-bbnyjl8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223143207-bbnyjl8",
+								"updated": "20211223155635"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "ls"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223154609-hpmion7",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211223154609-hpmion7",
+				"updated": "20211223154615"
+			},
+			"Children": [
+				{
+					"ID": "20211223154612-ftyn7ib",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211223154612-ftyn7ib",
+						"updated": "20211223154615"
+					},
+					"Children": [
+						{
+							"ID": "20211223150200-vlpdd1z",
+							"Type": "NodeHeading",
+							"HeadingLevel": 2,
+							"Properties": {
+								"id": "20211223150200-vlpdd1z",
+								"updated": "20211223154615"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "git工作原理"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20211223154642-n00zi4v",
+							"Type": "NodeSuperBlock",
+							"Properties": {
+								"id": "20211223154642-n00zi4v",
+								"updated": "20211223154645"
+							},
+							"Children": [
+								{
+									"Type": "NodeSuperBlockOpenMarker"
+								},
+								{
+									"Type": "NodeSuperBlockLayoutMarker",
+									"Data": "col"
+								},
+								{
+									"ID": "20211223144036-n87e0mk",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20211223144036-n87e0mk",
+										"updated": "20211223154645"
+									},
+									"Children": [
+										{
+											"Type": "NodeImage",
+											"Data": "span",
+											"Properties": {
+												"parent-style": "max-width: 395px;",
+												"style": "width: 385px;"
+											},
+											"Children": [
+												{
+													"Type": "NodeBang"
+												},
+												{
+													"Type": "NodeOpenBracket"
+												},
+												{
+													"Type": "NodeLinkText",
+													"Data": "Untitled.png"
+												},
+												{
+													"Type": "NodeCloseBracket"
+												},
+												{
+													"Type": "NodeOpenParen"
+												},
+												{
+													"Type": "NodeLinkDest",
+													"Data": "assets/Untitled-20211223144107-vfturup.png"
+												},
+												{
+													"Type": "NodeCloseParen"
+												}
+											]
+										},
+										{
+											"Type": "NodeKramdownSpanIAL",
+											"Data": "{: style=\"width: 385px;\" parent-style=\"max-width: 395px;\"}"
+										}
+									]
+								},
+								{
+									"ID": "20211223154619-jyltx0x",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20211223154619-jyltx0x"
+									}
+								},
+								{
+									"Type": "NodeSuperBlockCloseMarker"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223152747-uf5l2iu",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211223152747-uf5l2iu",
+				"updated": "20211223154546"
+			},
+			"Children": [
+				{
+					"ID": "20211223152750-k49tzro",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211223152750-k49tzro",
+						"updated": "20211223154546"
+					},
+					"Children": [
+						{
+							"ID": "20211223145348-qd6ir2t",
+							"Type": "NodeHeading",
+							"HeadingLevel": 2,
+							"Properties": {
+								"id": "20211223145348-qd6ir2t",
+								"updated": "20211223145428"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "建库和提交代码"
+								}
+							]
+						},
+						{
+							"ID": "20211223154538-huqtqbi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223154538-huqtqbi",
+								"updated": "20211223154546"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "建立仓库"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "git init"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "  当前文件夹下建立\n"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "git init x"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "  在当前文件夹下建立个文件 然后在里面建立\n"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "提交修改的代码/提交新增文件"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n提交 修改/新增 到暂存区\n"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "git add one.txt"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n提交暂存区的内容到head区\n"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "git **commit** -m \"wrote a readme file\""
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "  "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "m"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "后面输入的是本次提交的说明\n"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "注"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ：修改之后的提交也要先"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "git add one.txt"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "  在提交\n"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "掌握仓库当前的状态"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "git status"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "查看difference"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "git diff"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "  查看工作区和版本库里面最新版本（master）的区别"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223151310-mgrqvjp",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211223151310-mgrqvjp",
+				"updated": "20211223152709"
+			},
+			"Children": [
+				{
+					"ID": "20211223151311-97cyrfi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"fold": "0",
+						"id": "20211223151311-97cyrfi",
+						"updated": "20211223152709"
+					},
+					"Children": [
+						{
+							"ID": "20211223145406-e1yjvm7",
+							"Type": "NodeHeading",
+							"HeadingLevel": 2,
+							"Properties": {
+								"id": "20211223145406-e1yjvm7",
+								"updated": "20211223151332"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "版本回退"
+								}
+							]
+						},
+						{
+							"ID": "20211223152612-abb3klw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223152612-abb3klw"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "自：其实本质是修改回退"
+								}
+							]
+						},
+						{
+							"ID": "20211223152626-x0f5tnm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211223152626-x0f5tnm"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "分为3个部分，分别针对 工作区、暂存区（stage）、HEAD"
+								}
+							]
+						},
+						{
+							"ID": "20211223152709-mn1zg1i",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20211223152709-mn1zg1i",
+								"updated": "20211223152709"
+							},
+							"Children": [
+								{
+									"ID": "20211223152709-2aiefr0",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211223152709-2aiefr0"
+									},
+									"Children": [
+										{
+											"ID": "20211223152709-72su5ht",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223152709-72su5ht"
+											},
+											"Children": [
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "HEAD区"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20211223152709-to5leoe",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223152709-to5leoe"
+											},
+											"Children": [
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "命令显示从最近到最远的提交日志"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "\n"
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "git log"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "\n"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "回退版本"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "\n根据head回退\n"
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "git reset --hard HEAD^"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "\nHEAD表示当前的版本。上一个版本就是"
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "HEAD^"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "，上上一个版本就是"
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "HEAD^^"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 。\n上100个版本写100个"
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "^"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "比较容易数不过来，所以写成"
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "HEAD~100"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "\n根据版本号回退/前进\n"
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "git reset --hard 版本号"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "\n版本号没必要写全，前几位就可以了，Git会自动去找。当然也不能只写前一两位，因为Git可能会找到多个版本号，就无法确定是哪一个了。\n"
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "查看版本号"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "\n"
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "commit id"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211223152709-q5fasa9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211223152709-q5fasa9"
+									},
+									"Children": [
+										{
+											"ID": "20211223152709-krv095q",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223152709-krv095q"
+											},
+											"Children": [
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "暂存区（stage）"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20211223152709-e0h0e5d",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223152709-e0h0e5d"
+											},
+											"Children": [
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "把暂存区的修改退回到工作区（可以把暂存区的修改撤销掉（unstage），重新放回工作区）"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "\n"
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "git reset HEAD one.txt"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211223152709-7lnilxo",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211223152709-7lnilxo",
+										"updated": "20211223152709"
+									},
+									"Children": [
+										{
+											"ID": "20211223152709-yr53hxu",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223152709-yr53hxu"
+											},
+											"Children": [
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "工作区"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20211223152709-qryouzz",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223152709-qryouzz",
+												"updated": "20211223152709"
+											},
+											"Children": [
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "其实是用版本库里的版本替换工作区的版本 ，也就是删除工作区的修改内容"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "\n"
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "git checkout -- one.txt"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "  "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "--"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "这两个横一定要有"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223150640-2awcjrb",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211223150640-2awcjrb",
+				"updated": "20211223150848"
+			},
+			"Children": [
+				{
+					"ID": "20211223150640-jc3zovc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"fold": "0",
+						"id": "20211223150640-jc3zovc",
+						"updated": "20211223150848"
+					},
+					"Children": [
+						{
+							"ID": "20211223150640-l2pt8ay",
+							"Type": "NodeHeading",
+							"HeadingLevel": 2,
+							"Properties": {
+								"id": "20211223150640-l2pt8ay",
+								"updated": "20211223150640"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "删除文件"
+								}
+							]
+						},
+						{
+							"ID": "20211223150640-kusc0gj",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20211223150640-kusc0gj",
+								"updated": "20211223150848"
+							},
+							"Children": [
+								{
+									"ID": "20211223150640-y5cdhq8",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20211223150640-y5cdhq8"
+									},
+									"Children": [
+										{
+											"ID": "20211223150640-59ov47b",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223150640-59ov47b"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "直接在文件管理器中把没用的文件删了，或者用"
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "rm"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "命令删"
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "rm one.txt"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20211223150640-f5htrxf",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223150640-f5htrxf"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "git rm one.txt"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211223150640-h2fe68x",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20211223150640-h2fe68x",
+										"updated": "20211223150848"
+									},
+									"Children": [
+										{
+											"ID": "20211223150640-a1jepod",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223150640-a1jepod",
+												"updated": "20211223150848"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "git commit -m \"remove one.txt"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223154921-0tglwb2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223154921-0tglwb2",
+				"updated": "20211223154921"
+			}
+		}
+	]
+}
