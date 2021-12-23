@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20211223142920-x1tq8gn",
 		"title": "版本管理",
-		"updated": "20211223191657"
+		"updated": "20211223174053"
 	},
 	"Children": [
 		{
@@ -1556,7 +1556,7 @@
 						"Marker": "Kg=="
 					},
 					"Properties": {
-						"fold": "1",
+						"fold": "0",
 						"id": "20211223174053-5b2tdfm",
 						"updated": "20211223174053"
 					},
@@ -2943,7 +2943,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20211223174355-6k85rpa",
-				"updated": "20211223191657"
+				"updated": "20211223174355"
 			},
 			"Children": [
 				{
@@ -2954,9 +2954,8 @@
 						"Marker": "Kg=="
 					},
 					"Properties": {
-						"fold": "0",
-						"id": "20211223174355-t3knc74",
-						"updated": "20211223191657"
+						"fold": "1",
+						"id": "20211223174355-t3knc74"
 					},
 					"Children": [
 						{
@@ -2979,8 +2978,7 @@
 							"Type": "NodeList",
 							"ListData": {},
 							"Properties": {
-								"id": "20211223174355-deformy",
-								"updated": "20211223191657"
+								"id": "20211223174355-deformy"
 							},
 							"Children": [
 								{
@@ -3708,8 +3706,7 @@
 										"Marker": "Kg=="
 									},
 									"Properties": {
-										"id": "20211223174355-wiz3e5y",
-										"updated": "20211223191657"
+										"id": "20211223174355-wiz3e5y"
 									},
 									"Children": [
 										{
@@ -3903,36 +3900,6 @@
 												{
 													"Type": "NodeText",
 													"Data": "   复制一个特定的提交（可以是任何一个分支）到当前分支"
-												}
-											]
-										},
-										{
-											"ID": "20211223191637-fkr7nyh",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20211223191637-fkr7nyh",
-												"updated": "20211223191657"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "        提交编号例子："
-												},
-												{
-													"Type": "NodeCodeSpan",
-													"Data": "code",
-													"Children": [
-														{
-															"Type": "NodeCodeSpanOpenMarker"
-														},
-														{
-															"Type": "NodeCodeSpanContent",
-															"Data": "4c805e2"
-														},
-														{
-															"Type": "NodeCodeSpanCloseMarker"
-														}
-													]
 												}
 											]
 										}

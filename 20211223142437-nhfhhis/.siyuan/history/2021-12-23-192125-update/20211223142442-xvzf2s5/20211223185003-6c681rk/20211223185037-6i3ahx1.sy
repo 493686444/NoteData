@@ -1,0 +1,418 @@
+{
+	"ID": "20211223185037-6i3ahx1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211223185037-6i3ahx1",
+		"title": "html",
+		"updated": "20211223192125"
+	},
+	"Children": [
+		{
+			"ID": "20211223185037-vpdv251",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223185037-vpdv251",
+				"updated": "20211223185754"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "可参照"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "HTML 教程 | 菜鸟教程 (runoob.com)"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://www.runoob.com/html/html-tutorial.html"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223185803-s3a21zn",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211223185803-s3a21zn",
+				"updated": "20211223190033"
+			},
+			"Children": [
+				{
+					"ID": "20211223185807-98r6lze",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211223185807-98r6lze",
+						"updated": "20211223190033"
+					},
+					"Children": [
+						{
+							"ID": "20211223185807-sl64x17",
+							"Type": "NodeHeading",
+							"HeadingLevel": 1,
+							"Properties": {
+								"id": "20211223185807-sl64x17",
+								"updated": "20211223185816"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "概念"
+								}
+							]
+						},
+						{
+							"ID": "20211223185817-6e1lq2b",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20211223185817-6e1lq2b",
+								"updated": "20211223190033"
+							},
+							"Children": [
+								{
+									"ID": "20211223185821-4rdy4gk",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211223185821-4rdy4gk",
+										"updated": "20211223190006"
+									},
+									"Children": [
+										{
+											"ID": "20211223185821-qxu9yih",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223185821-qxu9yih",
+												"updated": "20211223185826"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "宏观架构"
+												}
+											]
+										},
+										{
+											"ID": "20211223185827-vg714le",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223185827-vg714le",
+												"updated": "20211223185832"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "\u003cmeta charset=\"utf-8\"\u003e"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 定义网页编码格式为 utf-8。目前在大部分浏览器中，直接输出中文会出现中文乱码的情况，这时候我们就需要在头部将字符声明为 UTF-8 或 GBK。"
+												}
+											]
+										},
+										{
+											"ID": "20211223185918-ut1xylj",
+											"Type": "NodeSuperBlock",
+											"Properties": {
+												"id": "20211223185918-ut1xylj",
+												"updated": "20211223190006"
+											},
+											"Children": [
+												{
+													"Type": "NodeSuperBlockOpenMarker"
+												},
+												{
+													"Type": "NodeSuperBlockLayoutMarker",
+													"Data": "col"
+												},
+												{
+													"ID": "20211223142458-ou8mb0n",
+													"Type": "NodeParagraph",
+													"Properties": {
+														"id": "20211223142458-ou8mb0n",
+														"updated": "20211223190006"
+													},
+													"Children": [
+														{
+															"Type": "NodeImage",
+															"Data": "span",
+															"Properties": {
+																"parent-style": "max-width: 444px;",
+																"style": "width: 434px;"
+															},
+															"Children": [
+																{
+																	"Type": "NodeBang"
+																},
+																{
+																	"Type": "NodeOpenBracket"
+																},
+																{
+																	"Type": "NodeLinkText",
+																	"Data": "Untitled 1.png"
+																},
+																{
+																	"Type": "NodeCloseBracket"
+																},
+																{
+																	"Type": "NodeOpenParen"
+																},
+																{
+																	"Type": "NodeLinkDest",
+																	"Data": "assets/Untitled 1-20211223190006-xtyl6r0.png"
+																},
+																{
+																	"Type": "NodeCloseParen"
+																}
+															]
+														},
+														{
+															"Type": "NodeKramdownSpanIAL",
+															"Data": "{: style=\"width: 434px;\" parent-style=\"max-width: 444px;\"}"
+														}
+													]
+												},
+												{
+													"ID": "20211223185908-picffvm",
+													"Type": "NodeParagraph",
+													"Properties": {
+														"id": "20211223185908-picffvm"
+													}
+												},
+												{
+													"Type": "NodeSuperBlockCloseMarker"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211223185845-kmqn1wl",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211223185845-kmqn1wl",
+										"updated": "20211223190033"
+									},
+									"Children": [
+										{
+											"ID": "20211223185845-70f4k7s",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20211223185845-70f4k7s",
+												"updated": "20211223185855"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "例子：元素和标签"
+												}
+											]
+										},
+										{
+											"ID": "20211223185905-jg9iop7",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20211223185905-jg9iop7",
+												"updated": "20211223190033"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "aHRtbA=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "\n标签：\u003cp\u003e\u003c/p\u003e\n元素：\u003cp\u003e内容\u003c/p\u003e\n\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223190022-9blw4w1",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211223190022-9blw4w1",
+				"updated": "20211223192125"
+			},
+			"Children": [
+				{
+					"ID": "20211223190105-eynik42",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211223190105-eynik42",
+						"updated": "20211223192125"
+					},
+					"Children": [
+						{
+							"ID": "20211223190105-airbj0p",
+							"Type": "NodeHeading",
+							"HeadingLevel": 1,
+							"Properties": {
+								"id": "20211223190105-airbj0p",
+								"updated": "20211223192033"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "基本语法"
+								}
+							]
+						},
+						{
+							"ID": "20211223192054-j1ps1ok",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20211223192054-j1ps1ok",
+								"updated": "20211223192125"
+							},
+							"Children": [
+								{
+									"ID": "20211223192059-tzrh9u5",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20211223192059-tzrh9u5",
+										"updated": "20211223192125"
+									},
+									"Children": [
+										{
+											"ID": "20211223192059-i07vrxx",
+											"Type": "NodeHeading",
+											"HeadingLevel": 2,
+											"Properties": {
+												"id": "20211223192059-i07vrxx",
+												"updated": "20211223192125"
+											},
+											"Children": [
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "head以及内部的标签"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20211223192116-hub9mg7",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20211223192116-hub9mg7",
+												"updated": "20211223192116"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "aHRtbA=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "- **head以及内部的标签**\n  \n    ‍```jsx\n    例子\n    \u003cmeta charset=\"utf-8\" /\u003e 格式编码\n    \u003clink rel=\"shortcut icon\" type=\"image/ico\" href=\"/\" media=\"screen\" /\u003e tab小图标\n    \u003ctitle\u003e\u003c/title\u003e 标题\n    \u003cmeta name=\"description\" content=\"显示的内容\"/\u003e 表达的是标题（搜索引擎界面下的）下面显示的什么\n    \u003cmeta name=\"keywords\" content=\"关键字内容\" /\u003e 关键字\n    ‍```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211223192114-4baioma",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211223192114-4baioma",
+				"updated": "20211223192114"
+			}
+		}
+	]
+}
