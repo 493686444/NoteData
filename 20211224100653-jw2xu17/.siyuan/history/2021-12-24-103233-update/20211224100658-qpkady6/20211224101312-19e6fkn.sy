@@ -1,0 +1,221 @@
+{
+	"ID": "20211224101312-19e6fkn",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211224101312-19e6fkn",
+		"title": "盆底门诊专科病史",
+		"updated": "20211224102753"
+	},
+	"Children": [
+		{
+			"ID": "20211224101312-5b3qrdc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224101312-5b3qrdc",
+				"updated": "20211224101313"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "（重命名为：专科病史）"
+				}
+			]
+		},
+		{
+			"ID": "20211224101812-wsv93sj",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211224101812-wsv93sj",
+				"updated": "20211224102753"
+			},
+			"Children": [
+				{
+					"ID": "20211224102733-r60z2eh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211224102733-r60z2eh",
+						"updated": "20211224102753"
+					},
+					"Children": [
+						{
+							"ID": "20211224102733-u0qtbjv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224102733-u0qtbjv",
+								"updated": "20211224102741"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "所属项目"
+								}
+							]
+						},
+						{
+							"ID": "20211224102742-kljz456",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224102742-kljz456",
+								"updated": "20211224102753"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Yoi_ZI"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211224101851-35uuh0u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211224101851-35uuh0u"
+					},
+					"Children": [
+						{
+							"ID": "20211224101851-m930tqu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224101851-m930tqu"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "前端："
+								}
+							]
+						},
+						{
+							"ID": "20211224101855-urfr72x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224101855-urfr72x"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Controller：PelvicFloor"
+								}
+							]
+						},
+						{
+							"ID": "20211224101857-ep1tbcu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224101857-ep1tbcu"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "View：Index"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211224101859-u15cwjb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211224101859-u15cwjb"
+					},
+					"Children": [
+						{
+							"ID": "20211224101859-6643miw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224101859-6643miw",
+								"updated": "20211224101903"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "后端"
+								}
+							]
+						},
+						{
+							"ID": "20211224101903-ysnh3w4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224101903-ysnh3w4",
+								"updated": "20211224101912"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "ZL_PELVICFLOORCLINIC"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211224101913-t3oya6d",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211224101913-t3oya6d",
+						"updated": "20211224102327"
+					},
+					"Children": [
+						{
+							"ID": "20211224101913-r99l1m1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224101913-r99l1m1",
+								"updated": "20211224101915"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数据库"
+								}
+							]
+						},
+						{
+							"ID": "20211224102327-0mbg32h",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224102327-0mbg32h",
+								"updated": "20211224102327"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "YY_ZL_PELVICFLOORCLINIC"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211224101847-j95yjsm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224101847-j95yjsm",
+				"updated": "20211224101847"
+			}
+		}
+	]
+}

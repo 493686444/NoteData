@@ -1,0 +1,99 @@
+{
+	"ID": "20211224085139-9v61yyj",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211224085139-9v61yyj",
+		"title": "Webpack",
+		"updated": "20211224085234"
+	},
+	"Children": [
+		{
+			"ID": "20211224085139-tdpyh83",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211224085139-tdpyh83",
+				"updated": "20211224085234"
+			},
+			"Children": [
+				{
+					"ID": "20211224085150-h8esg4y",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211224085150-h8esg4y"
+					},
+					"Children": [
+						{
+							"ID": "20211224085157-sp80ic0",
+							"Type": "NodeHeading",
+							"HeadingLevel": 1,
+							"Properties": {
+								"id": "20211224085157-sp80ic0"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "小知识"
+								}
+							]
+						},
+						{
+							"ID": "20211224085157-uku8ppy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211224085157-uku8ppy"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "webpack去能处理JS和JSON文件。loader处理CSS和img等。plugins处理html、压缩 等更难的"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211224085208-2dtpmze",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211224085208-2dtpmze",
+						"updated": "20211224085234"
+					},
+					"Children": [
+						{
+							"ID": "20211224085208-wh9s4ik",
+							"Type": "NodeHeading",
+							"HeadingLevel": 1,
+							"Properties": {
+								"id": "20211224085208-wh9s4ik",
+								"updated": "20211224085234"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "j"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211224085200-hhwnpqk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224085200-hhwnpqk",
+				"updated": "20211224085200"
+			}
+		}
+	]
+}
