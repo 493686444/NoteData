@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20211224085139-9v61yyj",
 		"title": "Webpack",
-		"updated": "20211227194609"
+		"updated": "20211224193352"
 	},
 	"Children": [
 		{
@@ -13,7 +13,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20211224085139-tdpyh83",
-				"updated": "20211227194609"
+				"updated": "20211224193352"
 			},
 			"Children": [
 				{
@@ -3493,8 +3493,7 @@
 						"Marker": "Kg=="
 					},
 					"Properties": {
-						"id": "20211224110207-exkvy5k",
-						"updated": "20211224110537"
+						"id": "20211224110207-exkvy5k"
 					},
 					"Children": [
 						{
@@ -3597,7 +3596,7 @@
 							"ListData": {},
 							"Properties": {
 								"id": "20211224110228-7mdd844",
-								"updated": "20211224110537"
+								"updated": "20211224110250"
 							},
 							"Children": [
 								{
@@ -3608,8 +3607,7 @@
 										"Marker": "Kg=="
 									},
 									"Properties": {
-										"id": "20211224110250-u7wk5ng",
-										"updated": "20211224110537"
+										"id": "20211224110250-u7wk5ng"
 									},
 									"Children": [
 										{
@@ -3671,7 +3669,7 @@
 											},
 											"Properties": {
 												"id": "20211224110319-57h3kha",
-												"updated": "20211224110537"
+												"updated": "20211224110332"
 											},
 											"Children": [
 												{
@@ -3739,8 +3737,7 @@
 														"Num": 2
 													},
 													"Properties": {
-														"id": "20211224110340-mm5mra1",
-														"updated": "20211224110537"
+														"id": "20211224110340-mm5mra1"
 													},
 													"Children": [
 														{
@@ -3845,10 +3842,6 @@
 																{
 																	"Type": "NodeImage",
 																	"Data": "span",
-																	"Properties": {
-																		"parent-style": "max-width: 701px;",
-																		"style": "width: 691px;"
-																	},
 																	"Children": [
 																		{
 																			"Type": "NodeBang"
@@ -3874,10 +3867,6 @@
 																			"Type": "NodeCloseParen"
 																		}
 																	]
-																},
-																{
-																	"Type": "NodeKramdownSpanIAL",
-																	"Data": "{: style=\"width: 691px;\" parent-style=\"max-width: 701px;\"}"
 																}
 															]
 														},
@@ -4260,8 +4249,7 @@
 										"Marker": "Kg=="
 									},
 									"Properties": {
-										"id": "20211224110320-0ifahve",
-										"updated": "20211224111046"
+										"id": "20211224110320-0ifahve"
 									},
 									"Children": [
 										{
@@ -4285,7 +4273,7 @@
 											"ListData": {},
 											"Properties": {
 												"id": "20211224110918-ne51kao",
-												"updated": "20211224111046"
+												"updated": "20211224110935"
 											},
 											"Children": [
 												{
@@ -4296,8 +4284,7 @@
 														"Marker": "Kg=="
 													},
 													"Properties": {
-														"id": "20211224110935-y6pvzjz",
-														"updated": "20211224111046"
+														"id": "20211224110935-y6pvzjz"
 													},
 													"Children": [
 														{
@@ -4323,7 +4310,7 @@
 															},
 															"Properties": {
 																"id": "20211224110945-6bjwrfz",
-																"updated": "20211224111046"
+																"updated": "20211224110950"
 															},
 															"Children": [
 																{
@@ -4391,8 +4378,7 @@
 																		"Num": 2
 																	},
 																	"Properties": {
-																		"id": "20211224111010-tm9ddja",
-																		"updated": "20211224111046"
+																		"id": "20211224111010-tm9ddja"
 																	},
 																	"Children": [
 																		{
@@ -4420,10 +4406,6 @@
 																				{
 																					"Type": "NodeImage",
 																					"Data": "span",
-																					"Properties": {
-																						"parent-style": "max-width: 792px;",
-																						"style": "width: 782px;"
-																					},
 																					"Children": [
 																						{
 																							"Type": "NodeBang"
@@ -4449,10 +4431,6 @@
 																							"Type": "NodeCloseParen"
 																						}
 																					]
-																				},
-																				{
-																					"Type": "NodeKramdownSpanIAL",
-																					"Data": "{: style=\"width: 782px;\" parent-style=\"max-width: 792px;\"}"
 																				}
 																			]
 																		}
@@ -4560,8 +4538,7 @@
 														"Marker": "Kg=="
 													},
 													"Properties": {
-														"id": "20211224111127-z11dchz",
-														"updated": "20211224111217"
+														"id": "20211224111127-z11dchz"
 													},
 													"Children": [
 														{
@@ -4586,8 +4563,7 @@
 																"Typ": 1
 															},
 															"Properties": {
-																"id": "20211224111151-js0shu1",
-																"updated": "20211224111217"
+																"id": "20211224111151-js0shu1"
 															},
 															"Children": [
 																{
@@ -4658,8 +4634,7 @@
 																		"Num": 2
 																	},
 																	"Properties": {
-																		"id": "20211224111151-m6pjy1s",
-																		"updated": "20211224111217"
+																		"id": "20211224111151-m6pjy1s"
 																	},
 																	"Children": [
 																		{
@@ -4700,10 +4675,6 @@
 																				{
 																					"Type": "NodeImage",
 																					"Data": "span",
-																					"Properties": {
-																						"parent-style": "max-width: 566px;",
-																						"style": "width: 556px;"
-																					},
 																					"Children": [
 																						{
 																							"Type": "NodeBang"
@@ -4729,10 +4700,6 @@
 																							"Type": "NodeCloseParen"
 																						}
 																					]
-																				},
-																				{
-																					"Type": "NodeKramdownSpanIAL",
-																					"Data": "{: style=\"width: 556px;\" parent-style=\"max-width: 566px;\"}"
 																				}
 																			]
 																		},
@@ -4821,7 +4788,7 @@
 					},
 					"Properties": {
 						"id": "20211224111250-ijgo4nf",
-						"updated": "20211224111312"
+						"updated": "20211224193352"
 					},
 					"Children": [
 						{
@@ -5016,7 +4983,7 @@
 							},
 							"Properties": {
 								"id": "20211224192533-xxpafr0",
-								"updated": "20211224192536"
+								"updated": "20211224193352"
 							},
 							"Children": [
 								{
@@ -5072,7 +5039,8 @@
 										"Num": 2
 									},
 									"Properties": {
-										"id": "20211224192715-290n4n0"
+										"id": "20211224192715-290n4n0",
+										"updated": "20211224193352"
 									},
 									"Children": [
 										{
@@ -5090,26 +5058,12 @@
 											]
 										},
 										{
-											"ID": "20211224193616-7kvm7j4",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20211224193616-7kvm7j4",
-												"updated": "20211224195118"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "用这个eslint-loader工具，按照这个规则airbnb-base来检查"
-												}
-											]
-										},
-										{
 											"ID": "20211224192756-8lfeiha",
 											"Type": "NodeCodeBlock",
 											"IsFencedCodeBlock": true,
 											"Properties": {
 												"id": "20211224192756-8lfeiha",
-												"updated": "20211224193432"
+												"updated": "20211224192814"
 											},
 											"Children": [
 												{
@@ -5122,50 +5076,11 @@
 												},
 												{
 													"Type": "NodeCodeBlockCode",
-													"Data": "package.json中加入\n \"eslintConfig\": {\n    \"extends\": \"airbnb-base\"//使用的是这个规范来检查\n  }\n"
+													"Data": "package.json中加入\n \"eslintConfig\": {\n    \"extends\": \"airbnb-base\"\n  }\n"
 												},
 												{
 													"Type": "NodeCodeBlockFenceCloseMarker",
 													"Data": "```"
-												}
-											]
-										},
-										{
-											"ID": "20211224193444-9jsvqi3",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20211224193444-9jsvqi3",
-												"updated": "20211224193453"
-											},
-											"Children": [
-												{
-													"Type": "NodeImage",
-													"Data": "span",
-													"Children": [
-														{
-															"Type": "NodeBang"
-														},
-														{
-															"Type": "NodeOpenBracket"
-														},
-														{
-															"Type": "NodeLinkText",
-															"Data": "image.png"
-														},
-														{
-															"Type": "NodeCloseBracket"
-														},
-														{
-															"Type": "NodeOpenParen"
-														},
-														{
-															"Type": "NodeLinkDest",
-															"Data": "assets/image-20211224193453-116xkkl.png"
-														},
-														{
-															"Type": "NodeCloseParen"
-														}
-													]
 												}
 											]
 										},
@@ -5175,7 +5090,7 @@
 											"IsFencedCodeBlock": true,
 											"Properties": {
 												"id": "20211224192818-o9m5kdy",
-												"updated": "20211224193854"
+												"updated": "20211224193311"
 											},
 											"Children": [
 												{
@@ -5188,7 +5103,7 @@
 												},
 												{
 													"Type": "NodeCodeBlockCode",
-													"Data": "webpack.config.js中加入\n {\n                test:/\\.js$/,   //eslint只检查js语法\n                exclude: /node_modules/,  //排除第三方的代码，只检查自己的代码\n                loader:'eslint-loader',   //使用这个工具去检查\n                options: {\n                    fix:true  //检查出不符合规范的代码之后,进行自动调整为符合规范的\n                }\n}\n"
+													"Data": "webpack.config.js中加入\n {\n                test:/\\.js$/,   //eslint只检查js语法\n                exclude: /node_modules/,  //排除第三方的代码，只检查自己的代码\n                loader:'eslint-loader',   //使用这个工具去检查\n                options: {\n                    fix:true\n                }\n}\n"
 												},
 												{
 													"Type": "NodeCodeBlockFenceCloseMarker",
@@ -5240,19 +5155,12 @@
 											]
 										},
 										{
-											"ID": "20211224195414-q62wu0n",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20211224195414-q62wu0n"
-											}
-										},
-										{
 											"ID": "20211224192833-mh3gwvw",
 											"Type": "NodeCodeBlock",
 											"IsFencedCodeBlock": true,
 											"Properties": {
 												"id": "20211224192833-mh3gwvw",
-												"updated": "20211224195507"
+												"updated": "20211224193343"
 											},
 											"Children": [
 												{
@@ -5265,1423 +5173,48 @@
 												},
 												{
 													"Type": "NodeCodeBlockCode",
-													"Data": "在js文件中加入\n\n// 下一行eslint所有规则失效,用下面的注释来表示\n// eslint-disable-next-line\nconsole.log('这是入口文件,11111');\n"
+													"Data": "在js文件中加入\n\n// 下一行eslint所有规则失效\n// eslint-disable-next-line\nconsole.log('这是入口文件,11111');\n"
 												},
 												{
 													"Type": "NodeCodeBlockFenceCloseMarker",
 													"Data": "```"
 												}
 											]
-										}
-									]
-								}
-							]
-						}
-					]
-				},
-				{
-					"ID": "20211224195713-77ljurr",
-					"Type": "NodeListItem",
-					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
-					},
-					"Properties": {
-						"id": "20211224195713-77ljurr",
-						"updated": "20211224200546"
-					},
-					"Children": [
-						{
-							"ID": "20211224195713-d46sn3i",
-							"Type": "NodeHeading",
-							"HeadingLevel": 1,
-							"Properties": {
-								"id": "20211224195713-d46sn3i",
-								"updated": "20211224200056"
-							},
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "开发服务器devServer配置"
-								}
-							]
-						},
-						{
-							"ID": "20211224195730-w81p3t6",
-							"Type": "NodeList",
-							"ListData": {},
-							"Properties": {
-								"id": "20211224195730-w81p3t6",
-								"updated": "20211224200546"
-							},
-							"Children": [
-								{
-									"ID": "20211227175345-9h5ydoe",
-									"Type": "NodeListItem",
-									"ListData": {
-										"BulletChar": 42,
-										"Marker": "Kg=="
-									},
-									"Properties": {
-										"id": "20211227175345-9h5ydoe"
-									},
-									"Children": [
+										},
 										{
-											"ID": "20211227175345-cu9h9lo",
+											"ID": "20211224193344-1dmt97g",
 											"Type": "NodeParagraph",
 											"Properties": {
-												"id": "20211227175345-cu9h9lo",
-												"updated": "20211227175352"
+												"id": "20211224193344-1dmt97g",
+												"updated": "20211224193352"
 											},
 											"Children": [
 												{
-													"Type": "NodeText",
-													"Data": "简介"
-												}
-											]
-										},
-										{
-											"ID": "20211227175359-bnq7wkk",
-											"Type": "NodeList",
-											"ListData": {},
-											"Properties": {
-												"id": "20211227175359-bnq7wkk"
-											},
-											"Children": [
-												{
-													"ID": "20211227180037-mxr56dx",
-													"Type": "NodeListItem",
-													"ListData": {
-														"BulletChar": 42,
-														"Marker": "Kg=="
-													},
-													"Properties": {
-														"id": "20211227180037-mxr56dx"
-													},
+													"Type": "NodeImage",
+													"Data": "span",
 													"Children": [
 														{
-															"ID": "20211227180037-w0sbpm7",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211227180037-w0sbpm7",
-																"updated": "20211227180209"
-															},
-															"Children": [
-																{
-																	"Type": "NodeText",
-																	"Data": "这个东西不需要每次都webpack一下，直接在浏览器中输入提供的url就可以看见页面的效果。"
-																}
-															]
-														}
-													]
-												},
-												{
-													"ID": "20211224195803-11tbyd6",
-													"Type": "NodeListItem",
-													"ListData": {
-														"BulletChar": 42,
-														"Marker": "Kg=="
-													},
-													"Properties": {
-														"id": "20211224195803-11tbyd6",
-														"updated": "20211224200546"
-													},
-													"Children": [
-														{
-															"ID": "20211224195803-6hbd54y",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211224195803-6hbd54y",
-																"updated": "20211224195807"
-															},
-															"Children": [
-																{
-																	"Type": "NodeText",
-																	"Data": "devServer给我们提供了开发过程中的服务器，是一个使用了express的Http服务器，它的作用主要是为了监听资源文件的改变，该http服务器和client使用了websocket通信协议，只要资源文件发生改变，webpack-dev-server就会实时的进行编译。"
-																}
-															]
+															"Type": "NodeBang"
 														},
 														{
-															"ID": "20211224200355-4b8qref",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211224200355-4b8qref",
-																"updated": "20211224200546"
-															},
-															"Children": [
-																{
-																	"Type": "NodeText",
-																	"Data": "上面这句话是说：只要我们有修改，就他就自动为我们打包"
-																}
-															]
-														}
-													]
-												},
-												{
-													"ID": "20211224195808-37mig8h",
-													"Type": "NodeListItem",
-													"ListData": {
-														"BulletChar": 42,
-														"Marker": "Kg=="
-													},
-													"Properties": {
-														"id": "20211224195808-37mig8h"
-													},
-													"Children": [
-														{
-															"ID": "20211224195808-yoggro9",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211224195808-yoggro9",
-																"updated": "20211224195815"
-															},
-															"Children": [
-																{
-																	"Type": "NodeText",
-																	"Data": "只会在内存中编译，不会有任何输出,下载webpack-dev-server包"
-																}
-															]
-														}
-													]
-												},
-												{
-													"ID": "20211224195815-wr6fo1x",
-													"Type": "NodeListItem",
-													"ListData": {
-														"BulletChar": 42,
-														"Marker": "Kg=="
-													},
-													"Properties": {
-														"id": "20211224195815-wr6fo1x"
-													},
-													"Children": [
-														{
-															"ID": "20211224195815-xd6iue4",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211224195815-xd6iue4",
-																"updated": "20211224195816"
-															},
-															"Children": [
-																{
-																	"Type": "NodeText",
-																	"Data": "webpack-dev-server并不能读取你的webpack.config.js的配置output"
-																}
-															]
-														}
-													]
-												},
-												{
-													"ID": "20211224195817-uz1o6gg",
-													"Type": "NodeListItem",
-													"ListData": {
-														"BulletChar": 42,
-														"Marker": "Kg=="
-													},
-													"Properties": {
-														"id": "20211224195817-uz1o6gg"
-													},
-													"Children": [
-														{
-															"ID": "20211224195817-3fo1cgk",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211224195817-3fo1cgk"
-															},
-															"Children": [
-																{
-																	"Type": "NodeText",
-																	"Data": "webpack5无法刷新，解决：添加配置：target: ‘web’"
-																}
-															]
-														}
-													]
-												}
-											]
-										}
-									]
-								},
-								{
-									"ID": "20211227175332-ux2rsxw",
-									"Type": "NodeListItem",
-									"ListData": {
-										"BulletChar": 42,
-										"Marker": "Kg=="
-									},
-									"Properties": {
-										"id": "20211227175332-ux2rsxw"
-									},
-									"Children": [
-										{
-											"ID": "20211227175332-gebyziv",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20211227175332-gebyziv",
-												"updated": "20211227175412"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "使用流程"
-												}
-											]
-										},
-										{
-											"ID": "20211227175413-j9vya1r",
-											"Type": "NodeList",
-											"ListData": {
-												"Typ": 1
-											},
-											"Properties": {
-												"id": "20211227175413-j9vya1r",
-												"updated": "20211227175415"
-											},
-											"Children": [
-												{
-													"ID": "20211227175415-ywmhb6h",
-													"Type": "NodeListItem",
-													"ListData": {
-														"Typ": 1,
-														"Delimiter": 46,
-														"Marker": "MS4=",
-														"Num": 1
-													},
-													"Properties": {
-														"id": "20211227175415-ywmhb6h"
-													},
-													"Children": [
-														{
-															"ID": "20211227175415-em5p40p",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211227175415-em5p40p",
-																"updated": "20211227175440"
-															},
-															"Children": [
-																{
-																	"Type": "NodeText",
-																	"Data": "安装ing包webpack-dev-server"
-																}
-															]
+															"Type": "NodeOpenBracket"
 														},
 														{
-															"ID": "20211227175443-cpcsppc",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211227175443-cpcsppc",
-																"updated": "20211227175511"
-															},
-															"Children": [
-																{
-																	"Type": "NodeCodeSpan",
-																	"Data": "code",
-																	"Children": [
-																		{
-																			"Type": "NodeCodeSpanOpenMarker"
-																		},
-																		{
-																			"Type": "NodeCodeSpanContent",
-																			"Data": "npm i webpack-dev-server -D"
-																		},
-																		{
-																			"Type": "NodeCodeSpanCloseMarker"
-																		}
-																	]
-																}
-															]
-														}
-													]
-												},
-												{
-													"ID": "20211227175628-tv33r1q",
-													"Type": "NodeListItem",
-													"ListData": {
-														"Typ": 1,
-														"Delimiter": 46,
-														"Marker": "Mi4=",
-														"Num": 2
-													},
-													"Properties": {
-														"id": "20211227175628-tv33r1q"
-													},
-													"Children": [
-														{
-															"ID": "20211227175628-1hk7a9f",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211227175628-1hk7a9f",
-																"updated": "20211227175633"
-															},
-															"Children": [
-																{
-																	"Type": "NodeText",
-																	"Data": "启动"
-																}
-															]
+															"Type": "NodeLinkText",
+															"Data": "image.png"
 														},
 														{
-															"ID": "20211227175635-8zujlo1",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211227175635-8zujlo1",
-																"updated": "20211227175655"
-															},
-															"Children": [
-																{
-																	"Type": "NodeCodeSpan",
-																	"Data": "code",
-																	"Children": [
-																		{
-																			"Type": "NodeCodeSpanOpenMarker"
-																		},
-																		{
-																			"Type": "NodeCodeSpanContent",
-																			"Data": "webpack serve"
-																		},
-																		{
-																			"Type": "NodeCodeSpanCloseMarker"
-																		}
-																	]
-																}
-															]
+															"Type": "NodeCloseBracket"
 														},
 														{
-															"ID": "20211227175657-gb5qbsf",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211227175657-gb5qbsf",
-																"updated": "20211227175830"
-															},
-															"Children": [
-																{
-																	"Type": "NodeText",
-																	"Data": "输入之后会出现下面这个东西，里面有这个server的网址"
-																}
-															]
+															"Type": "NodeOpenParen"
 														},
 														{
-															"ID": "20211227175831-2i38zs5",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211227175831-2i38zs5",
-																"updated": "20211227175833"
-															},
-															"Children": [
-																{
-																	"Type": "NodeImage",
-																	"Data": "span",
-																	"Properties": {
-																		"parent-style": "max-width: 452px;",
-																		"style": "width: 442px;"
-																	},
-																	"Children": [
-																		{
-																			"Type": "NodeBang"
-																		},
-																		{
-																			"Type": "NodeOpenBracket"
-																		},
-																		{
-																			"Type": "NodeLinkText",
-																			"Data": "image.png"
-																		},
-																		{
-																			"Type": "NodeCloseBracket"
-																		},
-																		{
-																			"Type": "NodeOpenParen"
-																		},
-																		{
-																			"Type": "NodeLinkDest",
-																			"Data": "assets/image-20211227175833-d29ebp1.png"
-																		},
-																		{
-																			"Type": "NodeCloseParen"
-																		}
-																	]
-																},
-																{
-																	"Type": "NodeKramdownSpanIAL",
-																	"Data": "{: style=\"width: 442px;\" parent-style=\"max-width: 452px;\"}"
-																}
-															]
+															"Type": "NodeLinkDest",
+															"Data": "assets/image-20211224193352-phs69lz.png"
 														},
 														{
-															"ID": "20211227175839-bmtanck",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211227175839-bmtanck",
-																"updated": "20211227175903"
-															},
-															"Children": [
-																{
-																	"Type": "NodeText",
-																	"Data": "输入这个网址就可以观看效果了"
-																}
-															]
-														}
-													]
-												},
-												{
-													"ID": "20211227180659-p8fp6eu",
-													"Type": "NodeListItem",
-													"ListData": {
-														"Typ": 1,
-														"Delimiter": 46,
-														"Marker": "My4=",
-														"Num": 3
-													},
-													"Properties": {
-														"id": "20211227180659-p8fp6eu"
-													},
-													"Children": [
-														{
-															"ID": "20211227180659-stfljr2",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211227180659-stfljr2",
-																"updated": "20211227180717"
-															},
-															"Children": [
-																{
-																	"Type": "NodeText",
-																	"Data": "锦上添花"
-																}
-															]
-														},
-														{
-															"ID": "20211227183840-9nnoq8a",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211227183840-9nnoq8a",
-																"updated": "20211227190051"
-															}
-														},
-														{
-															"ID": "20211227183609-xmgo4er",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211227183609-xmgo4er",
-																"updated": "20211227183950"
-															},
-															"Children": [
-																{
-																	"Type": "NodeText",
-																	"Data": "设置：在webpack.config.js  添加配置："
-																}
-															]
-														},
-														{
-															"ID": "20211227190055-gwwmxxg",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211227190055-gwwmxxg",
-																"updated": "20211227190059"
-															},
-															"Children": [
-																{
-																	"Type": "NodeText",
-																	"Data": "功能：只要有修改就自动刷新页面"
-																},
-																{
-																	"Type": "NodeCodeSpan",
-																	"Data": "code",
-																	"Children": [
-																		{
-																			"Type": "NodeCodeSpanOpenMarker"
-																		},
-																		{
-																			"Type": "NodeCodeSpanContent",
-																			"Data": "target: ‘web’，"
-																		},
-																		{
-																			"Type": "NodeCodeSpanCloseMarker"
-																		}
-																	]
-																}
-															]
-														},
-														{
-															"ID": "20211227185759-l59bh6b",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211227185759-l59bh6b",
-																"updated": "20211227190107"
-															},
-															"Children": [
-																{
-																	"Type": "NodeText",
-																	"Data": "其它设置："
-																}
-															]
-														},
-														{
-															"ID": "20211227190108-msrkuh2",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211227190108-msrkuh2",
-																"updated": "20211227190124"
-															},
-															"Children": [
-																{
-																	"Type": "NodeImage",
-																	"Data": "span",
-																	"Properties": {
-																		"parent-style": "max-width: 436px;",
-																		"style": "width: 426px;"
-																	},
-																	"Children": [
-																		{
-																			"Type": "NodeBang"
-																		},
-																		{
-																			"Type": "NodeOpenBracket"
-																		},
-																		{
-																			"Type": "NodeLinkText",
-																			"Data": "图片1.png"
-																		},
-																		{
-																			"Type": "NodeCloseBracket"
-																		},
-																		{
-																			"Type": "NodeOpenParen"
-																		},
-																		{
-																			"Type": "NodeLinkDest",
-																			"Data": "assets/图片1-20211227190124-n3cbnyt.png"
-																		},
-																		{
-																			"Type": "NodeCloseParen"
-																		}
-																	]
-																},
-																{
-																	"Type": "NodeKramdownSpanIAL",
-																	"Data": "{: style=\"width: 426px;\" parent-style=\"max-width: 436px;\"}"
-																}
-															]
-														},
-														{
-															"ID": "20211227185811-mdybe2o",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211227185811-mdybe2o"
-															}
-														},
-														{
-															"ID": "20211227184333-i91njo9",
-															"Type": "NodeList",
-															"ListData": {},
-															"Properties": {
-																"id": "20211227184333-i91njo9",
-																"updated": "20211227184455"
-															},
-															"Children": [
-																{
-																	"ID": "20211227184455-ms7olrk",
-																	"Type": "NodeListItem",
-																	"ListData": {
-																		"BulletChar": 42,
-																		"Marker": "Kg=="
-																	},
-																	"Properties": {
-																		"id": "20211227184455-ms7olrk"
-																	},
-																	"Children": [
-																		{
-																			"ID": "20211227184455-4yorycr",
-																			"Type": "NodeParagraph",
-																			"Properties": {
-																				"id": "20211227184455-4yorycr",
-																				"updated": "20211227184504"
-																			},
-																			"Children": [
-																				{
-																					"Type": "NodeText",
-																					"Data": "供参考"
-																				}
-																			]
-																		},
-																		{
-																			"ID": "20211227184504-6v0hoh6",
-																			"Type": "NodeParagraph",
-																			"Properties": {
-																				"id": "20211227184504-6v0hoh6",
-																				"updated": "20211227184510"
-																			},
-																			"Children": [
-																				{
-																					"Type": "NodeText",
-																					"Data": "--content-base //设定webpack-dev-server的director根目录。如果不进行设定的话，默认是在当前目录下。\n--quiet: //控制台中不输出打包的信息，开发中一般设置为false，进行 打印，这样查看错误比较方面\n--no-info: // 不显示任何信息\n--colors: //对信息进行颜色输出\n--no-colors: //对信息不进行颜色输出\n--compress:  //开启gzip压缩\n--host \u003chostname/ip\u003e: //设置ip\n--port \u003cnumber\u003e: //设置端口号，默认是:8080\n--inline: //webpack-dev-server会在你的webpack.config.js的入口配置文件中再添加一个入口,\n--hot: //开发热替换\n--open: //启动命令，自动打开浏览器\n--history-api-fallback: //查看历史url"
-																				}
-																			]
-																		}
-																	]
-																},
-																{
-																	"ID": "20211227190155-o5vskv4",
-																	"Type": "NodeListItem",
-																	"ListData": {
-																		"BulletChar": 42,
-																		"Marker": "Kg=="
-																	},
-																	"Properties": {
-																		"id": "20211227190155-o5vskv4"
-																	},
-																	"Children": [
-																		{
-																			"ID": "20211227190155-77s2l6v",
-																			"Type": "NodeParagraph",
-																			"Properties": {
-																				"id": "20211227190155-77s2l6v",
-																				"updated": "20211227190205"
-																			},
-																			"Children": [
-																				{
-																					"Type": "NodeImage",
-																					"Data": "span",
-																					"Children": [
-																						{
-																							"Type": "NodeBang"
-																						},
-																						{
-																							"Type": "NodeOpenBracket"
-																						},
-																						{
-																							"Type": "NodeLinkText",
-																							"Data": "图片2.png"
-																						},
-																						{
-																							"Type": "NodeCloseBracket"
-																						},
-																						{
-																							"Type": "NodeOpenParen"
-																						},
-																						{
-																							"Type": "NodeLinkDest",
-																							"Data": "assets/图片2-20211227190205-3ocv7mk.png"
-																						},
-																						{
-																							"Type": "NodeCloseParen"
-																						}
-																					]
-																				}
-																			]
-																		}
-																	]
-																}
-															]
-														}
-													]
-												}
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				},
-				{
-					"ID": "20211227190238-2yjgyoa",
-					"Type": "NodeListItem",
-					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
-					},
-					"Properties": {
-						"id": "20211227190238-2yjgyoa",
-						"updated": "20211227194609"
-					},
-					"Children": [
-						{
-							"ID": "20211227190238-xjkpxz7",
-							"Type": "NodeHeading",
-							"HeadingLevel": 1,
-							"Properties": {
-								"id": "20211227190238-xjkpxz7",
-								"updated": "20211227190258"
-							},
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "环境的优化"
-								}
-							]
-						},
-						{
-							"ID": "20211227190300-gnwrh0l",
-							"Type": "NodeList",
-							"ListData": {},
-							"Properties": {
-								"id": "20211227190300-gnwrh0l",
-								"updated": "20211227191629"
-							},
-							"Children": [
-								{
-									"ID": "20211227190632-6g5n2dp",
-									"Type": "NodeListItem",
-									"ListData": {
-										"BulletChar": 42,
-										"Marker": "Kg=="
-									},
-									"Properties": {
-										"id": "20211227190632-6g5n2dp",
-										"updated": "20211227191629"
-									},
-									"Children": [
-										{
-											"ID": "20211227190632-0161h8r",
-											"Type": "NodeHeading",
-											"HeadingLevel": 2,
-											"Properties": {
-												"id": "20211227190632-0161h8r",
-												"updated": "20211227192159"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "HMR(模块热替换)"
-												}
-											]
-										},
-										{
-											"ID": "20211227192200-e58pa9z",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20211227192200-e58pa9z",
-												"updated": "20211227192247"
-											},
-											"Children": [
-												{
-													"Type": "NodeStrong",
-													"Data": "strong",
-													"Properties": {
-														"style": "color: var(--b3-font-color8);"
-													},
-													"Children": [
-														{
-															"Type": "NodeStrongA6kOpenMarker",
-															"Data": "**"
-														},
-														{
-															"Type": "NodeText",
-															"Data": "注："
-														},
-														{
-															"Type": "NodeStrongA6kCloseMarker",
-															"Data": "**"
-														}
-													]
-												},
-												{
-													"Type": "NodeKramdownSpanIAL",
-													"Data": "{: style=\"color: var(--b3-font-color8);\"}"
-												},
-												{
-													"Type": "NodeText",
-													"Data": "因为学习阶段用的不多，所以只是过了一遍"
-												}
-											]
-										},
-										{
-											"ID": "20211227191204-dmpbhnj",
-											"Type": "NodeList",
-											"ListData": {},
-											"Properties": {
-												"id": "20211227191204-dmpbhnj",
-												"updated": "20211227191629"
-											},
-											"Children": [
-												{
-													"ID": "20211227191206-1iuhpnk",
-													"Type": "NodeListItem",
-													"ListData": {
-														"BulletChar": 42,
-														"Marker": "Kg=="
-													},
-													"Properties": {
-														"id": "20211227191206-1iuhpnk"
-													},
-													"Children": [
-														{
-															"ID": "20211227191206-8fq7l5r",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211227191206-8fq7l5r",
-																"updated": "20211227191211"
-															},
-															"Children": [
-																{
-																	"Type": "NodeText",
-																	"Data": "简介"
-																}
-															]
-														},
-														{
-															"ID": "20211227192310-yvfdhyt",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211227192310-yvfdhyt",
-																"updated": "20211227192320"
-															},
-															"Children": [
-																{
-																	"Type": "NodeStrong",
-																	"Data": "strong",
-																	"Children": [
-																		{
-																			"Type": "NodeStrongA6kOpenMarker",
-																			"Data": "**"
-																		},
-																		{
-																			"Type": "NodeText",
-																			"Data": "属于开发环境的优化"
-																		},
-																		{
-																			"Type": "NodeStrongA6kCloseMarker",
-																			"Data": "**"
-																		}
-																	]
-																}
-															]
-														},
-														{
-															"ID": "20211227191211-dnoyjtb",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211227191211-dnoyjtb",
-																"updated": "20211227191215"
-															},
-															"Children": [
-																{
-																	"Type": "NodeText",
-																	"Data": "模块热替换(Hot Module Replacement 即 HMR)是 webpack 提供的最有用的功能之一, 它允许在运行时更新各种模块, 而无需进行完全刷新。"
-																}
-															]
-														}
-													]
-												},
-												{
-													"ID": "20211227191218-k89g5jn",
-													"Type": "NodeListItem",
-													"ListData": {
-														"BulletChar": 42,
-														"Marker": "Kg=="
-													},
-													"Properties": {
-														"id": "20211227191218-k89g5jn",
-														"updated": "20211227191629"
-													},
-													"Children": [
-														{
-															"ID": "20211227191218-r1w5of7",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211227191218-r1w5of7",
-																"updated": "20211227191229"
-															},
-															"Children": [
-																{
-																	"Type": "NodeText",
-																	"Data": "使用"
-																}
-															]
-														},
-														{
-															"ID": "20211227191230-0rje40w",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211227191230-0rje40w",
-																"updated": "20211227191249"
-															},
-															"Children": [
-																{
-																	"Type": "NodeText",
-																	"Data": "配置webpack.config.js "
-																}
-															]
-														},
-														{
-															"ID": "20211227191336-j3f6lbs",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211227191336-j3f6lbs",
-																"updated": "20211227191354"
-															},
-															"Children": [
-																{
-																	"Type": "NodeCodeSpan",
-																	"Data": "code",
-																	"Children": [
-																		{
-																			"Type": "NodeCodeSpanOpenMarker"
-																		},
-																		{
-																			"Type": "NodeCodeSpanContent",
-																			"Data": "hot:ture"
-																		},
-																		{
-																			"Type": "NodeCodeSpanCloseMarker"
-																		}
-																	]
-																}
-															]
-														},
-														{
-															"ID": "20211227191249-tg76ri4",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211227191249-tg76ri4",
-																"updated": "20211227191314"
-															},
-															"Children": [
-																{
-																	"Type": "NodeImage",
-																	"Data": "span",
-																	"Properties": {
-																		"parent-style": "max-width: 211px;",
-																		"style": "width: 201px;"
-																	},
-																	"Children": [
-																		{
-																			"Type": "NodeBang"
-																		},
-																		{
-																			"Type": "NodeOpenBracket"
-																		},
-																		{
-																			"Type": "NodeLinkText",
-																			"Data": "image.png"
-																		},
-																		{
-																			"Type": "NodeCloseBracket"
-																		},
-																		{
-																			"Type": "NodeOpenParen"
-																		},
-																		{
-																			"Type": "NodeLinkDest",
-																			"Data": "assets/image-20211227191314-0wa6d7e.png"
-																		},
-																		{
-																			"Type": "NodeCloseParen"
-																		}
-																	]
-																},
-																{
-																	"Type": "NodeKramdownSpanIAL",
-																	"Data": "{: style=\"width: 201px;\" parent-style=\"max-width: 211px;\"}"
-																}
-															]
-														},
-														{
-															"ID": "20211227191539-0xvr323",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211227191539-0xvr323",
-																"updated": "20211227191647"
-															},
-															"Children": [
-																{
-																	"Type": "NodeText",
-																	"Data": "这样配置之后html就不会实时更新了，想要html也实时更新就要这样，在entry里面加入html"
-																}
-															]
-														},
-														{
-															"ID": "20211227191629-3ay3zao",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211227191629-3ay3zao",
-																"updated": "20211227191629"
-															},
-															"Children": [
-																{
-																	"Type": "NodeImage",
-																	"Data": "span",
-																	"Properties": {
-																		"parent-style": "max-width: 479px;",
-																		"style": "width: 469px;"
-																	},
-																	"Children": [
-																		{
-																			"Type": "NodeBang"
-																		},
-																		{
-																			"Type": "NodeOpenBracket"
-																		},
-																		{
-																			"Type": "NodeLinkText",
-																			"Data": "image.png"
-																		},
-																		{
-																			"Type": "NodeCloseBracket"
-																		},
-																		{
-																			"Type": "NodeOpenParen"
-																		},
-																		{
-																			"Type": "NodeLinkDest",
-																			"Data": "assets/image-20211227191629-b279wks.png"
-																		},
-																		{
-																			"Type": "NodeCloseParen"
-																		}
-																	]
-																},
-																{
-																	"Type": "NodeKramdownSpanIAL",
-																	"Data": "{: style=\"width: 469px;\" parent-style=\"max-width: 479px;\"}"
-																}
-															]
-														},
-														{
-															"ID": "20211227191603-el9tysk",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211227191603-el9tysk"
-															}
-														}
-													]
-												}
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"ID": "20211227192413-fx4l1ag",
-							"Type": "NodeList",
-							"ListData": {},
-							"Properties": {
-								"id": "20211227192413-fx4l1ag",
-								"updated": "20211227194609"
-							},
-							"Children": [
-								{
-									"ID": "20211227192417-jgstwfo",
-									"Type": "NodeListItem",
-									"ListData": {
-										"BulletChar": 42,
-										"Marker": "Kg=="
-									},
-									"Properties": {
-										"id": "20211227192417-jgstwfo",
-										"updated": "20211227194609"
-									},
-									"Children": [
-										{
-											"ID": "20211227192417-7qxdy2i",
-											"Type": "NodeHeading",
-											"HeadingLevel": 2,
-											"Properties": {
-												"id": "20211227192417-7qxdy2i",
-												"updated": "20211227192436"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "去除项目里的死代码"
-												}
-											]
-										},
-										{
-											"ID": "20211227194541-kuy1jz5",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20211227194541-kuy1jz5",
-												"updated": "20211227194609"
-											},
-											"Children": [
-												{
-													"Type": "NodeStrong",
-													"Data": "strong",
-													"Properties": {
-														"style": "color: var(--b3-font-color8);"
-													},
-													"Children": [
-														{
-															"Type": "NodeStrongA6kOpenMarker",
-															"Data": "**"
-														},
-														{
-															"Type": "NodeText",
-															"Data": "注："
-														},
-														{
-															"Type": "NodeStrongA6kCloseMarker",
-															"Data": "**"
-														}
-													]
-												},
-												{
-													"Type": "NodeKramdownSpanIAL",
-													"Data": "{: style=\"color: var(--b3-font-color8);\"}"
-												},
-												{
-													"Type": "NodeText",
-													"Data": "只是过了一遍，回头应该好好学习一下"
-												}
-											]
-										},
-										{
-											"ID": "20211227192436-z5oderm",
-											"Type": "NodeList",
-											"ListData": {},
-											"Properties": {
-												"id": "20211227192436-z5oderm",
-												"updated": "20211227192442"
-											},
-											"Children": [
-												{
-													"ID": "20211227192442-14cj31a",
-													"Type": "NodeListItem",
-													"ListData": {
-														"BulletChar": 42,
-														"Marker": "Kg=="
-													},
-													"Properties": {
-														"id": "20211227192442-14cj31a"
-													},
-													"Children": [
-														{
-															"ID": "20211227192442-p882ix0",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211227192442-p882ix0",
-																"updated": "20211227192448"
-															},
-															"Children": [
-																{
-																	"Type": "NodeText",
-																	"Data": "简介"
-																}
-															]
-														},
-														{
-															"ID": "20211227192450-scodbpa",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211227192450-scodbpa",
-																"updated": "20211227192500"
-															},
-															"Children": [
-																{
-																	"Type": "NodeText",
-																	"Data": "属于生产环境的优化"
-																}
-															]
-														}
-													]
-												},
-												{
-													"ID": "20211227192540-iqe016s",
-													"Type": "NodeListItem",
-													"ListData": {
-														"BulletChar": 42,
-														"Marker": "Kg=="
-													},
-													"Properties": {
-														"id": "20211227192540-iqe016s"
-													},
-													"Children": [
-														{
-															"ID": "20211227192542-g7nkle1",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211227192542-g7nkle1"
-															},
-															"Children": [
-																{
-																	"Type": "NodeText",
-																	"Data": "去除没有用到的JS代码\nWebpack通过tree-shaking去掉了实际上并没有使用的js代码来减少包的大小。"
-																}
-															]
-														},
-														{
-															"ID": "20211227192542-zulhvfe",
-															"Type": "NodeList",
-															"ListData": {
-																"Typ": 1
-															},
-															"Properties": {
-																"id": "20211227192542-zulhvfe"
-															},
-															"Children": [
-																{
-																	"ID": "20211227192542-yf5jjx4",
-																	"Type": "NodeListItem",
-																	"ListData": {
-																		"Typ": 1,
-																		"Delimiter": 46,
-																		"Marker": "MS4=",
-																		"Num": 1
-																	},
-																	"Properties": {
-																		"id": "20211227192542-yf5jjx4"
-																	},
-																	"Children": [
-																		{
-																			"ID": "20211227192542-ijgr02k",
-																			"Type": "NodeParagraph",
-																			"Properties": {
-																				"id": "20211227192542-ijgr02k",
-																				"updated": "20211227192556"
-																			},
-																			"Children": [
-																				{
-																					"Type": "NodeText",
-																					"Data": "必须使用es6模块化， 2. 开启production环境"
-																				}
-																			]
-																		}
-																	]
-																}
-															]
-														}
-													]
-												},
-												{
-													"ID": "20211227192559-boebw8o",
-													"Type": "NodeListItem",
-													"ListData": {
-														"BulletChar": 42,
-														"Marker": "Kg=="
-													},
-													"Properties": {
-														"id": "20211227192559-boebw8o"
-													},
-													"Children": [
-														{
-															"ID": "20211227192559-m1nnzp7",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211227192559-m1nnzp7",
-																"updated": "20211227193451"
-															},
-															"Children": [
-																{
-																	"Type": "NodeText",
-																	"Data": "去除没有用到的CSS\n比如我们经常使用的BootStrap(140KB)就可以减少到只有35KB大小\nwebpack使用purgecss-webpack-plugin包 来去除无用的css"
-																}
-															]
-														},
-														{
-															"ID": "20211227193453-86mkaoo",
-															"Type": "NodeList",
-															"ListData": {
-																"Typ": 1
-															},
-															"Properties": {
-																"id": "20211227193453-86mkaoo",
-																"updated": "20211227193548"
-															},
-															"Children": [
-																{
-																	"ID": "20211227193548-2er6uoa",
-																	"Type": "NodeListItem",
-																	"ListData": {
-																		"Typ": 1,
-																		"Delimiter": 46,
-																		"Marker": "MS4=",
-																		"Num": 1
-																	},
-																	"Properties": {
-																		"id": "20211227193548-2er6uoa"
-																	},
-																	"Children": [
-																		{
-																			"ID": "20211227193548-eul6egg",
-																			"Type": "NodeParagraph",
-																			"Properties": {
-																				"id": "20211227193548-eul6egg",
-																				"updated": "20211227193600"
-																			},
-																			"Children": [
-																				{
-																					"Type": "NodeText",
-																					"Data": "安装ing插件 "
-																				},
-																				{
-																					"Type": "NodeCodeSpan",
-																					"Data": "code",
-																					"Children": [
-																						{
-																							"Type": "NodeCodeSpanOpenMarker"
-																						},
-																						{
-																							"Type": "NodeCodeSpanContent",
-																							"Data": "npm i purgecss-webpack-plugin"
-																						},
-																						{
-																							"Type": "NodeCodeSpanCloseMarker"
-																						}
-																					]
-																				}
-																			]
-																		}
-																	]
-																},
-																{
-																	"ID": "20211227193550-6hpqcdq",
-																	"Type": "NodeListItem",
-																	"ListData": {
-																		"Typ": 1,
-																		"Delimiter": 46,
-																		"Marker": "Mi4=",
-																		"Num": 2
-																	},
-																	"Properties": {
-																		"id": "20211227193550-6hpqcdq"
-																	},
-																	"Children": [
-																		{
-																			"ID": "20211227193550-zdgsphf",
-																			"Type": "NodeParagraph",
-																			"Properties": {
-																				"id": "20211227193550-zdgsphf",
-																				"updated": "20211227193607"
-																			},
-																			"Children": [
-																				{
-																					"Type": "NodeText",
-																					"Data": "引用插件"
-																				}
-																			]
-																		},
-																		{
-																			"ID": "20211227193617-llfcdq6",
-																			"Type": "NodeCodeBlock",
-																			"IsFencedCodeBlock": true,
-																			"Properties": {
-																				"id": "20211227193617-llfcdq6",
-																				"updated": "20211227194252"
-																			},
-																			"Children": [
-																				{
-																					"Type": "NodeCodeBlockFenceOpenMarker",
-																					"Data": "```"
-																				},
-																				{
-																					"Type": "NodeCodeBlockFenceInfoMarker",
-																					"CodeBlockInfo": "anM="
-																				},
-																				{
-																					"Type": "NodeCodeBlockCode",
-																					"Data": "const {resolve, join} = require('path');\nconst PurgecssPlugin = require('purgecss-webpack-plugin');//引入插件\nconst glob = require('glob');\nconst PATHS = { src: join(__dirname, 'src')}\n\nnew PurgecssPlugin({//配置插件\n            paths: glob.sync(`${PATHS.src}/**/*`,  { nodir: true }),\n        }),\n"
-																				},
-																				{
-																					"Type": "NodeCodeBlockFenceCloseMarker",
-																					"Data": "```"
-																				}
-																			]
-																		}
-																	]
-																}
-															]
+															"Type": "NodeCloseParen"
 														}
 													]
 												}
@@ -6696,11 +5229,33 @@
 			]
 		},
 		{
+			"ID": "20211224105538-0kvgvgi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224105538-0kvgvgi"
+			}
+		},
+		{
+			"ID": "20211224105546-pwvb5o6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224105546-pwvb5o6"
+			}
+		},
+		{
+			"ID": "20211224105333-l219fjq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211224105333-l219fjq",
+				"updated": "20211224105333"
+			}
+		},
+		{
 			"ID": "20211224085200-hhwnpqk",
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20211224085200-hhwnpqk",
-				"updated": "20211227182919"
+				"updated": "20211224095932"
 			}
 		}
 	]

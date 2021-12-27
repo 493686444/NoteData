@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20211224085139-9v61yyj",
 		"title": "Webpack",
-		"updated": "20211227194609"
+		"updated": "20211227192225"
 	},
 	"Children": [
 		{
@@ -13,7 +13,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20211224085139-tdpyh83",
-				"updated": "20211227194609"
+				"updated": "20211227192225"
 			},
 			"Children": [
 				{
@@ -5992,7 +5992,7 @@
 					},
 					"Properties": {
 						"id": "20211227190238-2yjgyoa",
-						"updated": "20211227194609"
+						"updated": "20211227192225"
 					},
 					"Children": [
 						{
@@ -6016,7 +6016,7 @@
 							"ListData": {},
 							"Properties": {
 								"id": "20211227190300-gnwrh0l",
-								"updated": "20211227191629"
+								"updated": "20211227192225"
 							},
 							"Children": [
 								{
@@ -6028,7 +6028,7 @@
 									},
 									"Properties": {
 										"id": "20211227190632-6g5n2dp",
-										"updated": "20211227191629"
+										"updated": "20211227192225"
 									},
 									"Children": [
 										{
@@ -6051,37 +6051,12 @@
 											"Type": "NodeParagraph",
 											"Properties": {
 												"id": "20211227192200-e58pa9z",
-												"updated": "20211227192247"
+												"updated": "20211227192225"
 											},
 											"Children": [
 												{
-													"Type": "NodeStrong",
-													"Data": "strong",
-													"Properties": {
-														"style": "color: var(--b3-font-color8);"
-													},
-													"Children": [
-														{
-															"Type": "NodeStrongA6kOpenMarker",
-															"Data": "**"
-														},
-														{
-															"Type": "NodeText",
-															"Data": "注："
-														},
-														{
-															"Type": "NodeStrongA6kCloseMarker",
-															"Data": "**"
-														}
-													]
-												},
-												{
-													"Type": "NodeKramdownSpanIAL",
-													"Data": "{: style=\"color: var(--b3-font-color8);\"}"
-												},
-												{
 													"Type": "NodeText",
-													"Data": "因为学习阶段用的不多，所以只是过了一遍"
+													"Data": "：因为学习阶段用的不多，所以只是过了一遍"
 												}
 											]
 										},
@@ -6091,7 +6066,7 @@
 											"ListData": {},
 											"Properties": {
 												"id": "20211227191204-dmpbhnj",
-												"updated": "20211227191629"
+												"updated": "20211227191206"
 											},
 											"Children": [
 												{
@@ -6120,34 +6095,6 @@
 															]
 														},
 														{
-															"ID": "20211227192310-yvfdhyt",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211227192310-yvfdhyt",
-																"updated": "20211227192320"
-															},
-															"Children": [
-																{
-																	"Type": "NodeStrong",
-																	"Data": "strong",
-																	"Children": [
-																		{
-																			"Type": "NodeStrongA6kOpenMarker",
-																			"Data": "**"
-																		},
-																		{
-																			"Type": "NodeText",
-																			"Data": "属于开发环境的优化"
-																		},
-																		{
-																			"Type": "NodeStrongA6kCloseMarker",
-																			"Data": "**"
-																		}
-																	]
-																}
-															]
-														},
-														{
 															"ID": "20211227191211-dnoyjtb",
 															"Type": "NodeParagraph",
 															"Properties": {
@@ -6171,8 +6118,7 @@
 														"Marker": "Kg=="
 													},
 													"Properties": {
-														"id": "20211227191218-k89g5jn",
-														"updated": "20211227191629"
+														"id": "20211227191218-k89g5jn"
 													},
 													"Children": [
 														{
@@ -6301,10 +6247,6 @@
 																{
 																	"Type": "NodeImage",
 																	"Data": "span",
-																	"Properties": {
-																		"parent-style": "max-width: 479px;",
-																		"style": "width: 469px;"
-																	},
 																	"Children": [
 																		{
 																			"Type": "NodeBang"
@@ -6330,10 +6272,6 @@
 																			"Type": "NodeCloseParen"
 																		}
 																	]
-																},
-																{
-																	"Type": "NodeKramdownSpanIAL",
-																	"Data": "{: style=\"width: 469px;\" parent-style=\"max-width: 479px;\"}"
 																}
 															]
 														},
@@ -6343,345 +6281,6 @@
 															"Properties": {
 																"id": "20211227191603-el9tysk"
 															}
-														}
-													]
-												}
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"ID": "20211227192413-fx4l1ag",
-							"Type": "NodeList",
-							"ListData": {},
-							"Properties": {
-								"id": "20211227192413-fx4l1ag",
-								"updated": "20211227194609"
-							},
-							"Children": [
-								{
-									"ID": "20211227192417-jgstwfo",
-									"Type": "NodeListItem",
-									"ListData": {
-										"BulletChar": 42,
-										"Marker": "Kg=="
-									},
-									"Properties": {
-										"id": "20211227192417-jgstwfo",
-										"updated": "20211227194609"
-									},
-									"Children": [
-										{
-											"ID": "20211227192417-7qxdy2i",
-											"Type": "NodeHeading",
-											"HeadingLevel": 2,
-											"Properties": {
-												"id": "20211227192417-7qxdy2i",
-												"updated": "20211227192436"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "去除项目里的死代码"
-												}
-											]
-										},
-										{
-											"ID": "20211227194541-kuy1jz5",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20211227194541-kuy1jz5",
-												"updated": "20211227194609"
-											},
-											"Children": [
-												{
-													"Type": "NodeStrong",
-													"Data": "strong",
-													"Properties": {
-														"style": "color: var(--b3-font-color8);"
-													},
-													"Children": [
-														{
-															"Type": "NodeStrongA6kOpenMarker",
-															"Data": "**"
-														},
-														{
-															"Type": "NodeText",
-															"Data": "注："
-														},
-														{
-															"Type": "NodeStrongA6kCloseMarker",
-															"Data": "**"
-														}
-													]
-												},
-												{
-													"Type": "NodeKramdownSpanIAL",
-													"Data": "{: style=\"color: var(--b3-font-color8);\"}"
-												},
-												{
-													"Type": "NodeText",
-													"Data": "只是过了一遍，回头应该好好学习一下"
-												}
-											]
-										},
-										{
-											"ID": "20211227192436-z5oderm",
-											"Type": "NodeList",
-											"ListData": {},
-											"Properties": {
-												"id": "20211227192436-z5oderm",
-												"updated": "20211227192442"
-											},
-											"Children": [
-												{
-													"ID": "20211227192442-14cj31a",
-													"Type": "NodeListItem",
-													"ListData": {
-														"BulletChar": 42,
-														"Marker": "Kg=="
-													},
-													"Properties": {
-														"id": "20211227192442-14cj31a"
-													},
-													"Children": [
-														{
-															"ID": "20211227192442-p882ix0",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211227192442-p882ix0",
-																"updated": "20211227192448"
-															},
-															"Children": [
-																{
-																	"Type": "NodeText",
-																	"Data": "简介"
-																}
-															]
-														},
-														{
-															"ID": "20211227192450-scodbpa",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211227192450-scodbpa",
-																"updated": "20211227192500"
-															},
-															"Children": [
-																{
-																	"Type": "NodeText",
-																	"Data": "属于生产环境的优化"
-																}
-															]
-														}
-													]
-												},
-												{
-													"ID": "20211227192540-iqe016s",
-													"Type": "NodeListItem",
-													"ListData": {
-														"BulletChar": 42,
-														"Marker": "Kg=="
-													},
-													"Properties": {
-														"id": "20211227192540-iqe016s"
-													},
-													"Children": [
-														{
-															"ID": "20211227192542-g7nkle1",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211227192542-g7nkle1"
-															},
-															"Children": [
-																{
-																	"Type": "NodeText",
-																	"Data": "去除没有用到的JS代码\nWebpack通过tree-shaking去掉了实际上并没有使用的js代码来减少包的大小。"
-																}
-															]
-														},
-														{
-															"ID": "20211227192542-zulhvfe",
-															"Type": "NodeList",
-															"ListData": {
-																"Typ": 1
-															},
-															"Properties": {
-																"id": "20211227192542-zulhvfe"
-															},
-															"Children": [
-																{
-																	"ID": "20211227192542-yf5jjx4",
-																	"Type": "NodeListItem",
-																	"ListData": {
-																		"Typ": 1,
-																		"Delimiter": 46,
-																		"Marker": "MS4=",
-																		"Num": 1
-																	},
-																	"Properties": {
-																		"id": "20211227192542-yf5jjx4"
-																	},
-																	"Children": [
-																		{
-																			"ID": "20211227192542-ijgr02k",
-																			"Type": "NodeParagraph",
-																			"Properties": {
-																				"id": "20211227192542-ijgr02k",
-																				"updated": "20211227192556"
-																			},
-																			"Children": [
-																				{
-																					"Type": "NodeText",
-																					"Data": "必须使用es6模块化， 2. 开启production环境"
-																				}
-																			]
-																		}
-																	]
-																}
-															]
-														}
-													]
-												},
-												{
-													"ID": "20211227192559-boebw8o",
-													"Type": "NodeListItem",
-													"ListData": {
-														"BulletChar": 42,
-														"Marker": "Kg=="
-													},
-													"Properties": {
-														"id": "20211227192559-boebw8o"
-													},
-													"Children": [
-														{
-															"ID": "20211227192559-m1nnzp7",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211227192559-m1nnzp7",
-																"updated": "20211227193451"
-															},
-															"Children": [
-																{
-																	"Type": "NodeText",
-																	"Data": "去除没有用到的CSS\n比如我们经常使用的BootStrap(140KB)就可以减少到只有35KB大小\nwebpack使用purgecss-webpack-plugin包 来去除无用的css"
-																}
-															]
-														},
-														{
-															"ID": "20211227193453-86mkaoo",
-															"Type": "NodeList",
-															"ListData": {
-																"Typ": 1
-															},
-															"Properties": {
-																"id": "20211227193453-86mkaoo",
-																"updated": "20211227193548"
-															},
-															"Children": [
-																{
-																	"ID": "20211227193548-2er6uoa",
-																	"Type": "NodeListItem",
-																	"ListData": {
-																		"Typ": 1,
-																		"Delimiter": 46,
-																		"Marker": "MS4=",
-																		"Num": 1
-																	},
-																	"Properties": {
-																		"id": "20211227193548-2er6uoa"
-																	},
-																	"Children": [
-																		{
-																			"ID": "20211227193548-eul6egg",
-																			"Type": "NodeParagraph",
-																			"Properties": {
-																				"id": "20211227193548-eul6egg",
-																				"updated": "20211227193600"
-																			},
-																			"Children": [
-																				{
-																					"Type": "NodeText",
-																					"Data": "安装ing插件 "
-																				},
-																				{
-																					"Type": "NodeCodeSpan",
-																					"Data": "code",
-																					"Children": [
-																						{
-																							"Type": "NodeCodeSpanOpenMarker"
-																						},
-																						{
-																							"Type": "NodeCodeSpanContent",
-																							"Data": "npm i purgecss-webpack-plugin"
-																						},
-																						{
-																							"Type": "NodeCodeSpanCloseMarker"
-																						}
-																					]
-																				}
-																			]
-																		}
-																	]
-																},
-																{
-																	"ID": "20211227193550-6hpqcdq",
-																	"Type": "NodeListItem",
-																	"ListData": {
-																		"Typ": 1,
-																		"Delimiter": 46,
-																		"Marker": "Mi4=",
-																		"Num": 2
-																	},
-																	"Properties": {
-																		"id": "20211227193550-6hpqcdq"
-																	},
-																	"Children": [
-																		{
-																			"ID": "20211227193550-zdgsphf",
-																			"Type": "NodeParagraph",
-																			"Properties": {
-																				"id": "20211227193550-zdgsphf",
-																				"updated": "20211227193607"
-																			},
-																			"Children": [
-																				{
-																					"Type": "NodeText",
-																					"Data": "引用插件"
-																				}
-																			]
-																		},
-																		{
-																			"ID": "20211227193617-llfcdq6",
-																			"Type": "NodeCodeBlock",
-																			"IsFencedCodeBlock": true,
-																			"Properties": {
-																				"id": "20211227193617-llfcdq6",
-																				"updated": "20211227194252"
-																			},
-																			"Children": [
-																				{
-																					"Type": "NodeCodeBlockFenceOpenMarker",
-																					"Data": "```"
-																				},
-																				{
-																					"Type": "NodeCodeBlockFenceInfoMarker",
-																					"CodeBlockInfo": "anM="
-																				},
-																				{
-																					"Type": "NodeCodeBlockCode",
-																					"Data": "const {resolve, join} = require('path');\nconst PurgecssPlugin = require('purgecss-webpack-plugin');//引入插件\nconst glob = require('glob');\nconst PATHS = { src: join(__dirname, 'src')}\n\nnew PurgecssPlugin({//配置插件\n            paths: glob.sync(`${PATHS.src}/**/*`,  { nodir: true }),\n        }),\n"
-																				},
-																				{
-																					"Type": "NodeCodeBlockFenceCloseMarker",
-																					"Data": "```"
-																				}
-																			]
-																		}
-																	]
-																}
-															]
 														}
 													]
 												}
