@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20211223200801-k7bt9gr",
 		"title": "ES6",
-		"updated": "20211228222708"
+		"updated": "20211228214831"
 	},
 	"Children": [
 		{
@@ -1071,6 +1071,25 @@
 													]
 												}
 											]
+										},
+										{
+											"ID": "20211228191540-tg0zu12",
+											"Type": "NodeSuperBlock",
+											"Properties": {
+												"id": "20211228191540-tg0zu12"
+											},
+											"Children": [
+												{
+													"Type": "NodeSuperBlockOpenMarker"
+												},
+												{
+													"Type": "NodeSuperBlockLayoutMarker",
+													"Data": "col"
+												},
+												{
+													"Type": "NodeSuperBlockCloseMarker"
+												}
+											]
 										}
 									]
 								}
@@ -1365,7 +1384,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20211228191844-hwcuyq8",
-				"updated": "20211228222708"
+				"updated": "20211228214831"
 			},
 			"Children": [
 				{
@@ -1377,7 +1396,7 @@
 					},
 					"Properties": {
 						"id": "20211228194859-ebk797w",
-						"updated": "20211228222708"
+						"updated": "20211228214831"
 					},
 					"Children": [
 						{
@@ -1587,7 +1606,7 @@
 							},
 							"Properties": {
 								"id": "20211228200007-kha9ogn",
-								"updated": "20211228222708"
+								"updated": "20211228214831"
 							},
 							"Children": [
 								{
@@ -1655,8 +1674,7 @@
 										"Num": 3
 									},
 									"Properties": {
-										"id": "20211228214847-iltos0o",
-										"updated": "20211228222708"
+										"id": "20211228214847-iltos0o"
 									},
 									"Children": [
 										{
@@ -1677,42 +1695,8 @@
 											"ID": "20211228215625-y3tvd2j",
 											"Type": "NodeParagraph",
 											"Properties": {
-												"id": "20211228215625-y3tvd2j",
-												"updated": "20211228222257"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "普通函数的this：指向它的调用者，如果没有调用者则默认指向window."
-												}
-											]
-										},
-										{
-											"ID": "20211228222258-sctkyk0",
-											"Type": "NodeCodeBlock",
-											"IsFencedCodeBlock": true,
-											"Properties": {
-												"id": "20211228222258-sctkyk0",
-												"updated": "20211228222708"
-											},
-											"Children": [
-												{
-													"Type": "NodeCodeBlockFenceOpenMarker",
-													"Data": "```"
-												},
-												{
-													"Type": "NodeCodeBlockFenceInfoMarker",
-													"CodeBlockInfo": "anM="
-												},
-												{
-													"Type": "NodeCodeBlockCode",
-													"Data": "例子：\n\u003cdiv id=\"box\"\u003e\u003c/div\u003e\n\u003cscript\u003e\n\tconst box = document.getElementById('box');\n\tbox.onclick=function(){}\n\u003c/script\u003e\n\n"
-												},
-												{
-													"Type": "NodeCodeBlockFenceCloseMarker",
-													"Data": "```"
-												}
-											]
+												"id": "20211228215625-y3tvd2j"
+											}
 										}
 									]
 								}

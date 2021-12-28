@@ -1,0 +1,150 @@
+{
+	"ID": "20211228091941-hlg7wnm",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211228091941-hlg7wnm",
+		"title": "治疗",
+		"updated": "20211228092101"
+	},
+	"Children": [
+		{
+			"ID": "20211228092004-4w2sz1q",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211228092004-4w2sz1q",
+				"updated": "20211228092101"
+			},
+			"Children": [
+				{
+					"ID": "20211228092004-o8fe4ve",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211228092004-o8fe4ve",
+						"updated": "20211228092101"
+					},
+					"Children": [
+						{
+							"ID": "20211228092004-johtm0s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211228092004-johtm0s",
+								"updated": "20211228092023"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "前端："
+								}
+							]
+						},
+						{
+							"ID": "20211228092004-6n7hgw2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211228092004-6n7hgw2",
+								"updated": "20211228092026"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Controller：Nurse=\u003eWound"
+								}
+							]
+						},
+						{
+							"ID": "20211228092004-os0p7an",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211228092004-os0p7an",
+								"updated": "20211228092101"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "View：Wound"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211228092004-mjbjq9z",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211228092004-mjbjq9z",
+						"updated": "20211228092042"
+					},
+					"Children": [
+						{
+							"ID": "20211228092004-5wati0i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211228092004-5wati0i",
+								"updated": "20211224101903"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "后端"
+								}
+							]
+						},
+						{
+							"ID": "20211228092004-vg4ekxc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211228092004-vg4ekxc",
+								"updated": "20211228092042"
+							}
+						}
+					]
+				},
+				{
+					"ID": "20211228092004-n1pk03r",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211228092004-n1pk03r",
+						"updated": "20211228092039"
+					},
+					"Children": [
+						{
+							"ID": "20211228092004-3srxsxn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211228092004-3srxsxn",
+								"updated": "20211224101915"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数据库"
+								}
+							]
+						},
+						{
+							"ID": "20211228092004-4ebh9x8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211228092004-4ebh9x8",
+								"updated": "20211228092039"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

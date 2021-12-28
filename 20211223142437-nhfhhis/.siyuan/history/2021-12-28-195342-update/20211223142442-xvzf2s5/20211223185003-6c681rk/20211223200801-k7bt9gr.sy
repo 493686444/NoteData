@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20211223200801-k7bt9gr",
 		"title": "ES6",
-		"updated": "20211228222708"
+		"updated": "20211228194859"
 	},
 	"Children": [
 		{
@@ -1071,6 +1071,44 @@
 													]
 												}
 											]
+										},
+										{
+											"ID": "20211228191540-tg0zu12",
+											"Type": "NodeSuperBlock",
+											"Properties": {
+												"id": "20211228191540-tg0zu12"
+											},
+											"Children": [
+												{
+													"Type": "NodeSuperBlockOpenMarker"
+												},
+												{
+													"Type": "NodeSuperBlockLayoutMarker",
+													"Data": "col"
+												},
+												{
+													"ID": "20211228191553-nu0pypd",
+													"Type": "NodeSuperBlock",
+													"Properties": {
+														"id": "20211228191553-nu0pypd"
+													},
+													"Children": [
+														{
+															"Type": "NodeSuperBlockOpenMarker"
+														},
+														{
+															"Type": "NodeSuperBlockLayoutMarker",
+															"Data": "row"
+														},
+														{
+															"Type": "NodeSuperBlockCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeSuperBlockCloseMarker"
+												}
+											]
 										}
 									]
 								}
@@ -1365,7 +1403,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20211228191844-hwcuyq8",
-				"updated": "20211228222708"
+				"updated": "20211228194859"
 			},
 			"Children": [
 				{
@@ -1376,8 +1414,7 @@
 						"Marker": "Kg=="
 					},
 					"Properties": {
-						"id": "20211228194859-ebk797w",
-						"updated": "20211228222708"
+						"id": "20211228194859-ebk797w"
 					},
 					"Children": [
 						{
@@ -1399,8 +1436,7 @@
 							"ID": "20211228194949-di0wkn4",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20211228194949-di0wkn4",
-								"updated": "20211228194949"
+								"id": "20211228194949-di0wkn4"
 							},
 							"Children": [
 								{
@@ -1408,323 +1444,6 @@
 									"Data": "Arrow Function"
 								}
 							]
-						},
-						{
-							"ID": "20211228195801-afddgyz",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20211228195801-afddgyz",
-								"updated": "20211228195818"
-							},
-							"Children": [
-								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Properties": {
-										"style": "color: var(--b3-font-color8);"
-									},
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "注："
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
-								},
-								{
-									"Type": "NodeKramdownSpanIAL",
-									"Data": "{: style=\"color: var(--b3-font-color8);\"}"
-								},
-								{
-									"Type": "NodeText",
-									"Data": " "
-								},
-								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "ECMAScript中所有函数的参数都是按值传递的"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
-								},
-								{
-									"Type": "NodeText",
-									"Data": " ——《高程3》原话"
-								}
-							]
-						},
-						{
-							"ID": "20211228195822-j643gde",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20211228195822-j643gde",
-								"updated": "20211228200231"
-							},
-							"Children": [
-								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "(x)=\u003e{return x+x};"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
-								}
-							]
-						},
-						{
-							"ID": "20211228200010-rdkabxb",
-							"Type": "NodeList",
-							"ListData": {
-								"Typ": 1
-							},
-							"Properties": {
-								"id": "20211228200010-rdkabxb",
-								"updated": "20211228214804"
-							},
-							"Children": [
-								{
-									"ID": "20211228214804-xa40qc0",
-									"Type": "NodeListItem",
-									"ListData": {
-										"Typ": 1,
-										"Delimiter": 46,
-										"Marker": "MS4=",
-										"Num": 1
-									},
-									"Properties": {
-										"id": "20211228214804-xa40qc0"
-									},
-									"Children": [
-										{
-											"ID": "20211228214804-en0q0ig",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20211228214804-en0q0ig"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "如果“()”里面只有一个参数，那么就可以去掉“()”,"
-												}
-											]
-										},
-										{
-											"ID": "20211228214811-x6j8kl9",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20211228214811-x6j8kl9"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "如果“{}”里面只有一条语句，那么就可以去掉“{return }”."
-												}
-											]
-										},
-										{
-											"ID": "20211228214822-208996r",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20211228214822-208996r"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "变成"
-												},
-												{
-													"Type": "NodeCodeSpan",
-													"Data": "code",
-													"Children": [
-														{
-															"Type": "NodeCodeSpanOpenMarker"
-														},
-														{
-															"Type": "NodeCodeSpanContent",
-															"Data": "x=\u003ex+x;"
-														},
-														{
-															"Type": "NodeCodeSpanCloseMarker"
-														}
-													]
-												}
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"ID": "20211228200007-kha9ogn",
-							"Type": "NodeList",
-							"ListData": {
-								"Typ": 1
-							},
-							"Properties": {
-								"id": "20211228200007-kha9ogn",
-								"updated": "20211228222708"
-							},
-							"Children": [
-								{
-									"ID": "20211228214831-7c8pqka",
-									"Type": "NodeListItem",
-									"ListData": {
-										"Typ": 1,
-										"Delimiter": 46,
-										"Marker": "Mi4=",
-										"Num": 2
-									},
-									"Properties": {
-										"id": "20211228214831-7c8pqka"
-									},
-									"Children": [
-										{
-											"ID": "20211228214831-0xt24i9",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20211228214831-0xt24i9"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "如果箭头函数返回对象时，必须在对象外面加上括号"
-												}
-											]
-										},
-										{
-											"ID": "20211228214245-qq3z76q",
-											"Type": "NodeCodeBlock",
-											"IsFencedCodeBlock": true,
-											"Properties": {
-												"id": "20211228214245-qq3z76q",
-												"updated": "20211228214434"
-											},
-											"Children": [
-												{
-													"Type": "NodeCodeBlockFenceOpenMarker",
-													"Data": "```"
-												},
-												{
-													"Type": "NodeCodeBlockFenceInfoMarker",
-													"CodeBlockInfo": "anM="
-												},
-												{
-													"Type": "NodeCodeBlockCode",
-													"Data": "const fun =  id =\u003e( { id:id,name:'xxx' } )  里面的中括号标识这是个对象，外面的小括号是后加的\n"
-												},
-												{
-													"Type": "NodeCodeBlockFenceCloseMarker",
-													"Data": "```"
-												}
-											]
-										}
-									]
-								},
-								{
-									"ID": "20211228214847-iltos0o",
-									"Type": "NodeListItem",
-									"ListData": {
-										"Typ": 1,
-										"Delimiter": 46,
-										"Marker": "My4=",
-										"Num": 3
-									},
-									"Properties": {
-										"id": "20211228214847-iltos0o",
-										"updated": "20211228222708"
-									},
-									"Children": [
-										{
-											"ID": "20211228214847-14k0ya1",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20211228214847-14k0ya1",
-												"updated": "20211228215624"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "this的指向"
-												}
-											]
-										},
-										{
-											"ID": "20211228215625-y3tvd2j",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20211228215625-y3tvd2j",
-												"updated": "20211228222257"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "普通函数的this：指向它的调用者，如果没有调用者则默认指向window."
-												}
-											]
-										},
-										{
-											"ID": "20211228222258-sctkyk0",
-											"Type": "NodeCodeBlock",
-											"IsFencedCodeBlock": true,
-											"Properties": {
-												"id": "20211228222258-sctkyk0",
-												"updated": "20211228222708"
-											},
-											"Children": [
-												{
-													"Type": "NodeCodeBlockFenceOpenMarker",
-													"Data": "```"
-												},
-												{
-													"Type": "NodeCodeBlockFenceInfoMarker",
-													"CodeBlockInfo": "anM="
-												},
-												{
-													"Type": "NodeCodeBlockCode",
-													"Data": "例子：\n\u003cdiv id=\"box\"\u003e\u003c/div\u003e\n\u003cscript\u003e\n\tconst box = document.getElementById('box');\n\tbox.onclick=function(){}\n\u003c/script\u003e\n\n"
-												},
-												{
-													"Type": "NodeCodeBlockFenceCloseMarker",
-													"Data": "```"
-												}
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"ID": "20211228214058-hb3u3dv",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20211228214058-hb3u3dv",
-								"updated": "20211228214254"
-							}
 						},
 						{
 							"ID": "20211228194951-rsj04wi",

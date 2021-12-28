@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20211223200801-k7bt9gr",
 		"title": "ES6",
-		"updated": "20211228222708"
+		"updated": "20211227224021"
 	},
 	"Children": [
 		{
@@ -13,7 +13,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20211223200831-zf8yzv4",
-				"updated": "20211223201248"
+				"updated": "20211227200007"
 			},
 			"Children": [
 				{
@@ -26,7 +26,7 @@
 					"Properties": {
 						"fold": "1",
 						"id": "20211223200831-pruj0mz",
-						"updated": "20211223201248"
+						"updated": "20211227200007"
 					},
 					"Children": [
 						{
@@ -39,7 +39,7 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "用npm解决ES6兼容性"
+									"Data": "用npm解决ES6兼容性\n"
 								}
 							]
 						},
@@ -93,7 +93,7 @@
 							"ListData": {},
 							"Properties": {
 								"id": "20211223200831-0sn6el4",
-								"updated": "20211223201248"
+								"updated": "20211223215653"
 							},
 							"Children": [
 								{
@@ -742,11 +742,11 @@
 			]
 		},
 		{
-			"ID": "20211228194847-j44pwps",
+			"ID": "20211227200038-ka8ejho",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20211228194847-j44pwps",
-				"updated": "20211228194847"
+				"id": "20211227200038-ka8ejho",
+				"updated": "20211227200038"
 			}
 		},
 		{
@@ -755,42 +755,43 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20211227200040-8wvud2h",
-				"updated": "20211228191419"
+				"updated": "20211227224021"
 			},
 			"Children": [
 				{
-					"ID": "20211228191301-muig5am",
+					"ID": "20211227200042-v30n9sj",
 					"Type": "NodeListItem",
 					"ListData": {
 						"BulletChar": 42,
 						"Marker": "Kg=="
 					},
 					"Properties": {
-						"id": "20211228191301-muig5am",
-						"updated": "20211228191419"
+						"id": "20211227200042-v30n9sj",
+						"updated": "20211227224021"
 					},
 					"Children": [
 						{
-							"ID": "20211228191301-whlh8eo",
+							"ID": "20211227200042-qyj5zde",
 							"Type": "NodeHeading",
 							"HeadingLevel": 1,
 							"Properties": {
-								"id": "20211228191301-whlh8eo",
-								"updated": "20211228194821"
+								"id": "20211227200042-qyj5zde",
+								"updated": "20211227222655"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "let和const"
+									"Data": "关键字"
 								}
 							]
 						},
 						{
-							"ID": "20211228191526-f3itz1k",
+							"ID": "20211227222656-baii80k",
 							"Type": "NodeList",
 							"ListData": {},
 							"Properties": {
-								"id": "20211228191526-f3itz1k"
+								"id": "20211227222656-baii80k",
+								"updated": "20211227224021"
 							},
 							"Children": [
 								{
@@ -801,8 +802,8 @@
 										"Marker": "Kg=="
 									},
 									"Properties": {
-										"fold": "0",
-										"id": "20211227222829-lddk5y5"
+										"id": "20211227222829-lddk5y5",
+										"updated": "20211227224021"
 									},
 									"Children": [
 										{
@@ -827,7 +828,7 @@
 											},
 											"Properties": {
 												"id": "20211227222833-6b09h61",
-												"updated": "20211227222838"
+												"updated": "20211227224021"
 											},
 											"Children": [
 												{
@@ -840,7 +841,8 @@
 														"Num": 1
 													},
 													"Properties": {
-														"id": "20211227222838-9fb6ihe"
+														"id": "20211227222838-9fb6ihe",
+														"updated": "20211227224021"
 													},
 													"Children": [
 														{
@@ -865,7 +867,7 @@
 															},
 															"Properties": {
 																"id": "20211227222843-e9cxc3y",
-																"updated": "20211227222848"
+																"updated": "20211227224021"
 															},
 															"Children": [
 																{
@@ -963,7 +965,8 @@
 																		"Num": 3
 																	},
 																	"Properties": {
-																		"id": "20211227223106-tav2ilz"
+																		"id": "20211227223106-tav2ilz",
+																		"updated": "20211227224021"
 																	},
 																	"Children": [
 																		{
@@ -1000,7 +1003,7 @@
 																			"IsFencedCodeBlock": true,
 																			"Properties": {
 																				"id": "20211227223247-x9vut8z",
-																				"updated": "20211227225820"
+																				"updated": "20211227223350"
 																			},
 																			"Children": [
 																				{
@@ -1013,7 +1016,7 @@
 																				},
 																				{
 																					"Type": "NodeCodeBlockCode",
-																					"Data": "if｛ var a = 20；｝\nconsole.log(a);\n"
+																					"Data": "｛ var a = 20；｝\nconsole.log(a);\n"
 																				},
 																				{
 																					"Type": "NodeCodeBlockFenceCloseMarker",
@@ -1026,41 +1029,12 @@
 																			"Type": "NodeParagraph",
 																			"Properties": {
 																				"id": "20211227223308-wjpu062",
-																				"updated": "20211227225643"
+																				"updated": "20211227224021"
 																			},
 																			"Children": [
 																				{
 																					"Type": "NodeText",
-																					"Data": "只在function里面有作用域"
-																				}
-																			]
-																		}
-																	]
-																},
-																{
-																	"ID": "20211227230937-8htxgwa",
-																	"Type": "NodeListItem",
-																	"ListData": {
-																		"Typ": 1,
-																		"Delimiter": 46,
-																		"Marker": "NC4=",
-																		"Num": 4
-																	},
-																	"Properties": {
-																		"id": "20211227230937-8htxgwa"
-																	},
-																	"Children": [
-																		{
-																			"ID": "20211227230937-gp8chl6",
-																			"Type": "NodeParagraph",
-																			"Properties": {
-																				"id": "20211227230937-gp8chl6",
-																				"updated": "20211227231002"
-																			},
-																			"Children": [
-																				{
-																					"Type": "NodeText",
-																					"Data": "变量提升：在后面声明的变量都会提升到最前面"
+																					"Data": "但是在function里面有作用域"
 																				}
 																			]
 																		}
@@ -1075,675 +1049,10 @@
 									]
 								}
 							]
-						},
-						{
-							"ID": "20211228191745-phfyj1d",
-							"Type": "NodeList",
-							"ListData": {},
-							"Properties": {
-								"id": "20211228191745-phfyj1d"
-							},
-							"Children": [
-								{
-									"ID": "20211227230530-9qpwums",
-									"Type": "NodeListItem",
-									"ListData": {
-										"BulletChar": 42,
-										"Marker": "Kg=="
-									},
-									"Properties": {
-										"fold": "0",
-										"id": "20211227230530-9qpwums",
-										"updated": "20211227231127"
-									},
-									"Children": [
-										{
-											"ID": "20211227230530-fg29rk8",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20211227230530-fg29rk8",
-												"updated": "20211227230532"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "let"
-												}
-											]
-										},
-										{
-											"ID": "20211227230532-0dj6c9w",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20211227230532-0dj6c9w",
-												"updated": "20211228190914"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "解决了var的2个缺陷(可重复声明，无块作用域)"
-												}
-											]
-										},
-										{
-											"ID": "20211227231125-yrh2ryn",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20211227231125-yrh2ryn",
-												"updated": "20211227231127"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "let 声明的变量，只在 let 命令所在的代码块内有效\nlet 命令不存在变量提升\nlet 命令不允许在相同作用域内，重复声明同一个变量"
-												}
-											]
-										}
-									]
-								},
-								{
-									"ID": "20211228190816-5jhl6ui",
-									"Type": "NodeListItem",
-									"ListData": {
-										"BulletChar": 42,
-										"Marker": "Kg=="
-									},
-									"Properties": {
-										"fold": "0",
-										"id": "20211228190816-5jhl6ui"
-									},
-									"Children": [
-										{
-											"ID": "20211228190816-5iowcu7",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20211228190816-5iowcu7",
-												"updated": "20211228190824"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "const 常量"
-												}
-											]
-										},
-										{
-											"ID": "20211228190825-np6fgu0",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20211228190825-np6fgu0",
-												"updated": "20211228190859"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "解决了var无法限制修改的问题"
-												}
-											]
-										},
-										{
-											"ID": "20211228191931-mtice91",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20211228191931-mtice91",
-												"updated": "20211228192121"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "和let的区别是const声明的的值无法改变，并且const声明时赋值"
-												}
-											]
-										},
-										{
-											"ID": "20211228192806-u6aytvf",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20211228192806-u6aytvf",
-												"updated": "20211228192937"
-											},
-											"Children": [
-												{
-													"Type": "NodeMark",
-													"Data": "mark",
-													"Children": [
-														{
-															"Type": "NodeMark2OpenMarker"
-														},
-														{
-															"Type": "NodeText",
-															"Data": "凡是如果const是引用类型的（如一个对象），那么这个对象里面的内容可以更改"
-														},
-														{
-															"Type": "NodeMark2CloseMarker"
-														}
-													]
-												}
-											]
-										},
-										{
-											"ID": "20211228192858-opb1vcx",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20211228192858-opb1vcx",
-												"updated": "20211228192934"
-											},
-											"Children": [
-												{
-													"Type": "NodeStrong",
-													"Data": "strong",
-													"Children": [
-														{
-															"Type": "NodeStrongA6kOpenMarker",
-															"Data": "**"
-														},
-														{
-															"Type": "NodeText",
-															"Data": "其实就是栈里面的不可以改，但是堆立面的可以改"
-														},
-														{
-															"Type": "NodeStrongA6kCloseMarker",
-															"Data": "**"
-														}
-													]
-												}
-											]
-										},
-										{
-											"ID": "20211228193459-hlix5rn",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20211228193459-hlix5rn",
-												"updated": "20211228193547"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "如果是引用类型，那么栈里面存的是哪个对象的数据的首地址"
-												}
-											]
-										},
-										{
-											"ID": "20211228193549-8v8gtcs",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20211228193549-8v8gtcs",
-												"updated": "20211228193612"
-											},
-											"Children": [
-												{
-													"Type": "NodeImage",
-													"Data": "span",
-													"Properties": {
-														"parent-style": "max-width: 327px;",
-														"style": "width: 317px;"
-													},
-													"Children": [
-														{
-															"Type": "NodeBang"
-														},
-														{
-															"Type": "NodeOpenBracket"
-														},
-														{
-															"Type": "NodeLinkText",
-															"Data": "image.png"
-														},
-														{
-															"Type": "NodeCloseBracket"
-														},
-														{
-															"Type": "NodeOpenParen"
-														},
-														{
-															"Type": "NodeLinkDest",
-															"Data": "assets/image-20211228193612-ndbb0qm.png"
-														},
-														{
-															"Type": "NodeCloseParen"
-														}
-													]
-												},
-												{
-													"Type": "NodeKramdownSpanIAL",
-													"Data": "{: style=\"width: 317px;\" parent-style=\"max-width: 327px;\"}"
-												}
-											]
-										}
-									]
-								},
-								{
-									"ID": "20211228191608-hll9ejo",
-									"Type": "NodeListItem",
-									"ListData": {
-										"BulletChar": 42,
-										"Marker": "Kg=="
-									},
-									"Properties": {
-										"id": "20211228191608-hll9ejo"
-									},
-									"Children": [
-										{
-											"ID": "20211228191608-4n1fy45",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20211228191608-4n1fy45",
-												"updated": "20211228191612"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "总结"
-												}
-											]
-										},
-										{
-											"ID": "20211228191613-7cvf66i",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20211228191613-7cvf66i",
-												"updated": "20211228191613"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "有了let和const之后就可以完全不用var了"
-												}
-											]
-										}
-									]
-								}
-							]
 						}
 					]
 				}
 			]
-		},
-		{
-			"ID": "20211228191844-hwcuyq8",
-			"Type": "NodeList",
-			"ListData": {},
-			"Properties": {
-				"id": "20211228191844-hwcuyq8",
-				"updated": "20211228222708"
-			},
-			"Children": [
-				{
-					"ID": "20211228194859-ebk797w",
-					"Type": "NodeListItem",
-					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
-					},
-					"Properties": {
-						"id": "20211228194859-ebk797w",
-						"updated": "20211228222708"
-					},
-					"Children": [
-						{
-							"ID": "20211228194859-zjcptd5",
-							"Type": "NodeHeading",
-							"HeadingLevel": 1,
-							"Properties": {
-								"id": "20211228194859-zjcptd5",
-								"updated": "20211228194937"
-							},
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "箭头函数\"=\u003e\""
-								}
-							]
-						},
-						{
-							"ID": "20211228194949-di0wkn4",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20211228194949-di0wkn4",
-								"updated": "20211228194949"
-							},
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "Arrow Function"
-								}
-							]
-						},
-						{
-							"ID": "20211228195801-afddgyz",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20211228195801-afddgyz",
-								"updated": "20211228195818"
-							},
-							"Children": [
-								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Properties": {
-										"style": "color: var(--b3-font-color8);"
-									},
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "注："
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
-								},
-								{
-									"Type": "NodeKramdownSpanIAL",
-									"Data": "{: style=\"color: var(--b3-font-color8);\"}"
-								},
-								{
-									"Type": "NodeText",
-									"Data": " "
-								},
-								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "ECMAScript中所有函数的参数都是按值传递的"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
-								},
-								{
-									"Type": "NodeText",
-									"Data": " ——《高程3》原话"
-								}
-							]
-						},
-						{
-							"ID": "20211228195822-j643gde",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20211228195822-j643gde",
-								"updated": "20211228200231"
-							},
-							"Children": [
-								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "(x)=\u003e{return x+x};"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
-								}
-							]
-						},
-						{
-							"ID": "20211228200010-rdkabxb",
-							"Type": "NodeList",
-							"ListData": {
-								"Typ": 1
-							},
-							"Properties": {
-								"id": "20211228200010-rdkabxb",
-								"updated": "20211228214804"
-							},
-							"Children": [
-								{
-									"ID": "20211228214804-xa40qc0",
-									"Type": "NodeListItem",
-									"ListData": {
-										"Typ": 1,
-										"Delimiter": 46,
-										"Marker": "MS4=",
-										"Num": 1
-									},
-									"Properties": {
-										"id": "20211228214804-xa40qc0"
-									},
-									"Children": [
-										{
-											"ID": "20211228214804-en0q0ig",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20211228214804-en0q0ig"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "如果“()”里面只有一个参数，那么就可以去掉“()”,"
-												}
-											]
-										},
-										{
-											"ID": "20211228214811-x6j8kl9",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20211228214811-x6j8kl9"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "如果“{}”里面只有一条语句，那么就可以去掉“{return }”."
-												}
-											]
-										},
-										{
-											"ID": "20211228214822-208996r",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20211228214822-208996r"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "变成"
-												},
-												{
-													"Type": "NodeCodeSpan",
-													"Data": "code",
-													"Children": [
-														{
-															"Type": "NodeCodeSpanOpenMarker"
-														},
-														{
-															"Type": "NodeCodeSpanContent",
-															"Data": "x=\u003ex+x;"
-														},
-														{
-															"Type": "NodeCodeSpanCloseMarker"
-														}
-													]
-												}
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"ID": "20211228200007-kha9ogn",
-							"Type": "NodeList",
-							"ListData": {
-								"Typ": 1
-							},
-							"Properties": {
-								"id": "20211228200007-kha9ogn",
-								"updated": "20211228222708"
-							},
-							"Children": [
-								{
-									"ID": "20211228214831-7c8pqka",
-									"Type": "NodeListItem",
-									"ListData": {
-										"Typ": 1,
-										"Delimiter": 46,
-										"Marker": "Mi4=",
-										"Num": 2
-									},
-									"Properties": {
-										"id": "20211228214831-7c8pqka"
-									},
-									"Children": [
-										{
-											"ID": "20211228214831-0xt24i9",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20211228214831-0xt24i9"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "如果箭头函数返回对象时，必须在对象外面加上括号"
-												}
-											]
-										},
-										{
-											"ID": "20211228214245-qq3z76q",
-											"Type": "NodeCodeBlock",
-											"IsFencedCodeBlock": true,
-											"Properties": {
-												"id": "20211228214245-qq3z76q",
-												"updated": "20211228214434"
-											},
-											"Children": [
-												{
-													"Type": "NodeCodeBlockFenceOpenMarker",
-													"Data": "```"
-												},
-												{
-													"Type": "NodeCodeBlockFenceInfoMarker",
-													"CodeBlockInfo": "anM="
-												},
-												{
-													"Type": "NodeCodeBlockCode",
-													"Data": "const fun =  id =\u003e( { id:id,name:'xxx' } )  里面的中括号标识这是个对象，外面的小括号是后加的\n"
-												},
-												{
-													"Type": "NodeCodeBlockFenceCloseMarker",
-													"Data": "```"
-												}
-											]
-										}
-									]
-								},
-								{
-									"ID": "20211228214847-iltos0o",
-									"Type": "NodeListItem",
-									"ListData": {
-										"Typ": 1,
-										"Delimiter": 46,
-										"Marker": "My4=",
-										"Num": 3
-									},
-									"Properties": {
-										"id": "20211228214847-iltos0o",
-										"updated": "20211228222708"
-									},
-									"Children": [
-										{
-											"ID": "20211228214847-14k0ya1",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20211228214847-14k0ya1",
-												"updated": "20211228215624"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "this的指向"
-												}
-											]
-										},
-										{
-											"ID": "20211228215625-y3tvd2j",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20211228215625-y3tvd2j",
-												"updated": "20211228222257"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "普通函数的this：指向它的调用者，如果没有调用者则默认指向window."
-												}
-											]
-										},
-										{
-											"ID": "20211228222258-sctkyk0",
-											"Type": "NodeCodeBlock",
-											"IsFencedCodeBlock": true,
-											"Properties": {
-												"id": "20211228222258-sctkyk0",
-												"updated": "20211228222708"
-											},
-											"Children": [
-												{
-													"Type": "NodeCodeBlockFenceOpenMarker",
-													"Data": "```"
-												},
-												{
-													"Type": "NodeCodeBlockFenceInfoMarker",
-													"CodeBlockInfo": "anM="
-												},
-												{
-													"Type": "NodeCodeBlockCode",
-													"Data": "例子：\n\u003cdiv id=\"box\"\u003e\u003c/div\u003e\n\u003cscript\u003e\n\tconst box = document.getElementById('box');\n\tbox.onclick=function(){}\n\u003c/script\u003e\n\n"
-												},
-												{
-													"Type": "NodeCodeBlockFenceCloseMarker",
-													"Data": "```"
-												}
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"ID": "20211228214058-hb3u3dv",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20211228214058-hb3u3dv",
-								"updated": "20211228214254"
-							}
-						},
-						{
-							"ID": "20211228194951-rsj04wi",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20211228194951-rsj04wi"
-							}
-						}
-					]
-				}
-			]
-		},
-		{
-			"ID": "20211228194917-41jan21",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20211228194917-41jan21",
-				"updated": "20211228194917"
-			}
 		}
 	]
 }
