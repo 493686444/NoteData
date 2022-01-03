@@ -3,8 +3,8 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20211228091941-hlg7wnm",
-		"title": "伤口评估记录表",
-		"updated": "20211230100557"
+		"title": "治疗",
+		"updated": "20211230093926"
 	},
 	"Children": [
 		{
@@ -157,14 +157,6 @@
 					]
 				}
 			]
-		},
-		{
-			"ID": "20211230100557-d0017ov",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20211230100557-d0017ov",
-				"updated": "20211230100557"
-			}
 		}
 	]
 }

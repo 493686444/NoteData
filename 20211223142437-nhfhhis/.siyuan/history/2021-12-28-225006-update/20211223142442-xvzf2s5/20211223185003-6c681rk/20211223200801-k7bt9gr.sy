@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20211223200801-k7bt9gr",
 		"title": "ES6",
-		"updated": "20211229231236"
+		"updated": "20211228225003"
 	},
 	"Children": [
 		{
@@ -743,109 +743,11 @@
 		},
 		{
 			"ID": "20211228194847-j44pwps",
-			"Type": "NodeList",
-			"ListData": {},
+			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20211228194847-j44pwps",
-				"updated": "20211229195019"
-			},
-			"Children": [
-				{
-					"ID": "20211229192611-92bw7v3",
-					"Type": "NodeListItem",
-					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
-					},
-					"Properties": {
-						"id": "20211229192611-92bw7v3",
-						"updated": "20211229195019"
-					},
-					"Children": [
-						{
-							"ID": "20211229192611-dizo1zg",
-							"Type": "NodeHeading",
-							"HeadingLevel": 1,
-							"Properties": {
-								"id": "20211229192611-dizo1zg",
-								"updated": "20211229192628"
-							},
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "其它"
-								}
-							]
-						},
-						{
-							"ID": "20211229192629-78vo46s",
-							"Type": "NodeList",
-							"ListData": {},
-							"Properties": {
-								"id": "20211229192629-78vo46s",
-								"updated": "20211229195019"
-							},
-							"Children": [
-								{
-									"ID": "20211229192639-x4kvkze",
-									"Type": "NodeListItem",
-									"ListData": {
-										"BulletChar": 42,
-										"Marker": "Kg=="
-									},
-									"Properties": {
-										"id": "20211229192639-x4kvkze",
-										"updated": "20211229195019"
-									},
-									"Children": [
-										{
-											"ID": "20211229192639-t98lojs",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20211229192639-t98lojs",
-												"updated": "20211229192702"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "for循环数组的新方法"
-												}
-											]
-										},
-										{
-											"ID": "20211229192703-1dlwd9v",
-											"Type": "NodeCodeBlock",
-											"IsFencedCodeBlock": true,
-											"Properties": {
-												"id": "20211229192703-1dlwd9v",
-												"updated": "20211229195019"
-											},
-											"Children": [
-												{
-													"Type": "NodeCodeBlockFenceOpenMarker",
-													"Data": "```"
-												},
-												{
-													"Type": "NodeCodeBlockFenceInfoMarker",
-													"CodeBlockInfo": "anM="
-												},
-												{
-													"Type": "NodeCodeBlockCode",
-													"Data": "//例子\nlet arr=[11,50,4,30,7];\nlet arr1=[];\nfor(let n of arr){\n\tif(n\u003e10)\n\t  arr1.push(n);\n}\n"
-												},
-												{
-													"Type": "NodeCodeBlockFenceCloseMarker",
-													"Data": "```"
-												}
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			]
+				"updated": "20211228194847"
+			}
 		},
 		{
 			"ID": "20211227200040-8wvud2h",
@@ -864,7 +766,6 @@
 						"Marker": "Kg=="
 					},
 					"Properties": {
-						"fold": "0",
 						"id": "20211228191301-muig5am",
 						"updated": "20211227231002"
 					},
@@ -1469,7 +1370,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20211228191844-hwcuyq8",
-				"updated": "20211229195735"
+				"updated": "20211228225003"
 			},
 			"Children": [
 				{
@@ -1480,9 +1381,8 @@
 						"Marker": "Kg=="
 					},
 					"Properties": {
-						"fold": "0",
 						"id": "20211228194859-ebk797w",
-						"updated": "20211228225223"
+						"updated": "20211228225003"
 					},
 					"Children": [
 						{
@@ -1692,7 +1592,7 @@
 							},
 							"Properties": {
 								"id": "20211228200007-kha9ogn",
-								"updated": "20211228225223"
+								"updated": "20211228225003"
 							},
 							"Children": [
 								{
@@ -1761,7 +1661,7 @@
 									},
 									"Properties": {
 										"id": "20211228214847-iltos0o",
-										"updated": "20211228225223"
+										"updated": "20211228225003"
 									},
 									"Children": [
 										{
@@ -1782,39 +1682,12 @@
 											"ID": "20211228224521-49oqcgf",
 											"Type": "NodeParagraph",
 											"Properties": {
-												"id": "20211228224521-49oqcgf",
-												"updated": "20211228225223"
+												"id": "20211228224521-49oqcgf"
 											},
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "详情在"
-												},
-												{
-													"Type": "NodeLink",
-													"Data": "span",
-													"Children": [
-														{
-															"Type": "NodeOpenBracket"
-														},
-														{
-															"Type": "NodeLinkText",
-															"Data": "p31"
-														},
-														{
-															"Type": "NodeCloseBracket"
-														},
-														{
-															"Type": "NodeOpenParen"
-														},
-														{
-															"Type": "NodeLinkDest",
-															"Data": "https://www.bilibili.com/video/BV1Pz4y1S7Uv?p=31"
-														},
-														{
-															"Type": "NodeCloseParen"
-														}
-													]
+													"Data": "p31"
 												}
 											]
 										},
@@ -1865,7 +1738,7 @@
 											"Type": "NodeParagraph",
 											"Properties": {
 												"id": "20211228224933-jg4w32k",
-												"updated": "20211228225053"
+												"updated": "20211228225003"
 											},
 											"Children": [
 												{
@@ -1892,608 +1765,39 @@
 												{
 													"Type": "NodeKramdownSpanIAL",
 													"Data": "{: style=\"color: var(--b3-font-color8);\"}"
-												},
-												{
-													"Type": "NodeText",
-													"Data": "个人认为，“=\u003e”的this要比普普通通的好用，普通的this更像是一种bug。"
 												}
 											]
 										}
 									]
-								}
-							]
-						}
-					]
-				},
-				{
-					"ID": "20211229192057-ozt64it",
-					"Type": "NodeListItem",
-					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
-					},
-					"Properties": {
-						"id": "20211229192057-ozt64it",
-						"updated": "20211229195735"
-					},
-					"Children": [
-						{
-							"ID": "20211229192057-6xui1iz",
-							"Type": "NodeHeading",
-							"HeadingLevel": 1,
-							"Properties": {
-								"id": "20211229192057-6xui1iz",
-								"updated": "20211229192114"
-							},
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "数组的新增高级方法"
 								}
 							]
 						},
 						{
-							"ID": "20211229192115-ejculww",
-							"Type": "NodeList",
-							"ListData": {},
+							"ID": "20211228214058-hb3u3dv",
+							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20211229192115-ejculww",
-								"updated": "20211229195735"
-							},
-							"Children": [
-								{
-									"ID": "20211229192119-7e1uite",
-									"Type": "NodeListItem",
-									"ListData": {
-										"BulletChar": 42,
-										"Marker": "Kg=="
-									},
-									"Properties": {
-										"id": "20211229192119-7e1uite"
-									},
-									"Children": [
-										{
-											"ID": "20211229192119-0bhs5md",
-											"Type": "NodeHeading",
-											"HeadingLevel": 2,
-											"Properties": {
-												"id": "20211229192119-0bhs5md",
-												"updated": "20211229192140"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "filter过滤器"
-												}
-											]
-										},
-										{
-											"ID": "20211229192141-91xcwlg",
-											"Type": "NodeCodeBlock",
-											"IsFencedCodeBlock": true,
-											"Properties": {
-												"id": "20211229192141-91xcwlg",
-												"updated": "20211229195013"
-											},
-											"Children": [
-												{
-													"Type": "NodeCodeBlockFenceOpenMarker",
-													"Data": "```"
-												},
-												{
-													"Type": "NodeCodeBlockFenceInfoMarker",
-													"CodeBlockInfo": "anM="
-												},
-												{
-													"Type": "NodeCodeBlockCode",
-													"Data": "let arr = [11,40,30,50,4];\nlet arr1 = arr.filter(n=\u003en\u003e10;)取出数组中大于10的元素；n代表的是arr里面的元素\n\n//注意 \n1. n=\u003en\u003e10;可以用function(n){return n\u003e10;}代替\n"
-												},
-												{
-													"Type": "NodeCodeBlockFenceCloseMarker",
-													"Data": "```"
-												}
-											]
-										}
-									]
-								},
-								{
-									"ID": "20211229194500-afex9ke",
-									"Type": "NodeListItem",
-									"ListData": {
-										"BulletChar": 42,
-										"Marker": "Kg=="
-									},
-									"Properties": {
-										"id": "20211229194500-afex9ke"
-									},
-									"Children": [
-										{
-											"ID": "20211229194500-1d3lbgp",
-											"Type": "NodeHeading",
-											"HeadingLevel": 2,
-											"Properties": {
-												"id": "20211229194500-1d3lbgp",
-												"updated": "20211229194512"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "map映射"
-												}
-											]
-										},
-										{
-											"ID": "20211229194512-xs7mfv7",
-											"Type": "NodeCodeBlock",
-											"IsFencedCodeBlock": true,
-											"Properties": {
-												"id": "20211229194512-xs7mfv7",
-												"updated": "20211229194903"
-											},
-											"Children": [
-												{
-													"Type": "NodeCodeBlockFenceOpenMarker",
-													"Data": "```"
-												},
-												{
-													"Type": "NodeCodeBlockFenceInfoMarker",
-													"CodeBlockInfo": "anM="
-												},
-												{
-													"Type": "NodeCodeBlockCode",
-													"Data": "let arr = [11,40,30,50,4];\nlet arr2 = arr.map(n=\u003en*0.5;) 将arr里面的元素乘以0.5放进arr2里面\n"
-												},
-												{
-													"Type": "NodeCodeBlockFenceCloseMarker",
-													"Data": "```"
-												}
-											]
-										}
-									]
-								},
-								{
-									"ID": "20211229195309-hshgwgb",
-									"Type": "NodeListItem",
-									"ListData": {
-										"BulletChar": 42,
-										"Marker": "Kg=="
-									},
-									"Properties": {
-										"id": "20211229195309-hshgwgb",
-										"updated": "20211229195735"
-									},
-									"Children": [
-										{
-											"ID": "20211229195309-y7c0gn5",
-											"Type": "NodeHeading",
-											"HeadingLevel": 2,
-											"Properties": {
-												"id": "20211229195309-y7c0gn5",
-												"updated": "20211229195355"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "reduce压缩、变小"
-												}
-											]
-										},
-										{
-											"ID": "20211229195357-vsbwwq1",
-											"Type": "NodeCodeBlock",
-											"IsFencedCodeBlock": true,
-											"Properties": {
-												"id": "20211229195357-vsbwwq1",
-												"updated": "20211229224425"
-											},
-											"Children": [
-												{
-													"Type": "NodeCodeBlockFenceOpenMarker",
-													"Data": "```"
-												},
-												{
-													"Type": "NodeCodeBlockFenceInfoMarker",
-													"CodeBlockInfo": "anM="
-												},
-												{
-													"Type": "NodeCodeBlockCode",
-													"Data": "let sum = arr.reduce((s,n)=\u003es+n;)  s就是一个贪吃蛇，它一个接着一个的吃掉n（吃掉数组中的元素）\n"
-												},
-												{
-													"Type": "NodeCodeBlockFenceCloseMarker",
-													"Data": "```"
-												}
-											]
-										}
-									]
-								},
-								{
-									"ID": "20211229224632-qlvruuj",
-									"Type": "NodeListItem",
-									"ListData": {
-										"BulletChar": 42,
-										"Marker": "Kg=="
-									},
-									"Properties": {
-										"id": "20211229224632-qlvruuj"
-									},
-									"Children": [
-										{
-											"ID": "20211229224632-p4nrptv",
-											"Type": "NodeHeading",
-											"HeadingLevel": 2,
-											"Properties": {
-												"id": "20211229224632-p4nrptv",
-												"updated": "20211229225521"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "以上3个的综合举例"
-												}
-											]
-										},
-										{
-											"ID": "20211229224843-dm4w44z",
-											"Type": "NodeList",
-											"ListData": {},
-											"Properties": {
-												"id": "20211229224843-dm4w44z",
-												"updated": "20211229224847"
-											},
-											"Children": [
-												{
-													"ID": "20211229224847-w5e9kuj",
-													"Type": "NodeListItem",
-													"ListData": {
-														"BulletChar": 42,
-														"Marker": "Kg=="
-													},
-													"Properties": {
-														"id": "20211229224847-w5e9kuj"
-													},
-													"Children": [
-														{
-															"ID": "20211229224847-zaa96yi",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211229224847-zaa96yi",
-																"updated": "20211229224906"
-															},
-															"Children": [
-																{
-																	"Type": "NodeText",
-																	"Data": "这是没用“=\u003e”的形式"
-																}
-															]
-														},
-														{
-															"ID": "20211229224655-torx8ht",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211229224655-torx8ht",
-																"updated": "20211229224716"
-															},
-															"Children": [
-																{
-																	"Type": "NodeImage",
-																	"Data": "span",
-																	"Properties": {
-																		"parent-style": "max-width: 461px;",
-																		"style": "width: 451px;"
-																	},
-																	"Children": [
-																		{
-																			"Type": "NodeBang"
-																		},
-																		{
-																			"Type": "NodeOpenBracket"
-																		},
-																		{
-																			"Type": "NodeLinkText",
-																			"Data": "image.png"
-																		},
-																		{
-																			"Type": "NodeCloseBracket"
-																		},
-																		{
-																			"Type": "NodeOpenParen"
-																		},
-																		{
-																			"Type": "NodeLinkDest",
-																			"Data": "assets/image-20211229224716-se192xs.png"
-																		},
-																		{
-																			"Type": "NodeCloseParen"
-																		}
-																	]
-																},
-																{
-																	"Type": "NodeKramdownSpanIAL",
-																	"Data": "{: style=\"width: 451px;\" parent-style=\"max-width: 461px;\"}"
-																}
-															]
-														}
-													]
-												},
-												{
-													"ID": "20211229224945-1vfli1j",
-													"Type": "NodeListItem",
-													"ListData": {
-														"BulletChar": 42,
-														"Marker": "Kg=="
-													},
-													"Properties": {
-														"id": "20211229224945-1vfli1j"
-													},
-													"Children": [
-														{
-															"ID": "20211229224945-obvbivz",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211229224945-obvbivz",
-																"updated": "20211229225311"
-															},
-															"Children": [
-																{
-																	"Type": "NodeText",
-																	"Data": "这是使用“=\u003e”并且结合了链式书写的形式"
-																}
-															]
-														},
-														{
-															"ID": "20211229225005-4psk4ns",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20211229225005-4psk4ns",
-																"updated": "20211229225234"
-															},
-															"Children": [
-																{
-																	"Type": "NodeImage",
-																	"Data": "span",
-																	"Properties": {
-																		"parent-style": "max-width: 654px;",
-																		"style": "width: 644px;"
-																	},
-																	"Children": [
-																		{
-																			"Type": "NodeBang"
-																		},
-																		{
-																			"Type": "NodeOpenBracket"
-																		},
-																		{
-																			"Type": "NodeLinkText",
-																			"Data": "image.png"
-																		},
-																		{
-																			"Type": "NodeCloseBracket"
-																		},
-																		{
-																			"Type": "NodeOpenParen"
-																		},
-																		{
-																			"Type": "NodeLinkDest",
-																			"Data": "assets/image-20211229225234-g2q11ch.png"
-																		},
-																		{
-																			"Type": "NodeCloseParen"
-																		}
-																	]
-																},
-																{
-																	"Type": "NodeKramdownSpanIAL",
-																	"Data": "{: style=\"width: 644px;\" parent-style=\"max-width: 654px;\"}"
-																}
-															]
-														}
-													]
-												}
-											]
-										}
-									]
-								},
-								{
-									"ID": "20211229225524-a4zwpwc",
-									"Type": "NodeListItem",
-									"ListData": {
-										"BulletChar": 42,
-										"Marker": "Kg=="
-									},
-									"Properties": {
-										"id": "20211229225524-a4zwpwc"
-									},
-									"Children": [
-										{
-											"ID": "20211229225524-x6nujd6",
-											"Type": "NodeHeading",
-											"HeadingLevel": 2,
-											"Properties": {
-												"id": "20211229225524-x6nujd6",
-												"updated": "20211229225537"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "其它高级函数"
-												}
-											]
-										},
-										{
-											"ID": "20211229225538-e3j45lw",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20211229225538-e3j45lw",
-												"updated": "20211229225641"
-											},
-											"Children": [
-												{
-													"Type": "NodeCodeSpan",
-													"Data": "code",
-													"Children": [
-														{
-															"Type": "NodeCodeSpanOpenMarker"
-														},
-														{
-															"Type": "NodeCodeSpanContent",
-															"Data": ".some()"
-														},
-														{
-															"Type": "NodeCodeSpanCloseMarker"
-														}
-													]
-												},
-												{
-													"Type": "NodeText",
-													"Data": " 有一个为true就返回true"
-												}
-											]
-										},
-										{
-											"ID": "20211229225628-ilcklqx",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20211229225628-ilcklqx",
-												"updated": "20211229225711"
-											},
-											"Children": [
-												{
-													"Type": "NodeCodeSpan",
-													"Data": "code",
-													"Children": [
-														{
-															"Type": "NodeCodeSpanOpenMarker"
-														},
-														{
-															"Type": "NodeCodeSpanContent",
-															"Data": ".every()"
-														},
-														{
-															"Type": "NodeCodeSpanCloseMarker"
-														}
-													]
-												},
-												{
-													"Type": "NodeText",
-													"Data": " 有一个为false就返回false"
-												}
-											]
-										}
-									]
-								}
-							]
+								"id": "20211228214058-hb3u3dv",
+								"updated": "20211228214254"
+							}
+						},
+						{
+							"ID": "20211228194951-rsj04wi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211228194951-rsj04wi"
+							}
 						}
 					]
 				}
 			]
 		},
 		{
-			"ID": "20211229230030-g8cox67",
-			"Type": "NodeList",
-			"ListData": {},
+			"ID": "20211228194917-41jan21",
+			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20211229230030-g8cox67",
-				"updated": "20211229231236"
-			},
-			"Children": [
-				{
-					"ID": "20211229230108-73a1g6t",
-					"Type": "NodeListItem",
-					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
-					},
-					"Properties": {
-						"id": "20211229230108-73a1g6t",
-						"updated": "20211229231236"
-					},
-					"Children": [
-						{
-							"ID": "20211229230108-mfzx7vc",
-							"Type": "NodeHeading",
-							"HeadingLevel": 1,
-							"Properties": {
-								"id": "20211229230108-mfzx7vc",
-								"updated": "20211229230225"
-							},
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "数据结构set和map(ES6新增的)"
-								}
-							]
-						},
-						{
-							"ID": "20211229230116-72e8r8s",
-							"Type": "NodeList",
-							"ListData": {},
-							"Properties": {
-								"id": "20211229230116-72e8r8s",
-								"updated": "20211229231236"
-							},
-							"Children": [
-								{
-									"ID": "20211229230122-0bmx01t",
-									"Type": "NodeListItem",
-									"ListData": {
-										"BulletChar": 42,
-										"Marker": "Kg=="
-									},
-									"Properties": {
-										"id": "20211229230122-0bmx01t",
-										"updated": "20211229231236"
-									},
-									"Children": [
-										{
-											"ID": "20211229230122-cn45jyy",
-											"Type": "NodeHeading",
-											"HeadingLevel": 2,
-											"Properties": {
-												"id": "20211229230122-cn45jyy",
-												"updated": "20211229230231"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "set"
-												}
-											]
-										},
-										{
-											"ID": "20211229230312-fgidg3n",
-											"Type": "NodeCodeBlock",
-											"IsFencedCodeBlock": true,
-											"Properties": {
-												"id": "20211229230312-fgidg3n",
-												"updated": "20211229231236"
-											},
-											"Children": [
-												{
-													"Type": "NodeCodeBlockFenceOpenMarker",
-													"Data": "```"
-												},
-												{
-													"Type": "NodeCodeBlockFenceInfoMarker",
-													"CodeBlockInfo": "anM="
-												},
-												{
-													"Type": "NodeCodeBlockCode",
-													"Data": "//这个的使用需要new一下\nconst abj = new set();\n//添加数据使用add\nabj.add(1);  //举例说明，这里加进去一个1\nabj.add(1);  //这里又加了一遍，但因为已经有了1，就重复了所以无效\nabj.add([\"aa\",\"bb\"])  //还可以添加数组\n\n//判断是否有某个数据\nabj.has(1); //如果有就返回true，否则返回false\n\n//删除某个数据\nabj.delete(1);  //如果有则删除并且返回true\n\n//遍历\nabj.forEach(n=\u003econsole.log(n));\n"
-												},
-												{
-													"Type": "NodeCodeBlockFenceCloseMarker",
-													"Data": "```"
-												}
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			]
+				"id": "20211228194917-41jan21",
+				"updated": "20211228194917"
+			}
 		}
 	]
 }

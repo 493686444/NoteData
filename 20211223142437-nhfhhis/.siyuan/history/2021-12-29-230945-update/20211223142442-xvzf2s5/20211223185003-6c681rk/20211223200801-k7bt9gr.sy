@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20211223200801-k7bt9gr",
 		"title": "ES6",
-		"updated": "20211229231236"
+		"updated": "20211229230929"
 	},
 	"Children": [
 		{
@@ -2394,7 +2394,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20211229230030-g8cox67",
-				"updated": "20211229231236"
+				"updated": "20211229230929"
 			},
 			"Children": [
 				{
@@ -2406,7 +2406,7 @@
 					},
 					"Properties": {
 						"id": "20211229230108-73a1g6t",
-						"updated": "20211229231236"
+						"updated": "20211229230929"
 					},
 					"Children": [
 						{
@@ -2430,7 +2430,7 @@
 							"ListData": {},
 							"Properties": {
 								"id": "20211229230116-72e8r8s",
-								"updated": "20211229231236"
+								"updated": "20211229230929"
 							},
 							"Children": [
 								{
@@ -2442,7 +2442,7 @@
 									},
 									"Properties": {
 										"id": "20211229230122-0bmx01t",
-										"updated": "20211229231236"
+										"updated": "20211229230929"
 									},
 									"Children": [
 										{
@@ -2466,7 +2466,7 @@
 											"IsFencedCodeBlock": true,
 											"Properties": {
 												"id": "20211229230312-fgidg3n",
-												"updated": "20211229231236"
+												"updated": "20211229230929"
 											},
 											"Children": [
 												{
@@ -2479,7 +2479,7 @@
 												},
 												{
 													"Type": "NodeCodeBlockCode",
-													"Data": "//这个的使用需要new一下\nconst abj = new set();\n//添加数据使用add\nabj.add(1);  //举例说明，这里加进去一个1\nabj.add(1);  //这里又加了一遍，但因为已经有了1，就重复了所以无效\nabj.add([\"aa\",\"bb\"])  //还可以添加数组\n\n//判断是否有某个数据\nabj.has(1); //如果有就返回true，否则返回false\n\n//删除某个数据\nabj.delete(1);  //如果有则删除并且返回true\n\n//遍历\nabj.forEach(n=\u003econsole.log(n));\n"
+													"Data": "//这个的使用需要new一下\nconst abj = new set();\n//添加数据使用add\nabj.add(1);  //举例说明，这里加进去一个1\nabj.add(1);  //这里又加了一遍，但因为已经有了1，就重复了所以无效\nabj.add([\"aa\",\"bb\"])  //还可以添加数组\n\n//判断是否有某个数据\nabj.has(1); //如果有就返回true，否则返回false\n"
 												},
 												{
 													"Type": "NodeCodeBlockFenceCloseMarker",

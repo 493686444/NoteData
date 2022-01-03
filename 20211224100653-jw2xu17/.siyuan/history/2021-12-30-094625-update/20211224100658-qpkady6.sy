@@ -225,6 +225,8 @@
 								{
 									"Type": "NodeTableCell",
 									"Data": "th",
+									"TableCellContentWidth": 10,
+									"TableCellContentMaxWidth": 10,
 									"Children": [
 										{
 											"Type": "NodeText",
@@ -235,6 +237,8 @@
 								{
 									"Type": "NodeTableCell",
 									"Data": "th",
+									"TableCellContentWidth": 6,
+									"TableCellContentMaxWidth": 28,
 									"Children": [
 										{
 											"Type": "NodeText",
@@ -245,6 +249,8 @@
 								{
 									"Type": "NodeTableCell",
 									"Data": "th",
+									"TableCellContentWidth": 9,
+									"TableCellContentMaxWidth": 9,
 									"Children": [
 										{
 											"Type": "NodeText",
@@ -263,6 +269,8 @@
 						{
 							"Type": "NodeTableCell",
 							"Data": "td",
+							"TableCellContentWidth": 4,
+							"TableCellContentMaxWidth": 10,
 							"Children": [
 								{
 									"Type": "NodeBr",
@@ -273,6 +281,8 @@
 						{
 							"Type": "NodeTableCell",
 							"Data": "td",
+							"TableCellContentWidth": 28,
+							"TableCellContentMaxWidth": 28,
 							"Children": [
 								{
 									"Type": "NodeBlockRef",
@@ -293,7 +303,7 @@
 										},
 										{
 											"Type": "NodeBlockRefDynamicText",
-											"Data": "伤口评估记录表"
+											"Data": "治疗"
 										},
 										{
 											"Type": "NodeCloseParen"
@@ -307,7 +317,9 @@
 						},
 						{
 							"Type": "NodeTableCell",
-							"Data": "td"
+							"Data": "td",
+							"TableCellContentWidth": 2,
+							"TableCellContentMaxWidth": 9
 						}
 					]
 				},
@@ -317,26 +329,32 @@
 					"Children": [
 						{
 							"Type": "NodeTableCell",
-							"Data": "td"
+							"Data": "td",
+							"TableCellContentWidth": 2,
+							"TableCellContentMaxWidth": 10
 						},
 						{
 							"Type": "NodeTableCell",
-							"Data": "td"
+							"Data": "td",
+							"TableCellContentWidth": 2,
+							"TableCellContentMaxWidth": 28
 						},
 						{
 							"Type": "NodeTableCell",
-							"Data": "td"
+							"Data": "td",
+							"TableCellContentWidth": 2,
+							"TableCellContentMaxWidth": 9
 						}
 					]
 				}
 			]
 		},
 		{
-			"ID": "20211230100611-6tof588",
+			"ID": "20211224103954-2na16z6",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20211230100611-6tof588",
-				"updated": "20211230100611"
+				"id": "20211224103954-2na16z6",
+				"updated": "20211224103954"
 			}
 		}
 	]
