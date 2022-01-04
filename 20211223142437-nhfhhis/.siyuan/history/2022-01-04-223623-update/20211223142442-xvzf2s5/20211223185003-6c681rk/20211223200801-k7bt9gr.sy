@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20211223200801-k7bt9gr",
 		"title": "ES6",
-		"updated": "20220104230124"
+		"updated": "20220104223608"
 	},
 	"Children": [
 		{
@@ -2394,7 +2394,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20211229230030-g8cox67",
-				"updated": "20220104230124"
+				"updated": "20220104223608"
 			},
 			"Children": [
 				{
@@ -2406,7 +2406,7 @@
 					},
 					"Properties": {
 						"id": "20211229230108-73a1g6t",
-						"updated": "20211229231236"
+						"updated": "20220104223608"
 					},
 					"Children": [
 						{
@@ -2430,7 +2430,7 @@
 							"ListData": {},
 							"Properties": {
 								"id": "20211229230116-72e8r8s",
-								"updated": "20211229231236"
+								"updated": "20220104223608"
 							},
 							"Children": [
 								{
@@ -2521,7 +2521,7 @@
 											"IsFencedCodeBlock": true,
 											"Properties": {
 												"id": "20220104222843-t0pmogj",
-												"updated": "20220104223936"
+												"updated": "20220104223358"
 											},
 											"Children": [
 												{
@@ -2534,48 +2534,7 @@
 												},
 												{
 													"Type": "NodeCodeBlockCode",
-													"Data": "//它的添加用的是set\nconst obj=new Map();\nobj.set(\"one\",\"aaa\");//里面放的是键值对\n\n//获取值（通过键来获取）\nobj.get(\"one\");\n\n//判断是否有某个数据\nabj.has(\"one\"); \n\n//删除\nobj.delete(\"one\");\n"
-												},
-												{
-													"Type": "NodeCodeBlockFenceCloseMarker",
-													"Data": "```"
-												}
-											]
-										},
-										{
-											"ID": "20220104223811-5v5pkvk",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20220104223811-5v5pkvk",
-												"updated": "20220104223821"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "Map的遍历"
-												}
-											]
-										},
-										{
-											"ID": "20220104223821-v0hd1hw",
-											"Type": "NodeCodeBlock",
-											"IsFencedCodeBlock": true,
-											"Properties": {
-												"id": "20220104223821-v0hd1hw",
-												"updated": "20220104223842"
-											},
-											"Children": [
-												{
-													"Type": "NodeCodeBlockFenceOpenMarker",
-													"Data": "```"
-												},
-												{
-													"Type": "NodeCodeBlockFenceInfoMarker",
-													"CodeBlockInfo": "anM="
-												},
-												{
-													"Type": "NodeCodeBlockCode",
-													"Data": "keys()    返回键名的遍历器\nvalues()  返回键值的遍历器\nentries() 返回所有成员的遍历器\nforEach() 遍历Map的所有成员\n"
+													"Data": "//它的添加用的是set\nconst obj=new Map();\nobj.set(\"one\",\"aaa\");//里面放的是键值对\n\n//获取值（通过键来获取）\nobj.get(\"one\");\n\n//删除\nobj.delete(\"one\");\n"
 												},
 												{
 													"Type": "NodeCodeBlockFenceCloseMarker",
@@ -2593,7 +2552,8 @@
 										"Marker": "Kg=="
 									},
 									"Properties": {
-										"id": "20220104223502-pq4rvuu"
+										"id": "20220104223502-pq4rvuu",
+										"updated": "20220104223608"
 									},
 									"Children": [
 										{
@@ -2644,240 +2604,8 @@
 							]
 						}
 					]
-				},
-				{
-					"ID": "20220104224115-qerh8bl",
-					"Type": "NodeListItem",
-					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
-					},
-					"Properties": {
-						"id": "20220104224115-qerh8bl"
-					},
-					"Children": [
-						{
-							"ID": "20220104224115-jid06p4",
-							"Type": "NodeHeading",
-							"HeadingLevel": 1,
-							"Properties": {
-								"id": "20220104224115-jid06p4",
-								"updated": "20220104224136"
-							},
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "字符串新增功能"
-								}
-							]
-						},
-						{
-							"ID": "20220104224137-yb2v891",
-							"Type": "NodeList",
-							"ListData": {},
-							"Properties": {
-								"id": "20220104224137-yb2v891",
-								"updated": "20220104224147"
-							},
-							"Children": [
-								{
-									"ID": "20220104224147-nefqp87",
-									"Type": "NodeListItem",
-									"ListData": {
-										"BulletChar": 42,
-										"Marker": "Kg=="
-									},
-									"Properties": {
-										"id": "20220104224147-nefqp87"
-									},
-									"Children": [
-										{
-											"ID": "20220104224147-ppbfbq5",
-											"Type": "NodeHeading",
-											"HeadingLevel": 2,
-											"Properties": {
-												"id": "20220104224147-ppbfbq5",
-												"updated": "20220104224151"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "字符串的新方法"
-												}
-											]
-										},
-										{
-											"ID": "20220104224152-r30gwgm",
-											"Type": "NodeCodeBlock",
-											"IsFencedCodeBlock": true,
-											"Properties": {
-												"id": "20220104224152-r30gwgm",
-												"updated": "20220104224725"
-											},
-											"Children": [
-												{
-													"Type": "NodeCodeBlockFenceOpenMarker",
-													"Data": "```"
-												},
-												{
-													"Type": "NodeCodeBlockFenceInfoMarker",
-													"CodeBlockInfo": "anM="
-												},
-												{
-													"Type": "NodeCodeBlockCode",
-													"Data": "startsWith    //判断以什么字符串开头\n//例子；\nlet url = \"https://www.lmonkey.com\";\nif(url.startswith(\"https\")){\n\tconsole.log(\"1\");\n}else{\n\tconsole.log(\"2\");\n}\n\nendsWith      //判断以什么字符串结尾\nif(url.endswith(\"com\")){\n\tconsole.log(\"1\");\n}else{\n\tconsole.log(\"2\");\n}\n"
-												},
-												{
-													"Type": "NodeCodeBlockFenceCloseMarker",
-													"Data": "```"
-												}
-											]
-										}
-									]
-								},
-								{
-									"ID": "20220104224945-fgidw24",
-									"Type": "NodeListItem",
-									"ListData": {
-										"BulletChar": 42,
-										"Marker": "Kg=="
-									},
-									"Properties": {
-										"id": "20220104224945-fgidw24"
-									},
-									"Children": [
-										{
-											"ID": "20220104224945-5yxjc5o",
-											"Type": "NodeHeading",
-											"HeadingLevel": 2,
-											"Properties": {
-												"id": "20220104224945-5yxjc5o",
-												"updated": "20220104225221"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "模板字符串  \"`\""
-												}
-											]
-										},
-										{
-											"ID": "20220104224954-ukfsn3p",
-											"Type": "NodeCodeBlock",
-											"IsFencedCodeBlock": true,
-											"Properties": {
-												"id": "20220104224954-ukfsn3p",
-												"updated": "20220104230044"
-											},
-											"Children": [
-												{
-													"Type": "NodeCodeBlockFenceOpenMarker",
-													"Data": "```"
-												},
-												{
-													"Type": "NodeCodeBlockFenceInfoMarker",
-													"CodeBlockInfo": "anM="
-												},
-												{
-													"Type": "NodeCodeBlockCode",
-													"Data": "``可以当做\"\"来使用，但是会有不同（``会更好用）\n\n//例子：\nlet str = `\n\t1\n\t2\n`\n//页面显示的时候也会这么换行\n\n//例子：\n//可以用${}来嵌入模板(变量)\nlet str1 = `1`;\nlet str2 = `1 ${str1} 2`;\n"
-												},
-												{
-													"Type": "NodeCodeBlockFenceCloseMarker",
-													"Data": "```"
-												}
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				},
-				{
-					"ID": "20220104230114-mtceokw",
-					"Type": "NodeListItem",
-					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
-					},
-					"Properties": {
-						"id": "20220104230114-mtceokw",
-						"updated": "20220104230124"
-					},
-					"Children": [
-						{
-							"ID": "20220104230114-z4fauh3",
-							"Type": "NodeHeading",
-							"HeadingLevel": 1,
-							"Properties": {
-								"id": "20220104230114-z4fauh3",
-								"updated": "20220104230119"
-							},
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "ES6解构赋值和扩展运算符"
-								}
-							]
-						},
-						{
-							"ID": "20220104230119-r5avx8q",
-							"Type": "NodeList",
-							"ListData": {},
-							"Properties": {
-								"id": "20220104230119-r5avx8q",
-								"updated": "20220104230124"
-							},
-							"Children": [
-								{
-									"ID": "20220104230124-d8xay68",
-									"Type": "NodeListItem",
-									"ListData": {
-										"BulletChar": 42,
-										"Marker": "Kg=="
-									},
-									"Properties": {
-										"id": "20220104230124-d8xay68"
-									},
-									"Children": [
-										{
-											"ID": "20220104230124-wj6m3h4",
-											"Type": "NodeHeading",
-											"HeadingLevel": 2,
-											"Properties": {
-												"id": "20220104230124-wj6m3h4",
-												"updated": "20220104230147"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "解构赋值"
-												}
-											]
-										},
-										{
-											"ID": "20220104230148-6t8ekhz",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20220104230148-6t8ekhz"
-											}
-										}
-									]
-								}
-							]
-						}
-					]
 				}
 			]
-		},
-		{
-			"ID": "20220104225542-rawhvh9",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220104225542-rawhvh9",
-				"updated": "20220104225542"
-			}
 		}
 	]
 }

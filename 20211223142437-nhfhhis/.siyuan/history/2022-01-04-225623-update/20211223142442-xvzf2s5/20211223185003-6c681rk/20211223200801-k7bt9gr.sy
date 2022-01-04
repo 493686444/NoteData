@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20211223200801-k7bt9gr",
 		"title": "ES6",
-		"updated": "20220104230124"
+		"updated": "20220104225617"
 	},
 	"Children": [
 		{
@@ -2394,7 +2394,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20211229230030-g8cox67",
-				"updated": "20220104230124"
+				"updated": "20220104225617"
 			},
 			"Children": [
 				{
@@ -2653,7 +2653,8 @@
 						"Marker": "Kg=="
 					},
 					"Properties": {
-						"id": "20220104224115-qerh8bl"
+						"id": "20220104224115-qerh8bl",
+						"updated": "20220104225617"
 					},
 					"Children": [
 						{
@@ -2677,7 +2678,7 @@
 							"ListData": {},
 							"Properties": {
 								"id": "20220104224137-yb2v891",
-								"updated": "20220104224147"
+								"updated": "20220104225617"
 							},
 							"Children": [
 								{
@@ -2743,7 +2744,8 @@
 										"Marker": "Kg=="
 									},
 									"Properties": {
-										"id": "20220104224945-fgidw24"
+										"id": "20220104224945-fgidw24",
+										"updated": "20220104225617"
 									},
 									"Children": [
 										{
@@ -2767,7 +2769,7 @@
 											"IsFencedCodeBlock": true,
 											"Properties": {
 												"id": "20220104224954-ukfsn3p",
-												"updated": "20220104230044"
+												"updated": "20220104225617"
 											},
 											"Children": [
 												{
@@ -2780,88 +2782,13 @@
 												},
 												{
 													"Type": "NodeCodeBlockCode",
-													"Data": "``可以当做\"\"来使用，但是会有不同（``会更好用）\n\n//例子：\nlet str = `\n\t1\n\t2\n`\n//页面显示的时候也会这么换行\n\n//例子：\n//可以用${}来嵌入模板(变量)\nlet str1 = `1`;\nlet str2 = `1 ${str1} 2`;\n"
+													"Data": "``可以当做\"\"来使用，但是会有不同（``会更好用）\n\n例子：\nlet str = `\n\t1\n\t2\n`\n//1.页面显示的时候也会这么换行\n\n例子：\n\n"
 												},
 												{
 													"Type": "NodeCodeBlockFenceCloseMarker",
 													"Data": "```"
 												}
 											]
-										}
-									]
-								}
-							]
-						}
-					]
-				},
-				{
-					"ID": "20220104230114-mtceokw",
-					"Type": "NodeListItem",
-					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
-					},
-					"Properties": {
-						"id": "20220104230114-mtceokw",
-						"updated": "20220104230124"
-					},
-					"Children": [
-						{
-							"ID": "20220104230114-z4fauh3",
-							"Type": "NodeHeading",
-							"HeadingLevel": 1,
-							"Properties": {
-								"id": "20220104230114-z4fauh3",
-								"updated": "20220104230119"
-							},
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "ES6解构赋值和扩展运算符"
-								}
-							]
-						},
-						{
-							"ID": "20220104230119-r5avx8q",
-							"Type": "NodeList",
-							"ListData": {},
-							"Properties": {
-								"id": "20220104230119-r5avx8q",
-								"updated": "20220104230124"
-							},
-							"Children": [
-								{
-									"ID": "20220104230124-d8xay68",
-									"Type": "NodeListItem",
-									"ListData": {
-										"BulletChar": 42,
-										"Marker": "Kg=="
-									},
-									"Properties": {
-										"id": "20220104230124-d8xay68"
-									},
-									"Children": [
-										{
-											"ID": "20220104230124-wj6m3h4",
-											"Type": "NodeHeading",
-											"HeadingLevel": 2,
-											"Properties": {
-												"id": "20220104230124-wj6m3h4",
-												"updated": "20220104230147"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "解构赋值"
-												}
-											]
-										},
-										{
-											"ID": "20220104230148-6t8ekhz",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20220104230148-6t8ekhz"
-											}
 										}
 									]
 								}
