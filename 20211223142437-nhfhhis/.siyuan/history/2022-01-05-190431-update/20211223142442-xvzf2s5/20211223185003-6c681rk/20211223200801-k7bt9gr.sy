@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20211223200801-k7bt9gr",
 		"title": "ES6",
-		"updated": "20220106234909"
+		"updated": "20220105190428"
 	},
 	"Children": [
 		{
@@ -2394,7 +2394,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20211229230030-g8cox67",
-				"updated": "20220106234909"
+				"updated": "20220105190428"
 			},
 			"Children": [
 				{
@@ -2803,7 +2803,7 @@
 					},
 					"Properties": {
 						"id": "20220104230114-mtceokw",
-						"updated": "20220104230124"
+						"updated": "20220105190428"
 					},
 					"Children": [
 						{
@@ -2827,7 +2827,7 @@
 							"ListData": {},
 							"Properties": {
 								"id": "20220104230119-r5avx8q",
-								"updated": "20220104230124"
+								"updated": "20220105190428"
 							},
 							"Children": [
 								{
@@ -2838,7 +2838,8 @@
 										"Marker": "Kg=="
 									},
 									"Properties": {
-										"id": "20220104230124-d8xay68"
+										"id": "20220104230124-d8xay68",
+										"updated": "20220105190428"
 									},
 									"Children": [
 										{
@@ -2862,7 +2863,7 @@
 											"IsFencedCodeBlock": true,
 											"Properties": {
 												"id": "20220104230148-6t8ekhz",
-												"updated": "20220105190524"
+												"updated": "20220105190428"
 											},
 											"Children": [
 												{
@@ -2875,34 +2876,7 @@
 												},
 												{
 													"Type": "NodeCodeBlockCode",
-													"Data": "其实就是对括号里面的每个元素进行赋值\n//数组\nlet [a,b,c]=[1,2,3];//赋值的顺序是从左到右的，就算左边多后者少一个也没什么问题\n\n//对象\nconst obj = {name:\"hanjiabao\",sex:\"man\",age:\"23\"};\nlet {name,age,sex} = obj;\n//他是根据对象的数据名进行匹配的，所以顺序无所谓。而且就算左边多一个或者少一个也没问题，依旧会根据数据名匹配\n\nconsole.log(a,b,c,name,age,sex);\n"
-												},
-												{
-													"Type": "NodeCodeBlockFenceCloseMarker",
-													"Data": "```"
-												}
-											]
-										},
-										{
-											"ID": "20220105190912-l7vqymt",
-											"Type": "NodeCodeBlock",
-											"IsFencedCodeBlock": true,
-											"Properties": {
-												"id": "20220105190912-l7vqymt",
-												"updated": "20220105191807"
-											},
-											"Children": [
-												{
-													"Type": "NodeCodeBlockFenceOpenMarker",
-													"Data": "```"
-												},
-												{
-													"Type": "NodeCodeBlockFenceInfoMarker",
-													"CodeBlockInfo": "anM="
-												},
-												{
-													"Type": "NodeCodeBlockCode",
-													"Data": "**综合举例**  //混合的用法\nlet [{a,b},[x,y,z],three,four] =[{a:10,b:20,c:30},[1,2,3],\"sth\",[4,5]]\n"
+													"Data": "其实就是对括号里面的每个元素进行赋值\n//数组\nlet [a,b,c]=[1,2,3];//赋值的顺序是从左到右的，就算左边多后者少一个也没什么问题\n\n//对象\nconst obj = {name:\"hanjiabao\",sex:\"man\",age:\"23\"};\nlet {name,age,sex} = obj;//他是根据对象的数据名进行匹配的，所以顺序无所谓。就算左边\n\nconsole.log(a,b,c,name,age,sex);\n"
 												},
 												{
 													"Type": "NodeCodeBlockFenceCloseMarker",
@@ -2929,425 +2903,21 @@
 											"HeadingLevel": 2,
 											"Properties": {
 												"id": "20220105185621-twzbizp",
-												"updated": "20220105194013"
+												"updated": "20220105185626"
 											},
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "扩展运算符 \"...\""
-												}
-											]
-										},
-										{
-											"ID": "20220105194018-0qebmll",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20220105194018-0qebmll",
-												"updated": "20220105194503"
-											},
-											"Children": [
-												{
-													"Type": "NodeStrong",
-													"Data": "strong",
-													"Properties": {
-														"style": "color: var(--b3-font-color9);"
-													},
-													"Children": [
-														{
-															"Type": "NodeStrongA6kOpenMarker",
-															"Data": "**"
-														},
-														{
-															"Type": "NodeText",
-															"Data": "自："
-														},
-														{
-															"Type": "NodeStrongA6kCloseMarker",
-															"Data": "**"
-														}
-													]
-												},
-												{
-													"Type": "NodeKramdownSpanIAL",
-													"Data": "{: style=\"color: var(--b3-font-color9);\"}"
-												},
-												{
-													"Type": "NodeText",
-													"Data": "“...arr”代表的是几个独立的元素。\"...\"代表的是将后面数组的中的所有元素独立出来"
+													"Data": "扩展运算符"
 												}
 											]
 										},
 										{
 											"ID": "20220105185632-txau79e",
-											"Type": "NodeCodeBlock",
-											"IsFencedCodeBlock": true,
-											"Properties": {
-												"id": "20220105185632-txau79e",
-												"updated": "20220105194627"
-											},
-											"Children": [
-												{
-													"Type": "NodeCodeBlockFenceOpenMarker",
-													"Data": "```"
-												},
-												{
-													"Type": "NodeCodeBlockFenceInfoMarker",
-													"CodeBlockInfo": "anM="
-												},
-												{
-													"Type": "NodeCodeBlockCode",
-													"Data": "//数组直接和并\nlet arr1 = [1,2,3];\nlet arr2 = [7,8,9]\nlet arr3 = [...arr1,4,5,6,...arr2,10,11];//\"...arr1\"代表把这个数组加进去\nconsole.log(arr3);\n\n//快捷的传参\nfunction show(a,b,c){\n\tconsole.log(a);\n\tconsole.log(b);\n\tconsole.log(c);\n};\nlet arr = [1,2,3];\nshow(...arr);\n\n//反过来也可以\nfunction demo(a,b,...arr){\n\tconsole.log(...arr);//结果会打印出来 4 5 6\n}\ndemo(1,2,3,4,5)\n"
-												},
-												{
-													"Type": "NodeCodeBlockFenceCloseMarker",
-													"Data": "```"
-												}
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				},
-				{
-					"ID": "20220105194909-acw8g1k",
-					"Type": "NodeListItem",
-					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
-					},
-					"Properties": {
-						"id": "20220105194909-acw8g1k"
-					},
-					"Children": [
-						{
-							"ID": "20220105194909-p9mfrzw",
-							"Type": "NodeHeading",
-							"HeadingLevel": 1,
-							"Properties": {
-								"id": "20220105194909-p9mfrzw",
-								"updated": "20220105194926"
-							},
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "对象的新语法"
-								}
-							]
-						}
-					]
-				},
-				{
-					"ID": "20220105194929-du45kye",
-					"Type": "NodeListItem",
-					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
-					},
-					"Properties": {
-						"id": "20220105194929-du45kye",
-						"updated": "20220106185316"
-					},
-					"Children": [
-						{
-							"ID": "20220105194929-y7csv2w",
-							"Type": "NodeHeading",
-							"HeadingLevel": 2,
-							"Properties": {
-								"id": "20220105194929-y7csv2w",
-								"updated": "20220105194938"
-							},
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "ES 6 的 Class（类）概念"
-								}
-							]
-						},
-						{
-							"ID": "20220105194940-7xxgowp",
-							"Type": "NodeCodeBlock",
-							"IsFencedCodeBlock": true,
-							"Properties": {
-								"id": "20220105194940-7xxgowp",
-								"updated": "20220106225415"
-							},
-							"Children": [
-								{
-									"Type": "NodeCodeBlockFenceOpenMarker",
-									"Data": "```"
-								},
-								{
-									"Type": "NodeCodeBlockFenceInfoMarker",
-									"CodeBlockInfo": "anM="
-								},
-								{
-									"Type": "NodeCodeBlockCode",
-									"Data": "//JS\nfunction person(name,age){\n\tthis.name=name;\n\tthis.age=age;\n\tthis.f=function(){\n\t\tconsole.log(name);\n\t}\n}\n//ES6\nclass Person {\n\tconstructor(name,age){  //构造函数\n\t\tthis.name=name;\n\t\tthis.age=age;\n\t}\n\tf(){\t//类里面的方法\n\t\tconsole.log(this,name)\n\t}\n}\nconst p =new Person(\"han\",23)\n\nclass Student extends Person(){  //这是继承\n\tconstructor(name,age,grade){\n\t\tsuper(name,age);//这是在继承父类构造函数的里面的数据\n\t\tthis.grade=grade;\n\t}\n\tstudy(){\n\t\tconsole.log(this.name);\n\t}\n}\nconst s = new Student(\"han\",23,\"1年级\");\n\nconsole.log(p.name)\np.f()；\ns.study();\n"
-								},
-								{
-									"Type": "NodeCodeBlockFenceCloseMarker",
-									"Data": "```"
-								}
-							]
-						}
-					]
-				},
-				{
-					"ID": "20220106225537-onwj3ko",
-					"Type": "NodeListItem",
-					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
-					},
-					"Properties": {
-						"id": "20220106225537-onwj3ko",
-						"updated": "20220106234909"
-					},
-					"Children": [
-						{
-							"ID": "20220106225537-d84edvq",
-							"Type": "NodeHeading",
-							"HeadingLevel": 2,
-							"Properties": {
-								"id": "20220106225537-d84edvq",
-								"updated": "20220106225627"
-							},
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "JSON对象的新应用"
-								}
-							]
-						},
-						{
-							"ID": "20220106225627-xo3g9g4",
-							"Type": "NodeList",
-							"ListData": {},
-							"Properties": {
-								"id": "20220106225627-xo3g9g4",
-								"updated": "20220106234909"
-							},
-							"Children": [
-								{
-									"ID": "20220106225703-zxvx39b",
-									"Type": "NodeListItem",
-									"ListData": {
-										"BulletChar": 42,
-										"Marker": "Kg=="
-									},
-									"Properties": {
-										"id": "20220106225703-zxvx39b"
-									},
-									"Children": [
-										{
-											"ID": "20220106225703-vzx8gwx",
-											"Type": "NodeHeading",
-											"HeadingLevel": 3,
-											"Properties": {
-												"id": "20220106225703-vzx8gwx",
-												"updated": "20220106232818"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "JSON简写"
-												}
-											]
-										},
-										{
-											"ID": "20220106225720-tt2wrky",
-											"Type": "NodeCodeBlock",
-											"IsFencedCodeBlock": true,
-											"Properties": {
-												"id": "20220106225720-tt2wrky",
-												"updated": "20220106232810"
-											},
-											"Children": [
-												{
-													"Type": "NodeCodeBlockFenceOpenMarker",
-													"Data": "```"
-												},
-												{
-													"Type": "NodeCodeBlockFenceInfoMarker",
-													"CodeBlockInfo": "anM="
-												},
-												{
-													"Type": "NodeCodeBlockCode",
-													"Data": "//对比：js\nconst obj1 = {name:\"han\",age:23};\nconsole.log(obj1);\n\n//ES6 (属性和值)名字一样可以简写 方法也是可以简写（:function省）\nlet name = \"李四\";\nlet age1 = 30 ;\n\nconst obj2 = { \n\tname, 等同于name:name//因为这个json对象里面的name和外面那个用来赋值的变量の名字 一样，所以可以省略\n\tage: age1,\n\tf(){\n\t\tconsole.log(this.name);//这里一定要加this，否则可能会使用外面的数据\n\t}\n};\n\nconsole.log(obj2);\n"
-												},
-												{
-													"Type": "NodeCodeBlockFenceCloseMarker",
-													"Data": "```"
-												}
-											]
-										}
-									]
-								},
-								{
-									"ID": "20220106233152-kddqjpk",
-									"Type": "NodeListItem",
-									"ListData": {
-										"BulletChar": 42,
-										"Marker": "Kg=="
-									},
-									"Properties": {
-										"id": "20220106233152-kddqjpk",
-										"updated": "20220106234909"
-									},
-									"Children": [
-										{
-											"ID": "20220106233152-wvq3bgd",
-											"Type": "NodeHeading",
-											"HeadingLevel": 3,
-											"Properties": {
-												"id": "20220106233152-wvq3bgd",
-												"updated": "20220106234832"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "串行(xíng)化和并行化"
-												}
-											]
-										},
-										{
-											"ID": "20220106234207-7z3dskz",
 											"Type": "NodeParagraph",
 											"Properties": {
-												"id": "20220106234207-7z3dskz",
-												"updated": "20220106234215"
-											},
-											"Children": [
-												{
-													"Type": "NodeStrong",
-													"Data": "strong",
-													"Children": [
-														{
-															"Type": "NodeStrongA6kOpenMarker",
-															"Data": "**"
-														},
-														{
-															"Type": "NodeText",
-															"Data": "JSON.stringify()"
-														},
-														{
-															"Type": "NodeStrongA6kCloseMarker",
-															"Data": "**"
-														}
-													]
-												}
-											]
-										},
-										{
-											"ID": "20220106233438-0pe21o1",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20220106233438-0pe21o1",
-												"updated": "20220106233618"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "简介：json对象是js的格式，在进行数据传输或者在数据库中保存需要串行化才可以"
-												}
-											]
-										},
-										{
-											"ID": "20220106234745-1yud4xm",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20220106234745-1yud4xm",
-												"updated": "20220106234859"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "串行化也叫做"
-												},
-												{
-													"Type": "NodeStrong",
-													"Data": "strong",
-													"Children": [
-														{
-															"Type": "NodeStrongA6kOpenMarker",
-															"Data": "**"
-														},
-														{
-															"Type": "NodeText",
-															"Data": "序列化"
-														},
-														{
-															"Type": "NodeStrongA6kCloseMarker",
-															"Data": "**"
-														}
-													]
-												}
-											]
-										},
-										{
-											"ID": "20220106234808-oi2veun",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20220106234808-oi2veun",
-												"updated": "20220106234909"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "并行化也叫做"
-												},
-												{
-													"Type": "NodeStrong",
-													"Data": "strong",
-													"Children": [
-														{
-															"Type": "NodeStrongA6kOpenMarker",
-															"Data": "**"
-														},
-														{
-															"Type": "NodeText",
-															"Data": "反序列化"
-														},
-														{
-															"Type": "NodeStrongA6kCloseMarker",
-															"Data": "**"
-														}
-													]
-												},
-												{
-													"Type": "NodeText",
-													"Data": "或者反串行化"
-												}
-											]
-										},
-										{
-											"ID": "20220106233355-4jmc383",
-											"Type": "NodeCodeBlock",
-											"IsFencedCodeBlock": true,
-											"Properties": {
-												"id": "20220106233355-4jmc383",
-												"updated": "20220106234328"
-											},
-											"Children": [
-												{
-													"Type": "NodeCodeBlockFenceOpenMarker",
-													"Data": "```"
-												},
-												{
-													"Type": "NodeCodeBlockFenceInfoMarker",
-													"CodeBlockInfo": "anM="
-												},
-												{
-													"Type": "NodeCodeBlockCode",
-													"Data": "const obj2 = { \n\tname, \n\tage: age1,\n\tf(){\n\t\tconsole.log(this.name);\n\t}\n};\n\nlet str = JSON.stringfy(obj2);//串行化\nlet obj3 = JSON.parse(str);\n\n"
-												},
-												{
-													"Type": "NodeCodeBlockFenceCloseMarker",
-													"Data": "```"
-												}
-											]
+												"id": "20220105185632-txau79e"
+											}
 										}
 									]
 								}

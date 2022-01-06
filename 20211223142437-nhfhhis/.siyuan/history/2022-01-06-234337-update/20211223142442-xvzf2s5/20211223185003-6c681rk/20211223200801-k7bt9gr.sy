@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20211223200801-k7bt9gr",
 		"title": "ES6",
-		"updated": "20220106234909"
+		"updated": "20220106234328"
 	},
 	"Children": [
 		{
@@ -2394,7 +2394,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20211229230030-g8cox67",
-				"updated": "20220106234909"
+				"updated": "20220106234328"
 			},
 			"Children": [
 				{
@@ -3103,7 +3103,7 @@
 					},
 					"Properties": {
 						"id": "20220106225537-onwj3ko",
-						"updated": "20220106234909"
+						"updated": "20220106234328"
 					},
 					"Children": [
 						{
@@ -3127,7 +3127,7 @@
 							"ListData": {},
 							"Properties": {
 								"id": "20220106225627-xo3g9g4",
-								"updated": "20220106234909"
+								"updated": "20220106234328"
 							},
 							"Children": [
 								{
@@ -3194,7 +3194,7 @@
 									},
 									"Properties": {
 										"id": "20220106233152-kddqjpk",
-										"updated": "20220106234909"
+										"updated": "20220106234328"
 									},
 									"Children": [
 										{
@@ -3203,12 +3203,12 @@
 											"HeadingLevel": 3,
 											"Properties": {
 												"id": "20220106233152-wvq3bgd",
-												"updated": "20220106234832"
+												"updated": "20220106234202"
 											},
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "串行(xíng)化和并行化"
+													"Data": "串行(xíng)化和反串行化"
 												}
 											]
 										},
@@ -3251,74 +3251,6 @@
 												{
 													"Type": "NodeText",
 													"Data": "简介：json对象是js的格式，在进行数据传输或者在数据库中保存需要串行化才可以"
-												}
-											]
-										},
-										{
-											"ID": "20220106234745-1yud4xm",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20220106234745-1yud4xm",
-												"updated": "20220106234859"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "串行化也叫做"
-												},
-												{
-													"Type": "NodeStrong",
-													"Data": "strong",
-													"Children": [
-														{
-															"Type": "NodeStrongA6kOpenMarker",
-															"Data": "**"
-														},
-														{
-															"Type": "NodeText",
-															"Data": "序列化"
-														},
-														{
-															"Type": "NodeStrongA6kCloseMarker",
-															"Data": "**"
-														}
-													]
-												}
-											]
-										},
-										{
-											"ID": "20220106234808-oi2veun",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20220106234808-oi2veun",
-												"updated": "20220106234909"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "并行化也叫做"
-												},
-												{
-													"Type": "NodeStrong",
-													"Data": "strong",
-													"Children": [
-														{
-															"Type": "NodeStrongA6kOpenMarker",
-															"Data": "**"
-														},
-														{
-															"Type": "NodeText",
-															"Data": "反序列化"
-														},
-														{
-															"Type": "NodeStrongA6kCloseMarker",
-															"Data": "**"
-														}
-													]
-												},
-												{
-													"Type": "NodeText",
-													"Data": "或者反串行化"
 												}
 											]
 										},

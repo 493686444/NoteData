@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20211223200801-k7bt9gr",
 		"title": "ES6",
-		"updated": "20220106234909"
+		"updated": "20220106233309"
 	},
 	"Children": [
 		{
@@ -2394,7 +2394,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20211229230030-g8cox67",
-				"updated": "20220106234909"
+				"updated": "20220106233309"
 			},
 			"Children": [
 				{
@@ -3103,7 +3103,7 @@
 					},
 					"Properties": {
 						"id": "20220106225537-onwj3ko",
-						"updated": "20220106234909"
+						"updated": "20220106233309"
 					},
 					"Children": [
 						{
@@ -3127,7 +3127,7 @@
 							"ListData": {},
 							"Properties": {
 								"id": "20220106225627-xo3g9g4",
-								"updated": "20220106234909"
+								"updated": "20220106233309"
 							},
 							"Children": [
 								{
@@ -3138,7 +3138,8 @@
 										"Marker": "Kg=="
 									},
 									"Properties": {
-										"id": "20220106225703-zxvx39b"
+										"id": "20220106225703-zxvx39b",
+										"updated": "20220106232818"
 									},
 									"Children": [
 										{
@@ -3194,7 +3195,7 @@
 									},
 									"Properties": {
 										"id": "20220106233152-kddqjpk",
-										"updated": "20220106234909"
+										"updated": "20220106233309"
 									},
 									"Children": [
 										{
@@ -3203,149 +3204,12 @@
 											"HeadingLevel": 3,
 											"Properties": {
 												"id": "20220106233152-wvq3bgd",
-												"updated": "20220106234832"
+												"updated": "20220106233309"
 											},
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "串行(xíng)化和并行化"
-												}
-											]
-										},
-										{
-											"ID": "20220106234207-7z3dskz",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20220106234207-7z3dskz",
-												"updated": "20220106234215"
-											},
-											"Children": [
-												{
-													"Type": "NodeStrong",
-													"Data": "strong",
-													"Children": [
-														{
-															"Type": "NodeStrongA6kOpenMarker",
-															"Data": "**"
-														},
-														{
-															"Type": "NodeText",
-															"Data": "JSON.stringify()"
-														},
-														{
-															"Type": "NodeStrongA6kCloseMarker",
-															"Data": "**"
-														}
-													]
-												}
-											]
-										},
-										{
-											"ID": "20220106233438-0pe21o1",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20220106233438-0pe21o1",
-												"updated": "20220106233618"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "简介：json对象是js的格式，在进行数据传输或者在数据库中保存需要串行化才可以"
-												}
-											]
-										},
-										{
-											"ID": "20220106234745-1yud4xm",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20220106234745-1yud4xm",
-												"updated": "20220106234859"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "串行化也叫做"
-												},
-												{
-													"Type": "NodeStrong",
-													"Data": "strong",
-													"Children": [
-														{
-															"Type": "NodeStrongA6kOpenMarker",
-															"Data": "**"
-														},
-														{
-															"Type": "NodeText",
-															"Data": "序列化"
-														},
-														{
-															"Type": "NodeStrongA6kCloseMarker",
-															"Data": "**"
-														}
-													]
-												}
-											]
-										},
-										{
-											"ID": "20220106234808-oi2veun",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20220106234808-oi2veun",
-												"updated": "20220106234909"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "并行化也叫做"
-												},
-												{
-													"Type": "NodeStrong",
-													"Data": "strong",
-													"Children": [
-														{
-															"Type": "NodeStrongA6kOpenMarker",
-															"Data": "**"
-														},
-														{
-															"Type": "NodeText",
-															"Data": "反序列化"
-														},
-														{
-															"Type": "NodeStrongA6kCloseMarker",
-															"Data": "**"
-														}
-													]
-												},
-												{
-													"Type": "NodeText",
-													"Data": "或者反串行化"
-												}
-											]
-										},
-										{
-											"ID": "20220106233355-4jmc383",
-											"Type": "NodeCodeBlock",
-											"IsFencedCodeBlock": true,
-											"Properties": {
-												"id": "20220106233355-4jmc383",
-												"updated": "20220106234328"
-											},
-											"Children": [
-												{
-													"Type": "NodeCodeBlockFenceOpenMarker",
-													"Data": "```"
-												},
-												{
-													"Type": "NodeCodeBlockFenceInfoMarker",
-													"CodeBlockInfo": "anM="
-												},
-												{
-													"Type": "NodeCodeBlockCode",
-													"Data": "const obj2 = { \n\tname, \n\tage: age1,\n\tf(){\n\t\tconsole.log(this.name);\n\t}\n};\n\nlet str = JSON.stringfy(obj2);//串行化\nlet obj3 = JSON.parse(str);\n\n"
-												},
-												{
-													"Type": "NodeCodeBlockFenceCloseMarker",
-													"Data": "```"
+													"Data": "JSON.stringify() 串行(xng)化"
 												}
 											]
 										}

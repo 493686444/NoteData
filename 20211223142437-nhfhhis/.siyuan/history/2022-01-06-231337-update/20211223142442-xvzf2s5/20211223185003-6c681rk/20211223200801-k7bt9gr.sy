@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20211223200801-k7bt9gr",
 		"title": "ES6",
-		"updated": "20220106234909"
+		"updated": "20220106231106"
 	},
 	"Children": [
 		{
@@ -2394,7 +2394,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20211229230030-g8cox67",
-				"updated": "20220106234909"
+				"updated": "20220106231106"
 			},
 			"Children": [
 				{
@@ -3103,7 +3103,7 @@
 					},
 					"Properties": {
 						"id": "20220106225537-onwj3ko",
-						"updated": "20220106234909"
+						"updated": "20220106231106"
 					},
 					"Children": [
 						{
@@ -3127,7 +3127,7 @@
 							"ListData": {},
 							"Properties": {
 								"id": "20220106225627-xo3g9g4",
-								"updated": "20220106234909"
+								"updated": "20220106231106"
 							},
 							"Children": [
 								{
@@ -3138,7 +3138,8 @@
 										"Marker": "Kg=="
 									},
 									"Properties": {
-										"id": "20220106225703-zxvx39b"
+										"id": "20220106225703-zxvx39b",
+										"updated": "20220106231106"
 									},
 									"Children": [
 										{
@@ -3147,12 +3148,12 @@
 											"HeadingLevel": 3,
 											"Properties": {
 												"id": "20220106225703-vzx8gwx",
-												"updated": "20220106232818"
+												"updated": "20220106225718"
 											},
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "JSON简写"
+													"Data": "JSON.stringify() 串行化"
 												}
 											]
 										},
@@ -3162,7 +3163,7 @@
 											"IsFencedCodeBlock": true,
 											"Properties": {
 												"id": "20220106225720-tt2wrky",
-												"updated": "20220106232810"
+												"updated": "20220106231106"
 											},
 											"Children": [
 												{
@@ -3175,173 +3176,7 @@
 												},
 												{
 													"Type": "NodeCodeBlockCode",
-													"Data": "//对比：js\nconst obj1 = {name:\"han\",age:23};\nconsole.log(obj1);\n\n//ES6 (属性和值)名字一样可以简写 方法也是可以简写（:function省）\nlet name = \"李四\";\nlet age1 = 30 ;\n\nconst obj2 = { \n\tname, 等同于name:name//因为这个json对象里面的name和外面那个用来赋值的变量の名字 一样，所以可以省略\n\tage: age1,\n\tf(){\n\t\tconsole.log(this.name);//这里一定要加this，否则可能会使用外面的数据\n\t}\n};\n\nconsole.log(obj2);\n"
-												},
-												{
-													"Type": "NodeCodeBlockFenceCloseMarker",
-													"Data": "```"
-												}
-											]
-										}
-									]
-								},
-								{
-									"ID": "20220106233152-kddqjpk",
-									"Type": "NodeListItem",
-									"ListData": {
-										"BulletChar": 42,
-										"Marker": "Kg=="
-									},
-									"Properties": {
-										"id": "20220106233152-kddqjpk",
-										"updated": "20220106234909"
-									},
-									"Children": [
-										{
-											"ID": "20220106233152-wvq3bgd",
-											"Type": "NodeHeading",
-											"HeadingLevel": 3,
-											"Properties": {
-												"id": "20220106233152-wvq3bgd",
-												"updated": "20220106234832"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "串行(xíng)化和并行化"
-												}
-											]
-										},
-										{
-											"ID": "20220106234207-7z3dskz",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20220106234207-7z3dskz",
-												"updated": "20220106234215"
-											},
-											"Children": [
-												{
-													"Type": "NodeStrong",
-													"Data": "strong",
-													"Children": [
-														{
-															"Type": "NodeStrongA6kOpenMarker",
-															"Data": "**"
-														},
-														{
-															"Type": "NodeText",
-															"Data": "JSON.stringify()"
-														},
-														{
-															"Type": "NodeStrongA6kCloseMarker",
-															"Data": "**"
-														}
-													]
-												}
-											]
-										},
-										{
-											"ID": "20220106233438-0pe21o1",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20220106233438-0pe21o1",
-												"updated": "20220106233618"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "简介：json对象是js的格式，在进行数据传输或者在数据库中保存需要串行化才可以"
-												}
-											]
-										},
-										{
-											"ID": "20220106234745-1yud4xm",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20220106234745-1yud4xm",
-												"updated": "20220106234859"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "串行化也叫做"
-												},
-												{
-													"Type": "NodeStrong",
-													"Data": "strong",
-													"Children": [
-														{
-															"Type": "NodeStrongA6kOpenMarker",
-															"Data": "**"
-														},
-														{
-															"Type": "NodeText",
-															"Data": "序列化"
-														},
-														{
-															"Type": "NodeStrongA6kCloseMarker",
-															"Data": "**"
-														}
-													]
-												}
-											]
-										},
-										{
-											"ID": "20220106234808-oi2veun",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20220106234808-oi2veun",
-												"updated": "20220106234909"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "并行化也叫做"
-												},
-												{
-													"Type": "NodeStrong",
-													"Data": "strong",
-													"Children": [
-														{
-															"Type": "NodeStrongA6kOpenMarker",
-															"Data": "**"
-														},
-														{
-															"Type": "NodeText",
-															"Data": "反序列化"
-														},
-														{
-															"Type": "NodeStrongA6kCloseMarker",
-															"Data": "**"
-														}
-													]
-												},
-												{
-													"Type": "NodeText",
-													"Data": "或者反串行化"
-												}
-											]
-										},
-										{
-											"ID": "20220106233355-4jmc383",
-											"Type": "NodeCodeBlock",
-											"IsFencedCodeBlock": true,
-											"Properties": {
-												"id": "20220106233355-4jmc383",
-												"updated": "20220106234328"
-											},
-											"Children": [
-												{
-													"Type": "NodeCodeBlockFenceOpenMarker",
-													"Data": "```"
-												},
-												{
-													"Type": "NodeCodeBlockFenceInfoMarker",
-													"CodeBlockInfo": "anM="
-												},
-												{
-													"Type": "NodeCodeBlockCode",
-													"Data": "const obj2 = { \n\tname, \n\tage: age1,\n\tf(){\n\t\tconsole.log(this.name);\n\t}\n};\n\nlet str = JSON.stringfy(obj2);//串行化\nlet obj3 = JSON.parse(str);\n\n"
+													"Data": "const obj1 = {name:\"han\",age:23};\nconsole.log(obj1);\n\n//如果把变量放到json里面用来赋值，则\nlet name = \"李四\";\nlet age1 = 30 ;\n\nconst obj2 = { \n\tname, 等同于name:name //因为这个json里面的name和外面那个用来赋值的变量の名字 一样，所以可以省略\n\tage: age1 \n};\n\nconsole.log(obj2);\n"
 												},
 												{
 													"Type": "NodeCodeBlockFenceCloseMarker",
