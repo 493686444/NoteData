@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20211223200801-k7bt9gr",
 		"title": "ES6",
-		"updated": "20220110214019"
+		"updated": "20220110211124"
 	},
 	"Children": [
 		{
@@ -2395,7 +2395,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20211229230030-g8cox67",
-				"updated": "20220110214019"
+				"updated": "20220110211124"
 			},
 			"Children": [
 				{
@@ -3375,7 +3375,7 @@
 					},
 					"Properties": {
 						"id": "20220110190609-jnakz8h",
-						"updated": "20220110214019"
+						"updated": "20220110211124"
 					},
 					"Children": [
 						{
@@ -3399,7 +3399,7 @@
 							"ListData": {},
 							"Properties": {
 								"id": "20220110190630-4s8pfzr",
-								"updated": "20220110214019"
+								"updated": "20220110211124"
 							},
 							"Children": [
 								{
@@ -3534,7 +3534,7 @@
 									},
 									"Properties": {
 										"id": "20220110192945-auy12vv",
-										"updated": "20220110214019"
+										"updated": "20220110211124"
 									},
 									"Children": [
 										{
@@ -3552,68 +3552,12 @@
 											]
 										},
 										{
-											"ID": "20220110213338-wbn0qrj",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20220110213338-wbn0qrj",
-												"updated": "20220110213409"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "所涉及的内容:"
-												}
-											]
-										},
-										{
-											"ID": "20220110213413-mrt3rai",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20220110213413-mrt3rai",
-												"updated": "20220110213540"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "export的3种方法(一个一个的,一起一对象形式,缺省导出)"
-												}
-											]
-										},
-										{
-											"ID": "20220110213418-0rasx0s",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20220110213418-0rasx0s",
-												"updated": "20220110213608"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "import的两种方法(以对象的形式导入,把所有都导入)"
-												}
-											]
-										},
-										{
-											"ID": "20220110213611-9lzam3c",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20220110213611-9lzam3c",
-												"updated": "20220110213639"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "别名(export别名,import别名)"
-												}
-											]
-										},
-										{
 											"ID": "20220110192956-j1zpis8",
 											"Type": "NodeCodeBlock",
 											"IsFencedCodeBlock": true,
 											"Properties": {
 												"id": "20220110192956-j1zpis8",
-												"updated": "20220110213307"
+												"updated": "20220110211124"
 											},
 											"Children": [
 												{
@@ -3626,7 +3570,7 @@
 												},
 												{
 													"Type": "NodeCodeBlockCode",
-													"Data": "//one.js文件下\n//1.一个一个的export\nexport let name = \"小明\";\nexport let age = 23;\n\nexport function add(x,y){ //加个export,把这个方法导出(翻译成\"出口\"觉得更舒服),否则另一个页面无法引用\n\treturn x+y;\n}\nexport function reduce(x,y){\n\treturn x-y;\n}\nexport class people(){\n\tconstructor(){\n\n\t}\n}\n//2.把所有一起以对象的形式export\nexport {age,name as myName,add,reduce,people}  //导出的时候也可以期别名\n\n\n//two.js文件下\nlet name = \"小红\";\nlet age = 22;\nexport function add(x,y){\n\treturn x+y;\n}\n"
+													"Data": "//one.js文件下\n//一个一个的export\nexport let name = \"小明\";\nexport let age = 23;\n\nexport function add(x,y){ //加个export,把这个方法导出(翻译成\"出口\"觉得更舒服),否则另一个页面无法引用\n\treturn x+y;\n}\nexport function reduce(x,y){\n\treturn x-y;\n}\nexport class people(){\n\n}\n//把所有一起以对象的形式export\nexport {age,name,add,reduce}//\n\n\n//two.js文件下\nlet name = \"小红\";\nlet age = 22;\nexport function add(x,y){\n\treturn x+y;\n}\n"
 												},
 												{
 													"Type": "NodeCodeBlockFenceCloseMarker",
@@ -3640,7 +3584,7 @@
 											"IsFencedCodeBlock": true,
 											"Properties": {
 												"id": "20220110193913-a8ey308",
-												"updated": "20220110213150"
+												"updated": "20220110210710"
 											},
 											"Children": [
 												{
@@ -3653,7 +3597,7 @@
 												},
 												{
 													"Type": "NodeCodeBlockCode",
-													"Data": "//index.js文件下\n//1.以对象的形式导入\nimport {add,reduce} from \"./one.js\";//import的内容没有先后谁许,名字会自动对应\nimport {add as twoAdd} from \"./two.js\";\nconsole.log(twoAdd(1,2));\n//因为名字冲突了,所以要加\"as 别名\",如果不冲突,则可以不需要加\n\n//2.把one.js里面所有导出的都导入\nimport * as one from \"./one.js\";\nconsole.log(one.add(1,2));\n\n"
+													"Data": "//index.js文件下\nimport {add as oneAdd} from \".one.js\";\nimport {add as twoAdd} from \".two.js\";\nconsole.log(oneAdd(1,2));\n//因为名字冲突了,所以要加\"as 别名\",如果不冲突,则可以不需要加\n\n"
 												},
 												{
 													"Type": "NodeCodeBlockFenceCloseMarker",
@@ -3667,7 +3611,7 @@
 											"IsFencedCodeBlock": true,
 											"Properties": {
 												"id": "20220110193357-xboe6d0",
-												"updated": "20220110214019"
+												"updated": "20220110193854"
 											},
 											"Children": [
 												{
@@ -3680,124 +3624,13 @@
 												},
 												{
 													"Type": "NodeCodeBlockCode",
-													"Data": "//html文件下\n\u003cscript src=\"./index.js\" type=\"module\"\u003e\u003c/script\u003e  //加个tyle=\"module\",就变成模块化了\n"
+													"Data": "//html文件下\n\u003cscript src=\"one.js\" type=\"module\"\u003e\u003c/script\u003e  //加个tyle=\"module\",就变成模块化了\n"
 												},
 												{
 													"Type": "NodeCodeBlockFenceCloseMarker",
 													"Data": "```"
 												}
 											]
-										},
-										{
-											"ID": "20220110212025-r78pccf",
-											"Type": "NodeList",
-											"ListData": {},
-											"Properties": {
-												"id": "20220110212025-r78pccf",
-												"updated": "20220110212126"
-											},
-											"Children": [
-												{
-													"ID": "20220110212126-wi7lg36",
-													"Type": "NodeListItem",
-													"ListData": {
-														"BulletChar": 42,
-														"Marker": "Kg=="
-													},
-													"Properties": {
-														"id": "20220110212126-wi7lg36"
-													},
-													"Children": [
-														{
-															"ID": "20220110212126-8fvevge",
-															"Type": "NodeParagraph",
-															"Properties": {
-																"id": "20220110212126-8fvevge"
-															},
-															"Children": [
-																{
-																	"Type": "NodeStrong",
-																	"Data": "strong",
-																	"Children": [
-																		{
-																			"Type": "NodeStrongA6kOpenMarker",
-																			"Data": "**"
-																		},
-																		{
-																			"Type": "NodeText",
-																			"Data": "缺省导出"
-																		},
-																		{
-																			"Type": "NodeStrongA6kCloseMarker",
-																			"Data": "**"
-																		}
-																	]
-																},
-																{
-																	"Type": "NodeText",
-																	"Data": "(我觉得应该翻译成\""
-																},
-																{
-																	"Type": "NodeStrong",
-																	"Data": "strong",
-																	"Children": [
-																		{
-																			"Type": "NodeStrongA6kOpenMarker",
-																			"Data": "**"
-																		},
-																		{
-																			"Type": "NodeText",
-																			"Data": "默认导出"
-																		},
-																		{
-																			"Type": "NodeStrongA6kCloseMarker",
-																			"Data": "**"
-																		}
-																	]
-																},
-																{
-																	"Type": "NodeText",
-																	"Data": "\")"
-																}
-															]
-														},
-														{
-															"ID": "20220110212128-uea2wcq",
-															"Type": "NodeCodeBlock",
-															"IsFencedCodeBlock": true,
-															"Properties": {
-																"id": "20220110212128-uea2wcq",
-																"updated": "20220110212939"
-															},
-															"Children": [
-																{
-																	"Type": "NodeCodeBlockFenceOpenMarker",
-																	"Data": "```"
-																},
-																{
-																	"Type": "NodeCodeBlockFenceInfoMarker",
-																	"CodeBlockInfo": "anM="
-																},
-																{
-																	"Type": "NodeCodeBlockCode",
-																	"Data": "//出口方 一个导出方模块(module)中只能有一个\nexport default function(){\n\n}\n\n//导入方\nimport xxx from \"./one.js\";  //\"xxx\"可以写成\"{xxx}\"\n"
-																},
-																{
-																	"Type": "NodeCodeBlockFenceCloseMarker",
-																	"Data": "```"
-																}
-															]
-														}
-													]
-												}
-											]
-										},
-										{
-											"ID": "20220110212106-l4biw2y",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20220110212106-l4biw2y"
-											}
 										}
 									]
 								}

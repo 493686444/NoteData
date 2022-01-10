@@ -1,0 +1,148 @@
+{
+	"ID": "20220107165145-dpkuemz",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220107165145-dpkuemz",
+		"title": "JavaScript",
+		"updated": "20220107165939"
+	},
+	"Children": [
+		{
+			"ID": "20220107165145-lc7j2zu",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220107165145-lc7j2zu",
+				"updated": "20220107165939"
+			},
+			"Children": [
+				{
+					"ID": "20220107165214-ruxrc2z",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220107165214-ruxrc2z"
+					},
+					"Children": [
+						{
+							"ID": "20220107165214-avovuni",
+							"Type": "NodeHeading",
+							"HeadingLevel": 1,
+							"Properties": {
+								"id": "20220107165214-avovuni",
+								"updated": "20220107165219"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "功能"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220107165219-h0ozj2r",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220107165219-h0ozj2r",
+						"updated": "20220107165939"
+					},
+					"Children": [
+						{
+							"ID": "20220107165219-0mx0a9u",
+							"Type": "NodeHeading",
+							"HeadingLevel": 2,
+							"Properties": {
+								"id": "20220107165219-0mx0a9u",
+								"updated": "20220107165311"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "鼠标移动到此处在屏幕某处显示,移出则消失"
+								}
+							]
+						},
+						{
+							"ID": "20220107165553-qr1tvma",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220107165553-qr1tvma"
+							}
+						},
+						{
+							"ID": "20220107165553-lee23gy",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220107165553-lee23gy",
+								"updated": "20220107165934"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "aHRtbA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "\u003clabel onmouseover=\"show()\" onmouseout=\"hidden()\"\u003e\n\t\u003cinput type=\"checkbox\" name=\"EXTENTSTAGING\" value=\"1期\"/\u003e1期\n\u003c/label\u003e\n\n\u003cdiv id=\"div1\" class=\"MsgDiv\" style=\"display: none; left: 560px; position: absolute; top: 160px; width: 180px; z-index: 1300; \"\u003e\n\t\u003cimg alt=\"图片\" src=\"/Areas/Images/WoundRecordImage/1q.jpg\" /\u003e\n\u003c/div\u003e\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20220107165625-pm56va2",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220107165625-pm56va2",
+								"updated": "20220107165939"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "function show() {\n\tdocument.getElementById(\"div1\").style.display = \"\";\n}\nfunction hidden() {\n\tdocument.getElementById(\"div1\").style.display = \"none\";\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220107165502-y0ipe8d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220107165502-y0ipe8d",
+				"updated": "20220107165502"
+			}
+		}
+	]
+}
