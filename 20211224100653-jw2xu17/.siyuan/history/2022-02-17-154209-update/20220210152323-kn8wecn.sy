@@ -1,0 +1,802 @@
+{
+	"ID": "20220210152323-kn8wecn",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f528",
+		"id": "20220210152323-kn8wecn",
+		"title": "工作中用的代码",
+		"updated": "20220217154132"
+	},
+	"Children": [
+		{
+			"ID": "20220210152323-hbz7fya",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220210152323-hbz7fya",
+				"updated": "20220210152546"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "根据patientid更新数据"
+				}
+			]
+		},
+		{
+			"ID": "20220210152718-zrsljzc",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220210152718-zrsljzc",
+				"updated": "20220217153707"
+			},
+			"Children": [
+				{
+					"ID": "20220217152913-ro6rxvt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"fold": "0",
+						"id": "20220217152913-ro6rxvt",
+						"updated": "20220217153707"
+					},
+					"Children": [
+						{
+							"ID": "20220217152913-at9coyi",
+							"Type": "NodeHeading",
+							"HeadingLevel": 1,
+							"Properties": {
+								"id": "20220217152913-at9coyi",
+								"updated": "20220217153707"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "前后端数据的交互.法1---Odata"
+								}
+							]
+						},
+						{
+							"ID": "20220217152937-c003h8e",
+							"Type": "NodeSuperBlock",
+							"Properties": {
+								"id": "20220217152937-c003h8e",
+								"updated": "20220217152940"
+							},
+							"Children": [
+								{
+									"Type": "NodeSuperBlockOpenMarker"
+								},
+								{
+									"Type": "NodeSuperBlockLayoutMarker",
+									"Data": "col"
+								},
+								{
+									"ID": "20220210152529-coq4pir",
+									"Type": "NodeCodeBlock",
+									"IsFencedCodeBlock": true,
+									"Properties": {
+										"id": "20220210152529-coq4pir",
+										"updated": "20220217152937"
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeBlockFenceOpenMarker",
+											"Data": "```"
+										},
+										{
+											"Type": "NodeCodeBlockFenceInfoMarker",
+											"CodeBlockInfo": "anM="
+										},
+										{
+											"Type": "NodeCodeBlockCode",
+											"Data": "//前端\nfunction updateInside(value) {\n            let insideState = {};\n            insideState.PATIENTID = \"@ViewData[\"patientid\"]\";\n            insideState.IS_INSIDE = value;\n            $.ajax({\n                type: \"PATCH\",\n                url: \"@ViewData[\"ApiURI\"]/Odata/NURSE_MONITOR_STATE('@ViewBag.patient.PATIENTID')\",\n                data: JSON.stringify(insideState),\n                contentType: \"application/json\",\n                success: function (data) {\n                    console.log(\"更新状态表的发生地方 OK\");\n                }\n            });\n        }\n"
+										},
+										{
+											"Type": "NodeCodeBlockFenceCloseMarker",
+											"Data": "```"
+										}
+									]
+								},
+								{
+									"ID": "20220210152625-twjw6ua",
+									"Type": "NodeCodeBlock",
+									"IsFencedCodeBlock": true,
+									"Properties": {
+										"id": "20220210152625-twjw6ua",
+										"updated": "20220217152940"
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeBlockFenceOpenMarker",
+											"Data": "```"
+										},
+										{
+											"Type": "NodeCodeBlockFenceInfoMarker",
+											"CodeBlockInfo": "YyM="
+										},
+										{
+											"Type": "NodeCodeBlockCode",
+											"Data": "//后端\n[AcceptVerbs(\"PATCH\", \"MERGE\")]\n        [HttpPatch]\n        public IHttpActionResult Patch([FromODataUri] string key, Delta\u003cNURSE_MONITOR_STATEEntity\u003e patch)\n        {\n            NURSE_MONITOR_STATEService service = new NURSE_MONITOR_STATEService();\n            object id;\n            if (!ModelState.IsValid)\n            {\n                BadRequest(ModelState);\n                return Ok(false);\n            }\n            else if (patch.GetChangedPropertyNames().Contains(\"PATIENTID\") \u0026\u0026 patch.TryGetPropertyValue(\"PATIENTID\", out id) \u0026\u0026 (string)id != key)\n            {\n                BadRequest(\"The key from the url must match the key of the entity in the body\");\n                return Ok(false);\n            }\n            try\n            {\n                var query = service.GetEntity(key.ToString());\n                patch.Patch(query);\n\n                if (service.UpdateEntity(query) \u003e 0)\n                {\n                    Updated(query);\n                    return Ok(true);\n                }\n                else\n                {\n                    return Ok(false);\n\n                }\n            }\n            catch (Exception ex)\n            {\n                return Ok(false);\n            }\n        }\n"
+										},
+										{
+											"Type": "NodeCodeBlockFenceCloseMarker",
+											"Data": "```"
+										}
+									]
+								},
+								{
+									"ID": "20220217152934-zycwwld",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220217152934-zycwwld",
+										"updated": "20220217152937"
+									}
+								},
+								{
+									"Type": "NodeSuperBlockCloseMarker"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220210152751-0vjrdf7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220210152751-0vjrdf7",
+				"updated": "20220210152751"
+			}
+		},
+		{
+			"ID": "20220217153048-enlqi6j",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220217153048-enlqi6j",
+				"updated": "20220217153812"
+			},
+			"Children": [
+				{
+					"ID": "20220217153050-azjo7wu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220217153050-azjo7wu",
+						"updated": "20220217153812"
+					},
+					"Children": [
+						{
+							"ID": "20220217153050-8z6j2gh",
+							"Type": "NodeHeading",
+							"HeadingLevel": 1,
+							"Properties": {
+								"id": "20220217153050-8z6j2gh",
+								"updated": "20220217153725"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "前后端数据的交互.法2---BaseRepository"
+								}
+							]
+						},
+						{
+							"ID": "20220217153313-w4emdyf",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220217153313-w4emdyf",
+								"updated": "20220217153812"
+							},
+							"Children": [
+								{
+									"ID": "20220217153324-m3qpv0o",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220217153324-m3qpv0o"
+									},
+									"Children": [
+										{
+											"ID": "20220217153349-8f5o22v",
+											"Type": "NodeHeading",
+											"HeadingLevel": 2,
+											"Properties": {
+												"id": "20220217153349-8f5o22v",
+												"updated": "20220217153357"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "前端代码"
+												}
+											]
+										},
+										{
+											"ID": "20220217153351-e08mpqr",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20220217153351-e08mpqr",
+												"updated": "20220217153410"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "anM="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "let patientState;\nfunction getPatientState(PATIENTID) {\n            $.ajax({\n                url: \"@ViewData[\"ApiURI\"]/api/API_PatientState/GetEntity?PATIENTID=\" + PATIENTID+\"\",\n                async: false,\n                success: function (data) {\n                    patientState = data;\n  \n                }\n            });\n        }\n\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220217153418-8m6fw45",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220217153418-8m6fw45",
+										"updated": "20220217153812"
+									},
+									"Children": [
+										{
+											"ID": "20220217153418-in9rq0o",
+											"Type": "NodeHeading",
+											"HeadingLevel": 2,
+											"Properties": {
+												"id": "20220217153418-in9rq0o",
+												"updated": "20220217153429"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "API代码"
+												}
+											]
+										},
+										{
+											"ID": "20220217153430-zzzaui5",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220217153430-zzzaui5",
+												"updated": "20220217153812"
+											},
+											"Children": [
+												{
+													"ID": "20220217153439-ajzft57",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220217153439-ajzft57"
+													},
+													"Children": [
+														{
+															"ID": "20220217153439-r8wdsfw",
+															"Type": "NodeHeading",
+															"HeadingLevel": 3,
+															"Properties": {
+																"id": "20220217153439-r8wdsfw",
+																"updated": "20220217153447"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "controller"
+																}
+															]
+														},
+														{
+															"ID": "20220217153448-a1aftwq",
+															"Type": "NodeCodeBlock",
+															"IsFencedCodeBlock": true,
+															"Properties": {
+																"id": "20220217153448-a1aftwq",
+																"updated": "20220217153516"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeBlockFenceOpenMarker",
+																	"Data": "```"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceInfoMarker",
+																	"CodeBlockInfo": "YyM="
+																},
+																{
+																	"Type": "NodeCodeBlockCode",
+																	"Data": "//后端\n//controller\nusing System.Web.Http;\nusing YoiEmr_Api.Base;\nusing Yoisoft.Application.Patient;\n\nnamespace YoiEmr_Api.Controllers.Api.Patient.Documents.Doctor_doc\n{\n    public class API_PatientStateController : BaseApi\n    {\n        [HttpPost]\n        public IHttpActionResult Save(object obj)\n        {\n            SYS_PATIENT_STATEService service = new SYS_PATIENT_STATEService();\n            return Json(service.Save(obj));\n        }\n        [HttpPost]\n        public IHttpActionResult Update(object obj)\n        {\n            SYS_PATIENT_STATEService service = new SYS_PATIENT_STATEService();\n            return Json(service.Update(obj));\n        }\n        [HttpGet]\n        public IHttpActionResult Delete(string patientID)\n        {\n            SYS_PATIENT_STATEService service = new SYS_PATIENT_STATEService();\n            return Json(service.Delete(patientID));\n        }\n        [HttpGet]\n        public IHttpActionResult GetEntity(string patientID)\n        {\n            SYS_PATIENT_STATEService service = new SYS_PATIENT_STATEService();\n            return Json(service.GetEntity(patientID));\n        }\n    }\n}\n\n"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceCloseMarker",
+																	"Data": "```"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220217153525-faxc8yg",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220217153525-faxc8yg",
+														"updated": "20220217153549"
+													},
+													"Children": [
+														{
+															"ID": "20220217153525-durlwcr",
+															"Type": "NodeHeading",
+															"HeadingLevel": 3,
+															"Properties": {
+																"id": "20220217153525-durlwcr",
+																"updated": "20220217153549"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "Service"
+																}
+															]
+														},
+														{
+															"ID": "20220217153557-je1vu6m",
+															"Type": "NodeCodeBlock",
+															"IsFencedCodeBlock": true,
+															"Properties": {
+																"id": "20220217153557-je1vu6m",
+																"updated": "20220217153557"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeBlockFenceOpenMarker",
+																	"Data": "```"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceInfoMarker",
+																	"CodeBlockInfo": "YyM="
+																},
+																{
+																	"Type": "NodeCodeBlockCode",
+																	"Data": "using Newtonsoft.Json;\nusing Yoisoft.DataBase.Repository;\nusing Yoisoft.Util;\n\nnamespace Yoisoft.Application.Patient\n{\n    public class SYS_PATIENT_STATEService : RepositoryFactory\n    {\n        public ResultObject Save(object obj)\n        {\n            SYS_PATIENT_STATEEntity entity = JsonConvert.DeserializeObject\u003cSYS_PATIENT_STATEEntity\u003e(obj.ToString());\n            int ret = this.BaseRepository().Insert(entity);\n\n            return new ResultObject(ret \u003e 0 ? true : false);\n        }\n        public ResultObject Update(object obj)\n        {\n            SYS_PATIENT_STATEEntity entity = JsonConvert.DeserializeObject\u003cSYS_PATIENT_STATEEntity\u003e(obj.ToString());\n            int ret = this.BaseRepository().Update(entity);\n\n            return new ResultObject(ret \u003e 0 ? true : false);\n        }\n        public ResultObject Delete(string patientID)\n        {\n            SYS_PATIENT_STATEEntity entity = new SYS_PATIENT_STATEEntity();\n            entity.PATIENTID = patientID;\n            int ret = this.BaseRepository().Delete(entity);\n\n            return new ResultObject(ret \u003e 0 ? true : false);\n        }\n        public object GetEntity(string patientID)\n        {\n            return this.BaseRepository().FindEntity\u003cSYS_PATIENT_STATEEntity\u003e(t =\u003e t.PATIENTID == patientID);\n        }\n    }\n}\n"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceCloseMarker",
+																	"Data": "```"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220217153631-wspo99n",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220217153631-wspo99n",
+														"updated": "20220217153812"
+													},
+													"Children": [
+														{
+															"ID": "20220217153631-nxhc8sb",
+															"Type": "NodeHeading",
+															"HeadingLevel": 3,
+															"Properties": {
+																"id": "20220217153631-nxhc8sb",
+																"updated": "20220217153812"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "entity和map自动生成"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220210165715-1zghenc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220210165715-1zghenc",
+				"updated": "20220217153810"
+			}
+		},
+		{
+			"ID": "20220217153742-y4zrupg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220217153742-y4zrupg",
+				"updated": "20220217153742"
+			}
+		},
+		{
+			"ID": "20220217153815-xu727cn",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220217153815-xu727cn",
+				"updated": "20220217154132"
+			},
+			"Children": [
+				{
+					"ID": "20220217153817-rj7pwj5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220217153817-rj7pwj5",
+						"updated": "20220217154132"
+					},
+					"Children": [
+						{
+							"ID": "20220217153817-li7qukc",
+							"Type": "NodeHeading",
+							"HeadingLevel": 1,
+							"Properties": {
+								"id": "20220217153817-li7qukc",
+								"updated": "20220217153821"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "前后端数据的交互.法3---SQL"
+								}
+							]
+						},
+						{
+							"ID": "20220217153822-lrtw9mp",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220217153822-lrtw9mp",
+								"updated": "20220217154132"
+							},
+							"Children": [
+								{
+									"ID": "20220217153840-b63v2sn",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220217153840-b63v2sn",
+										"updated": "20220217154124"
+									},
+									"Children": [
+										{
+											"ID": "20220217153840-q7hac66",
+											"Type": "NodeHeading",
+											"HeadingLevel": 2,
+											"Properties": {
+												"id": "20220217153840-q7hac66",
+												"updated": "20220217153851"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "前端"
+												}
+											]
+										},
+										{
+											"ID": "20220217153851-tdbzsgh",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20220217153851-tdbzsgh",
+												"updated": "20220217154124"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "YyM="
+												},
+												{
+													"Type": "NodeCodeBlockCode"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220217153855-pg7ymb9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220217153855-pg7ymb9",
+										"updated": "20220217154132"
+									},
+									"Children": [
+										{
+											"ID": "20220217153855-g2ibcaf",
+											"Type": "NodeHeading",
+											"HeadingLevel": 2,
+											"Properties": {
+												"id": "20220217153855-g2ibcaf",
+												"updated": "20220217153934"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "API"
+												}
+											]
+										},
+										{
+											"ID": "20220217153907-eel515c",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220217153907-eel515c",
+												"updated": "20220217154132"
+											},
+											"Children": [
+												{
+													"ID": "20220217153920-6uso22h",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220217153920-6uso22h",
+														"updated": "20220217154130"
+													},
+													"Children": [
+														{
+															"ID": "20220217153920-wowbm80",
+															"Type": "NodeHeading",
+															"HeadingLevel": 3,
+															"Properties": {
+																"id": "20220217153920-wowbm80",
+																"updated": "20220217153944"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "controller"
+																}
+															]
+														},
+														{
+															"ID": "20220217153952-013t1dh",
+															"Type": "NodeCodeBlock",
+															"IsFencedCodeBlock": true,
+															"Properties": {
+																"id": "20220217153952-013t1dh",
+																"updated": "20220217154130"
+															},
+															"Children": [
+																{
+																	"Type": "NodeCodeBlockFenceOpenMarker",
+																	"Data": "```"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceInfoMarker",
+																	"CodeBlockInfo": "YyM="
+																},
+																{
+																	"Type": "NodeCodeBlockCode"
+																},
+																{
+																	"Type": "NodeCodeBlockFenceCloseMarker",
+																	"Data": "```"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220217153956-g1pnnjy",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220217153956-g1pnnjy",
+														"updated": "20220217154132"
+													},
+													"Children": [
+														{
+															"ID": "20220217153956-xl28eme",
+															"Type": "NodeHeading",
+															"HeadingLevel": 3,
+															"Properties": {
+																"id": "20220217153956-xl28eme",
+																"updated": "20220217154004"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "service"
+																}
+															]
+														},
+														{
+															"ID": "20220217154005-41pdldd",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220217154005-41pdldd",
+																"updated": "20220217154132"
+															}
+														}
+													]
+												},
+												{
+													"ID": "20220217154008-dgjv9ro",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220217154008-dgjv9ro",
+														"updated": "20220217154111"
+													},
+													"Children": [
+														{
+															"ID": "20220217154008-ulvo908",
+															"Type": "NodeHeading",
+															"HeadingLevel": 3,
+															"Properties": {
+																"id": "20220217154008-ulvo908",
+																"updated": "20220217154111"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "entity和map自动生成"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220217153742-1v9ocqr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220217153742-1v9ocqr",
+				"updated": "20220217153742"
+			}
+		},
+		{
+			"ID": "20220210165715-muik4vw",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220210165715-muik4vw",
+				"updated": "20220217153040"
+			},
+			"Children": [
+				{
+					"ID": "20220217152945-gq0d3j5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220217152945-gq0d3j5",
+						"updated": "20220217153040"
+					},
+					"Children": [
+						{
+							"ID": "20220217152945-cm5llx3",
+							"Type": "NodeHeading",
+							"HeadingLevel": 1,
+							"Properties": {
+								"id": "20220217152945-cm5llx3",
+								"updated": "20220217153030"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "用户查询和更"
+								}
+							]
+						},
+						{
+							"ID": "20220217153008-3iz3eck",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220217153008-3iz3eck",
+								"updated": "20220217153040"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "c3Fs"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "select rowid,t.* from YY_SYS_USER t where USNAME='陈春玲'\n\nSELECT * FROM yy_sys_role\n\nselect b.* from yy_sys_userrole a left join yy_sys_user\nb on a.userid = b.userid \nwhere a.roleid='2'\n\nselect * from yy_sys_userrole\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

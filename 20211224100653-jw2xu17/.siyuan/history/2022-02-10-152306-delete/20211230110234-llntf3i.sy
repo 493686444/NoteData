@@ -1,0 +1,76 @@
+{
+	"ID": "20211230110234-llntf3i",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211230110234-llntf3i",
+		"title": "草稿纸",
+		"updated": "20220113155318"
+	},
+	"Children": [
+		{
+			"ID": "20211230110234-nsfaagz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211230110234-nsfaagz",
+				"updated": "20220113155224"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "'@ViewBag.User.USERID'"
+				}
+			]
+		},
+		{
+			"ID": "20211230110315-ou37wgl",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211230110315-ou37wgl",
+				"updated": "20220113155318"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "var data = $('#form1').ghostsf_serialize();\nconsole.log(JSON.stringify(data));\n[{\"name\":\"ID\",\"value\":\"\"},{\"name\":\"RECORDINGTIME\",\"value\":\"2022-01-13T15:51\"},{\"name\":\"WOUNDTYPE\",\"value\":\"压力性损伤\"},{\"name\":\"POSITION\",\"value\":\"左前臂内侧\"},{\"name\":\"POSITIONOTHER\",\"value\":\"\"},{\"name\":\"PLACEOFOCCURRENCE\",\"value\":\"院内-转科时发生\"},{\"name\":\"EXTENTSTAGING\",\"value\":\"2期\"},{\"name\":\"POSITIONSIZE1\",\"value\":\"1\"},{\"name\":\"POSITIONSIZE2\",\"value\":\"0\"},{\"name\":\"POSITIONSIZE3\",\"value\":\"0\"},{\"name\":\"MEDICALINSTRUMENTS\",\"value\":\"是\"},{\"name\":\"HEAL\",\"value\":\"是\"},{\"name\":\"LATENCYNOTHING\",\"value\":\"无\"},{\"name\":\"WOUNDEXUDATE\",\"value\":\"无\"},{\"name\":\"SURROUNDING\",\"value\":\"正常\"},{\"name\":\"HANDLE\",\"value\":\"碘伏消毒，生理盐水冲洗\"},{\"name\":\"HANDLE\",\"value\":\"清创胶\"},{\"name\":\"HANDLETEXT\",\"value\":\"\"},{\"name\":\"PRESSUREULCERS\",\"value\":\"1\"},{\"name\":\"REDWOUNDBASECOLOUR\",\"value\":\"\"},{\"name\":\"YELLOWWOUNDBASECOLOUR\",\"value\":\"\"},{\"name\":\"BLACKWOUNDBASECOLOUR\",\"value\":\"\"},{\"name\":\"WOUNDBASECOLOURNO\",\"value\":\"\"},{\"name\":\"AMOUNT\",\"value\":\"\"},{\"name\":\"COLOR\",\"value\":\"\"},{\"name\":\"SMELL\",\"value\":\"\"},{\"name\":\"WOUNDEXUDATENO\",\"value\":\"\"}]\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211230110316-b8bff3o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211230110316-b8bff3o",
+				"updated": "20211230110316"
+			}
+		},
+		{
+			"ID": "20211230110316-azyqmrv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211230110316-azyqmrv",
+				"updated": "20211230110316"
+			}
+		},
+		{
+			"ID": "20220113155216-l8do1ez",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220113155216-l8do1ez",
+				"updated": "20220113155216"
+			}
+		}
+	]
+}

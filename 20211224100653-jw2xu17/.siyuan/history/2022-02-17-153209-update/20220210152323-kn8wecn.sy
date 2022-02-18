@@ -1,0 +1,298 @@
+{
+	"ID": "20220210152323-kn8wecn",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f528",
+		"id": "20220210152323-kn8wecn",
+		"title": "工作中用的代码",
+		"updated": "20220217153201"
+	},
+	"Children": [
+		{
+			"ID": "20220210152323-hbz7fya",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220210152323-hbz7fya",
+				"updated": "20220210152546"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "根据patientid更新数据"
+				}
+			]
+		},
+		{
+			"ID": "20220210152718-zrsljzc",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220210152718-zrsljzc",
+				"updated": "20220217152940"
+			},
+			"Children": [
+				{
+					"ID": "20220217152913-ro6rxvt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220217152913-ro6rxvt",
+						"updated": "20220217152940"
+					},
+					"Children": [
+						{
+							"ID": "20220217152913-at9coyi",
+							"Type": "NodeHeading",
+							"HeadingLevel": 1,
+							"Properties": {
+								"id": "20220217152913-at9coyi",
+								"updated": "20220217152933"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "前后端数据的交互.法1"
+								}
+							]
+						},
+						{
+							"ID": "20220217152937-c003h8e",
+							"Type": "NodeSuperBlock",
+							"Properties": {
+								"id": "20220217152937-c003h8e",
+								"updated": "20220217152940"
+							},
+							"Children": [
+								{
+									"Type": "NodeSuperBlockOpenMarker"
+								},
+								{
+									"Type": "NodeSuperBlockLayoutMarker",
+									"Data": "col"
+								},
+								{
+									"ID": "20220210152529-coq4pir",
+									"Type": "NodeCodeBlock",
+									"IsFencedCodeBlock": true,
+									"Properties": {
+										"id": "20220210152529-coq4pir",
+										"updated": "20220217152937"
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeBlockFenceOpenMarker",
+											"Data": "```"
+										},
+										{
+											"Type": "NodeCodeBlockFenceInfoMarker",
+											"CodeBlockInfo": "anM="
+										},
+										{
+											"Type": "NodeCodeBlockCode",
+											"Data": "//前端\nfunction updateInside(value) {\n            let insideState = {};\n            insideState.PATIENTID = \"@ViewData[\"patientid\"]\";\n            insideState.IS_INSIDE = value;\n            $.ajax({\n                type: \"PATCH\",\n                url: \"@ViewData[\"ApiURI\"]/Odata/NURSE_MONITOR_STATE('@ViewBag.patient.PATIENTID')\",\n                data: JSON.stringify(insideState),\n                contentType: \"application/json\",\n                success: function (data) {\n                    console.log(\"更新状态表的发生地方 OK\");\n                }\n            });\n        }\n"
+										},
+										{
+											"Type": "NodeCodeBlockFenceCloseMarker",
+											"Data": "```"
+										}
+									]
+								},
+								{
+									"ID": "20220210152625-twjw6ua",
+									"Type": "NodeCodeBlock",
+									"IsFencedCodeBlock": true,
+									"Properties": {
+										"id": "20220210152625-twjw6ua",
+										"updated": "20220217152940"
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeBlockFenceOpenMarker",
+											"Data": "```"
+										},
+										{
+											"Type": "NodeCodeBlockFenceInfoMarker",
+											"CodeBlockInfo": "YyM="
+										},
+										{
+											"Type": "NodeCodeBlockCode",
+											"Data": "//后端\n[AcceptVerbs(\"PATCH\", \"MERGE\")]\n        [HttpPatch]\n        public IHttpActionResult Patch([FromODataUri] string key, Delta\u003cNURSE_MONITOR_STATEEntity\u003e patch)\n        {\n            NURSE_MONITOR_STATEService service = new NURSE_MONITOR_STATEService();\n            object id;\n            if (!ModelState.IsValid)\n            {\n                BadRequest(ModelState);\n                return Ok(false);\n            }\n            else if (patch.GetChangedPropertyNames().Contains(\"PATIENTID\") \u0026\u0026 patch.TryGetPropertyValue(\"PATIENTID\", out id) \u0026\u0026 (string)id != key)\n            {\n                BadRequest(\"The key from the url must match the key of the entity in the body\");\n                return Ok(false);\n            }\n            try\n            {\n                var query = service.GetEntity(key.ToString());\n                patch.Patch(query);\n\n                if (service.UpdateEntity(query) \u003e 0)\n                {\n                    Updated(query);\n                    return Ok(true);\n                }\n                else\n                {\n                    return Ok(false);\n\n                }\n            }\n            catch (Exception ex)\n            {\n                return Ok(false);\n            }\n        }\n"
+										},
+										{
+											"Type": "NodeCodeBlockFenceCloseMarker",
+											"Data": "```"
+										}
+									]
+								},
+								{
+									"ID": "20220217152934-zycwwld",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220217152934-zycwwld",
+										"updated": "20220217152937"
+									}
+								},
+								{
+									"Type": "NodeSuperBlockCloseMarker"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220210152751-0vjrdf7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220210152751-0vjrdf7",
+				"updated": "20220210152751"
+			}
+		},
+		{
+			"ID": "20220217153048-enlqi6j",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220217153048-enlqi6j",
+				"updated": "20220217153201"
+			},
+			"Children": [
+				{
+					"ID": "20220217153050-azjo7wu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220217153050-azjo7wu",
+						"updated": "20220217153201"
+					},
+					"Children": [
+						{
+							"ID": "20220217153050-8z6j2gh",
+							"Type": "NodeHeading",
+							"HeadingLevel": 1,
+							"Properties": {
+								"id": "20220217153050-8z6j2gh",
+								"updated": "20220217153104"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "前后端数据的交互.法2"
+								}
+							]
+						},
+						{
+							"ID": "20220217153104-2oqok4t",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220217153104-2oqok4t",
+								"updated": "20220217153201"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "//前端\nlet patientState;\nfunction getPatientState(PATIENTID) {\n            $.ajax({\n                url: \"@ViewData[\"ApiURI\"]/api/API_PatientState/GetEntity?PATIENTID=\" + PATIENTID+\"\",\n                async: false,\n                success: function (data) {\n                    patientState = data;\n  \n                }\n            });\n        }\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220210165715-1zghenc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220210165715-1zghenc",
+				"updated": "20220210165715"
+			}
+		},
+		{
+			"ID": "20220210165715-muik4vw",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220210165715-muik4vw",
+				"updated": "20220217153040"
+			},
+			"Children": [
+				{
+					"ID": "20220217152945-gq0d3j5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220217152945-gq0d3j5",
+						"updated": "20220217153040"
+					},
+					"Children": [
+						{
+							"ID": "20220217152945-cm5llx3",
+							"Type": "NodeHeading",
+							"HeadingLevel": 1,
+							"Properties": {
+								"id": "20220217152945-cm5llx3",
+								"updated": "20220217153030"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "用户查询和更"
+								}
+							]
+						},
+						{
+							"ID": "20220217153008-3iz3eck",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220217153008-3iz3eck",
+								"updated": "20220217153040"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "c3Fs"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "select rowid,t.* from YY_SYS_USER t where USNAME='陈春玲'\n\nSELECT * FROM yy_sys_role\n\nselect b.* from yy_sys_userrole a left join yy_sys_user\nb on a.userid = b.userid \nwhere a.roleid='2'\n\nselect * from yy_sys_userrole\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

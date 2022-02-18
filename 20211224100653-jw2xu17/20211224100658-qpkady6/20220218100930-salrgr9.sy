@@ -1,0 +1,25 @@
+{
+	"ID": "20220218100930-salrgr9",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220218100930-salrgr9",
+		"title": "检验LIS报告",
+		"updated": "20220218101015"
+	},
+	"Children": [
+		{
+			"ID": "20220218100930-7osz1rz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220218100930-7osz1rz",
+				"updated": "20220218101015"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "外表的LIS"
+				}
+			]
+		}
+	]
+}

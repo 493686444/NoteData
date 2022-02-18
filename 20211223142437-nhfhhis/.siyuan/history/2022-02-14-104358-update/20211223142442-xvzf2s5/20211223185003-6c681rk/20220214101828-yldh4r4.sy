@@ -1,0 +1,98 @@
+{
+	"ID": "20220214101828-yldh4r4",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220214101828-yldh4r4",
+		"title": "常用代码",
+		"updated": "20220214103417"
+	},
+	"Children": [
+		{
+			"ID": "20220214101828-wrko3ee",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220214101828-wrko3ee",
+				"updated": "20220214101845"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "转换里面的内容为字符型 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "String();"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220214101847-lopxetw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220214101847-lopxetw",
+				"updated": "20220214101847"
+			}
+		},
+		{
+			"ID": "20220214101855-2dmhc09",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220214101855-2dmhc09",
+				"updated": "20220214101856"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "时间"
+				}
+			]
+		},
+		{
+			"ID": "20220214101857-8y6oam9",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220214101857-8y6oam9",
+				"updated": "20220214103417"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "现在时间\nlet nowDate=new Date();\n\n转换时间字符为时间类型new Date()\nlet oneDate='2021-01-21';\nlet date= new Date(Date.parse(oneDate.replace(/-/g,\"/\"))); \n//或\nvar date= new Date(oneDate.replace(/-/g,\"/\")); \n\n计算时差parseInt\nvar d1 = new Date('2016/03/28 10:17:22');\nvar d2 = new Date('2016/03/28 11:17:22');\nconsole.log(parseInt(d2 - d1));//两个时间相差的毫秒数\nconsole.log(parseInt(d2 - d1) / 1000);//两个时间相差的秒数\nconsole.log(parseInt(d2 - d1) / 1000 / 60);//两个时间相差的分钟数\nconsole.log(parseInt(d2 - d1) / 1000 / 60);//两个时间相差的小时数\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220214101921-lms9ees",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220214101921-lms9ees",
+				"updated": "20220214101921"
+			}
+		}
+	]
+}

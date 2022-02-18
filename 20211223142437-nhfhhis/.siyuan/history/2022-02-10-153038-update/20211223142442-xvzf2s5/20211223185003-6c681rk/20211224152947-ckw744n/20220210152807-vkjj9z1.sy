@@ -1,0 +1,49 @@
+{
+	"ID": "20220210152807-vkjj9z1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220210152807-vkjj9z1",
+		"title": "常用代码",
+		"updated": "20220210152856"
+	},
+	"Children": [
+		{
+			"ID": "20220210152807-spl16uc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220210152807-spl16uc",
+				"updated": "20220210152856"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "转换里面的内容为字符型 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "String();"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220210152856-9d4hk39",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220210152856-9d4hk39",
+				"updated": "20220210152856"
+			}
+		}
+	]
+}

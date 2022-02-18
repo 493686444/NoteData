@@ -2,6 +2,7 @@
 	"ID": "20211223220005-qsn2ayu",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f533",
 		"id": "20211223220005-qsn2ayu",
 		"title": "Web前端框架通用技术",
 		"updated": "20211224085139"

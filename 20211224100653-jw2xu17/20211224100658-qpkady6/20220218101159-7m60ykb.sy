@@ -1,0 +1,25 @@
+{
+	"ID": "20220218101159-7m60ykb",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220218101159-7m60ykb",
+		"title": "病人信息后面的小图标",
+		"updated": "20220218101208"
+	},
+	"Children": [
+		{
+			"ID": "20220218101159-j5o6v86",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220218101159-j5o6v86",
+				"updated": "20220218101208"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "分为医生站和护士站"
+				}
+			]
+		}
+	]
+}

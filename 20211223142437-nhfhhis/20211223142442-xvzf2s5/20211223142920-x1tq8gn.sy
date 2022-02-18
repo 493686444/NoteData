@@ -2,6 +2,7 @@
 	"ID": "20211223142920-x1tq8gn",
 	"Type": "NodeDocument",
 	"Properties": {
+		"icon": "1f962",
 		"id": "20211223142920-x1tq8gn",
 		"title": "版本管理",
 		"updated": "20211223191657"

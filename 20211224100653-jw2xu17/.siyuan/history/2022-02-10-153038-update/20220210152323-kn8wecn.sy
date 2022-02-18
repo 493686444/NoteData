@@ -1,0 +1,102 @@
+{
+	"ID": "20220210152323-kn8wecn",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f528",
+		"id": "20220210152323-kn8wecn",
+		"title": "工作中用的代码",
+		"updated": "20220210152751"
+	},
+	"Children": [
+		{
+			"ID": "20220210152323-hbz7fya",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220210152323-hbz7fya",
+				"updated": "20220210152546"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "根据patientid更新数据"
+				}
+			]
+		},
+		{
+			"ID": "20220210152718-zrsljzc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220210152718-zrsljzc",
+				"updated": "20220210152720"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "例子:"
+				}
+			]
+		},
+		{
+			"ID": "20220210152529-coq4pir",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220210152529-coq4pir",
+				"updated": "20220210152600"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//前端\nfunction updateInside(value) {\n            let insideState = {};\n            insideState.PATIENTID = \"@ViewData[\"patientid\"]\";\n            insideState.IS_INSIDE = value;\n            $.ajax({\n                type: \"PATCH\",\n                url: \"@ViewData[\"ApiURI\"]/Odata/NURSE_MONITOR_STATE('@ViewBag.patient.PATIENTID')\",\n                data: JSON.stringify(insideState),\n                contentType: \"application/json\",\n                success: function (data) {\n                    console.log(\"更新状态表的发生地方 OK\");\n                }\n            });\n        }\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220210152625-twjw6ua",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220210152625-twjw6ua",
+				"updated": "20220210152640"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YyM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//后端\n[AcceptVerbs(\"PATCH\", \"MERGE\")]\n        [HttpPatch]\n        public IHttpActionResult Patch([FromODataUri] string key, Delta\u003cNURSE_MONITOR_STATEEntity\u003e patch)\n        {\n            NURSE_MONITOR_STATEService service = new NURSE_MONITOR_STATEService();\n            object id;\n            if (!ModelState.IsValid)\n            {\n                BadRequest(ModelState);\n                return Ok(false);\n            }\n            else if (patch.GetChangedPropertyNames().Contains(\"PATIENTID\") \u0026\u0026 patch.TryGetPropertyValue(\"PATIENTID\", out id) \u0026\u0026 (string)id != key)\n            {\n                BadRequest(\"The key from the url must match the key of the entity in the body\");\n                return Ok(false);\n            }\n            try\n            {\n                var query = service.GetEntity(key.ToString());\n                patch.Patch(query);\n\n                if (service.UpdateEntity(query) \u003e 0)\n                {\n                    Updated(query);\n                    return Ok(true);\n                }\n                else\n                {\n                    return Ok(false);\n\n                }\n            }\n            catch (Exception ex)\n            {\n                return Ok(false);\n            }\n        }\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220210152751-0vjrdf7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220210152751-0vjrdf7",
+				"updated": "20220210152751"
+			}
+		}
+	]
+}
