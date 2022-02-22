@@ -1,0 +1,263 @@
+{
+	"ID": "20220222202257-57koeof",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220222202257-57koeof",
+		"title": "axios异步网络请求",
+		"updated": "20220222204226"
+	},
+	"Children": [
+		{
+			"ID": "20220222202257-d4r49tj",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220222202257-d4r49tj",
+				"updated": "20220222204226"
+			},
+			"Children": [
+				{
+					"ID": "20220222202313-g5miwlu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220222202313-g5miwlu"
+					},
+					"Children": [
+						{
+							"ID": "20220222202313-97g93x0",
+							"Type": "NodeHeading",
+							"HeadingLevel": 1,
+							"Properties": {
+								"id": "20220222202313-97g93x0",
+								"updated": "20220222202907"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "简介"
+								}
+							]
+						},
+						{
+							"ID": "20220222202908-uza9x9i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220222202908-uza9x9i",
+								"updated": "20220222202911"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Axios简单的理解就是ajax的封装\nAxios 是一个基于 promise 的 HTTP 库,\n支持node端和浏览器端\n使用Promise管理异步，告别传统callback方式\n丰富的配置项，支持拦截器等高级配置\n转换请求数据和响应数据"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220222202913-kphoh2u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220222202913-kphoh2u"
+					},
+					"Children": [
+						{
+							"ID": "20220222202913-0qo7gm2",
+							"Type": "NodeHeading",
+							"HeadingLevel": 1,
+							"Properties": {
+								"id": "20220222202913-0qo7gm2",
+								"updated": "20220222203922"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "项目的两种编程方式"
+								}
+							]
+						},
+						{
+							"ID": "20220222203923-yuno4rc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220222203923-yuno4rc",
+								"updated": "20220222204018"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "模板式编程:没有完全的前后端分离,后端还可能会有前端的代码"
+								}
+							]
+						},
+						{
+							"ID": "20220222203932-otp7nqt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220222203932-otp7nqt",
+								"updated": "20220222204051"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "接口式编程:完全的前后端分离,后端只提供一个数据给前端"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220222203837-g51mwov",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220222203837-g51mwov",
+						"updated": "20220222204226"
+					},
+					"Children": [
+						{
+							"ID": "20220222203837-xilwpy5",
+							"Type": "NodeHeading",
+							"HeadingLevel": 1,
+							"Properties": {
+								"id": "20220222203837-xilwpy5",
+								"updated": "20220222204102"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "RestFul API 规范"
+								}
+							]
+						},
+						{
+							"ID": "20220222204110-734ryuo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220222204110-734ryuo",
+								"updated": "20220222204226"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "GET（SELECT）：从服务器取出资源（一项或多项）。\nPOST（CREATE）：在服务器新建一个资源。\nPUT（UPDATE）：在服务器更新资源（客户端提供改变后的完整资源）。\nPATCH（UPDATE）：在服务器更新资源（客户端提供改变的属性）。\nDELETE（DELETE）：从服务器删除资源。\n我们配置接口时，这只是一种规范，只是建议大家按照规范来使用而已。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220222202904-dvquqpi",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220222202904-dvquqpi",
+				"updated": "20220222210332"
+			},
+			"Children": [
+				{
+					"ID": "20220222204134-em59cpx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220222204134-em59cpx",
+						"updated": "20220222210332"
+					},
+					"Children": [
+						{
+							"ID": "20220222204134-rptpj03",
+							"Type": "NodeHeading",
+							"HeadingLevel": 1,
+							"Properties": {
+								"id": "20220222204134-rptpj03",
+								"updated": "20220222210332"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "ES6的"
+								},
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220222210053-dqxshvh"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "Promise"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220222210300-5k3k8ar",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220222210300-5k3k8ar",
+						"updated": "20220222210310"
+					},
+					"Children": [
+						{
+							"ID": "20220222210300-4dw9vzw",
+							"Type": "NodeHeading",
+							"HeadingLevel": 1,
+							"Properties": {
+								"id": "20220222210300-4dw9vzw",
+								"updated": "20220222210310"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220222204202-xdc1tj0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220222204202-xdc1tj0",
+				"updated": "20220222204202"
+			}
+		}
+	]
+}

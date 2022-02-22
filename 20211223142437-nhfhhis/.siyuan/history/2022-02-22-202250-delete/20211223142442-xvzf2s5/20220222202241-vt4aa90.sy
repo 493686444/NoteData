@@ -1,0 +1,19 @@
+{
+	"ID": "20220222202241-vt4aa90",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220222202241-vt4aa90",
+		"title": "新文档",
+		"updated": "20220222202241"
+	},
+	"Children": [
+		{
+			"ID": "20220222202241-ibfmbct",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220222202241-ibfmbct",
+				"updated": "20220222202241"
+			}
+		}
+	]
+}

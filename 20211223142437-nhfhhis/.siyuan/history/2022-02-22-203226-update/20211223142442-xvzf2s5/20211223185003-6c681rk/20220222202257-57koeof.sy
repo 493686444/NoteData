@@ -1,0 +1,95 @@
+{
+	"ID": "20220222202257-57koeof",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220222202257-57koeof",
+		"title": "axios异步网络请求",
+		"updated": "20220222202918"
+	},
+	"Children": [
+		{
+			"ID": "20220222202257-d4r49tj",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220222202257-d4r49tj",
+				"updated": "20220222202918"
+			},
+			"Children": [
+				{
+					"ID": "20220222202313-g5miwlu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220222202313-g5miwlu"
+					},
+					"Children": [
+						{
+							"ID": "20220222202313-97g93x0",
+							"Type": "NodeHeading",
+							"HeadingLevel": 1,
+							"Properties": {
+								"id": "20220222202313-97g93x0",
+								"updated": "20220222202907"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "简介"
+								}
+							]
+						},
+						{
+							"ID": "20220222202908-uza9x9i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220222202908-uza9x9i",
+								"updated": "20220222202911"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Axios简单的理解就是ajax的封装\nAxios 是一个基于 promise 的 HTTP 库,\n支持node端和浏览器端\n使用Promise管理异步，告别传统callback方式\n丰富的配置项，支持拦截器等高级配置\n转换请求数据和响应数据"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220222202913-kphoh2u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220222202913-kphoh2u",
+						"updated": "20220222202918"
+					},
+					"Children": [
+						{
+							"ID": "20220222202913-0qo7gm2",
+							"Type": "NodeHeading",
+							"HeadingLevel": 1,
+							"Properties": {
+								"id": "20220222202913-0qo7gm2",
+								"updated": "20220222202918"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220222202904-dvquqpi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220222202904-dvquqpi",
+				"updated": "20220222202904"
+			}
+		}
+	]
+}

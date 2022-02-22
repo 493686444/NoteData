@@ -5,7 +5,7 @@
 		"icon": "1f7e9",
 		"id": "20211223200801-k7bt9gr",
 		"title": "ES6",
-		"updated": "20220222231045"
+		"updated": "20220222221223"
 	},
 	"Children": [
 		{
@@ -3817,7 +3817,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20220104225542-rawhvh9",
-				"updated": "20220222231045"
+				"updated": "20220222221223"
 			},
 			"Children": [
 				{
@@ -3829,7 +3829,7 @@
 					},
 					"Properties": {
 						"id": "20220222210053-vr1l3x8",
-						"updated": "20220222231045"
+						"updated": "20220222221223"
 					},
 					"Children": [
 						{
@@ -3844,46 +3844,6 @@
 								{
 									"Type": "NodeText",
 									"Data": "Promise"
-								}
-							]
-						},
-						{
-							"ID": "20220222223741-9mwx2hh",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20220222223741-9mwx2hh",
-								"updated": "20220222224022"
-							},
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "原视频:"
-								},
-								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "P42"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://www.bilibili.com/video/BV1Pz4y1S7Uv?p=42"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
 								}
 							]
 						},
@@ -3907,7 +3867,7 @@
 							"ListData": {},
 							"Properties": {
 								"id": "20220222210401-2vrld3s",
-								"updated": "20220222231045"
+								"updated": "20220222221223"
 							},
 							"Children": [
 								{
@@ -3933,20 +3893,6 @@
 												{
 													"Type": "NodeText",
 													"Data": "简介"
-												}
-											]
-										},
-										{
-											"ID": "20220222222043-ulq2rvm",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20220222222043-ulq2rvm",
-												"updated": "20220222222104"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "Promise 承诺,许诺"
 												}
 											]
 										},
@@ -4143,7 +4089,7 @@
 									},
 									"Properties": {
 										"id": "20220222221055-jlr4irk",
-										"updated": "20220222231045"
+										"updated": "20220222221223"
 									},
 									"Children": [
 										{
@@ -4162,186 +4108,12 @@
 											]
 										},
 										{
-											"ID": "20220222222112-xkhbbeo",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20220222222112-xkhbbeo",
-												"updated": "20220222224940"
-											},
-											"Children": [
-												{
-													"Type": "NodeStrong",
-													"Data": "strong",
-													"Properties": {
-														"style": "color: var(--b3-font-color8);"
-													},
-													"Children": [
-														{
-															"Type": "NodeStrongA6kOpenMarker",
-															"Data": "**"
-														},
-														{
-															"Type": "NodeText",
-															"Data": "自:"
-														},
-														{
-															"Type": "NodeStrongA6kCloseMarker",
-															"Data": "**"
-														}
-													]
-												},
-												{
-													"Type": "NodeKramdownSpanIAL",
-													"Data": "{: style=\"color: var(--b3-font-color8);\"}"
-												},
-												{
-													"Type": "NodeText",
-													"Data": "其实就是把原本要层层嵌套的写法变成在外面写,并把需要在外面写的东西抛出去(用"
-												},
-												{
-													"Type": "NodeCodeSpan",
-													"Data": "code",
-													"Children": [
-														{
-															"Type": "NodeCodeSpanOpenMarker"
-														},
-														{
-															"Type": "NodeCodeSpanContent",
-															"Data": "resolve"
-														},
-														{
-															"Type": "NodeCodeSpanCloseMarker"
-														}
-													]
-												},
-												{
-													"Type": "NodeText",
-													"Data": "抛,然后再用"
-												},
-												{
-													"Type": "NodeCodeSpan",
-													"Data": "code",
-													"Children": [
-														{
-															"Type": "NodeCodeSpanOpenMarker"
-														},
-														{
-															"Type": "NodeCodeSpanContent",
-															"Data": "res"
-														},
-														{
-															"Type": "NodeCodeSpanCloseMarker"
-														}
-													]
-												},
-												{
-													"Type": "NodeText",
-													"Data": "接收(其实名字不重要,只是个参数而已)),"
-												}
-											]
-										},
-										{
-											"ID": "20220222224948-1eccp5x",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20220222224948-1eccp5x"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "我个人认为他就和抛出异常差不多,只不过这个不仅仅可以抛出异常还可以抛出其它的东西,"
-												}
-											]
-										},
-										{
-											"ID": "20220222224954-ua959gf",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20220222224954-ua959gf",
-												"updated": "20220222225400"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "而捕获其它东西的时候用"
-												},
-												{
-													"Type": "NodeCodeSpan",
-													"Data": "code",
-													"Children": [
-														{
-															"Type": "NodeCodeSpanOpenMarker"
-														},
-														{
-															"Type": "NodeCodeSpanContent",
-															"Data": "then"
-														},
-														{
-															"Type": "NodeCodeSpanCloseMarker"
-														}
-													]
-												},
-												{
-													"Type": "NodeText",
-													"Data": ",捕获异常还是用的"
-												},
-												{
-													"Type": "NodeCodeSpan",
-													"Data": "code",
-													"Children": [
-														{
-															"Type": "NodeCodeSpanOpenMarker"
-														},
-														{
-															"Type": "NodeCodeSpanContent",
-															"Data": "catch"
-														},
-														{
-															"Type": "NodeCodeSpanCloseMarker"
-														}
-													]
-												},
-												{
-													"Type": "NodeText",
-													"Data": ","
-												}
-											]
-										},
-										{
-											"ID": "20220222225347-fooyydc",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20220222225347-fooyydc",
-												"updated": "20220222225457"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "另外因为是捕获的机制,所以只用捕获一个就会抛出,所以下面尽管还有什么代码也不会执行,不管是异常还是其他的东西."
-												}
-											]
-										},
-										{
-											"ID": "20220222225501-x9azgby",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20220222225501-x9azgby",
-												"updated": "20220222225512"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "以上纯属个人理解!!!"
-												}
-											]
-										},
-										{
 											"ID": "20220222221122-osjn4h0",
 											"Type": "NodeCodeBlock",
 											"IsFencedCodeBlock": true,
 											"Properties": {
 												"id": "20220222221122-osjn4h0",
-												"updated": "20220222224420"
+												"updated": "20220222221223"
 											},
 											"Children": [
 												{
@@ -4354,180 +4126,7 @@
 												},
 												{
 													"Type": "NodeCodeBlockCode",
-													"Data": "function demo(mess , t){\n\treturn new Promise((resolve,reject)=\u003e{\n\t\t\tsetTimeout(()=\u003e{resolve(mess);},t*1000;)\n\t\t}\n\t)\n}\n//\nnew Promise((resolve,reject)=\u003e{\n\tconsole.log(\"1\");\n\tsetTimeout(()=\u003e{resolve(\"2\")},1000);//1秒之后执行这个\n}),then(\n\tres=\u003e{console.log(res)};//res接收resolve抛出的\"2\",并打印\n\treturn demo(3,1)//这个写法相当于下面这个\n\treturn new Promise((resolve,reject)=\u003e{\n\t\t\tsetTimeout(()=\u003e{resolve(3);},1000;)//一秒之后再次抛出,这次抛出的是\"3\"\n\t\t}\n\t)\n),then(\n\tres=\u003e{consolog(res)};//res接收再次抛出的\"3\",并打印\n),catch(//接收抛出的异常\n\n)\n"
-												},
-												{
-													"Type": "NodeCodeBlockFenceCloseMarker",
-													"Data": "```"
-												}
-											]
-										},
-										{
-											"ID": "20220222224433-qvvs7rz",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20220222224433-qvvs7rz",
-												"updated": "20220222224449"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "异常的例子"
-												}
-											]
-										},
-										{
-											"ID": "20220222224450-g3e4xd4",
-											"Type": "NodeCodeBlock",
-											"IsFencedCodeBlock": true,
-											"Properties": {
-												"id": "20220222224450-g3e4xd4",
-												"updated": "20220222225853"
-											},
-											"Children": [
-												{
-													"Type": "NodeCodeBlockFenceOpenMarker",
-													"Data": "```"
-												},
-												{
-													"Type": "NodeCodeBlockFenceInfoMarker",
-													"CodeBlockInfo": "anM="
-												},
-												{
-													"Type": "NodeCodeBlockCode",
-													"Data": "new Promise((resolve,reject)=\u003e{\n\tconsole.log(\"1\");\n\tresolve(\"error!!!!\")//这里开始抛出,所以下面的代码就不会走了\n\tthrow \"error2!!!\"//这么抛出也可以,和上面的写法一样\n\tsetTimeout(()=\u003e{resolve(\"2\")},1000);\n}),then(\n\tres=\u003e{console.log(res)};\n\treturn new Promise((resolve,reject)=\u003e{\n\t\t\tsetTimeout(()=\u003e{resolve(\"3\");},1000;)\n\t\t}\n\t)\n),then(\n\tres=\u003e{consolog(res)};\n),catch(//接收抛出的异常\n\terr=\u003e{console.log(err)}\n)\n"
-												},
-												{
-													"Type": "NodeCodeBlockFenceCloseMarker",
-													"Data": "```"
-												}
-											]
-										},
-										{
-											"ID": "20220222225057-d6czrjl",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20220222225057-d6czrjl",
-												"updated": "20220222230136"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "层层嵌套时的集中几种写法"
-												}
-											]
-										},
-										{
-											"ID": "20220222225116-hq2dids",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20220222225116-hq2dids",
-												"updated": "20220222225228"
-											},
-											"Children": [
-												{
-													"Type": "NodeImage",
-													"Data": "span",
-													"Properties": {
-														"parent-style": "max-width: 346px;",
-														"style": "width: 336px;"
-													},
-													"Children": [
-														{
-															"Type": "NodeBang"
-														},
-														{
-															"Type": "NodeOpenBracket"
-														},
-														{
-															"Type": "NodeLinkText",
-															"Data": "image.png"
-														},
-														{
-															"Type": "NodeCloseBracket"
-														},
-														{
-															"Type": "NodeOpenParen"
-														},
-														{
-															"Type": "NodeLinkDest",
-															"Data": "assets/image-20220222225228-yk88x9t.png"
-														},
-														{
-															"Type": "NodeCloseParen"
-														}
-													]
-												},
-												{
-													"Type": "NodeKramdownSpanIAL",
-													"Data": "{: style=\"width: 336px;\" parent-style=\"max-width: 346px;\"}"
-												}
-											]
-										},
-										{
-											"ID": "20220222230926-18xrb84",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20220222230926-18xrb84",
-												"updated": "20220222231045"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "这三种方法都可以,第三种我后头看的时候或许会蒙,其实他就是跑出的一个对象,抛出字符串也可以的 如:"
-												},
-												{
-													"Type": "NodeCodeSpan",
-													"Data": "code",
-													"Children": [
-														{
-															"Type": "NodeCodeSpanOpenMarker"
-														},
-														{
-															"Type": "NodeCodeSpanContent",
-															"Data": "return \"3\";"
-														},
-														{
-															"Type": "NodeCodeSpanCloseMarker"
-														}
-													]
-												}
-											]
-										},
-										{
-											"ID": "20220222230145-4uj4t87",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20220222230145-4uj4t87",
-												"updated": "20220222230158"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "并发处理的例子"
-												}
-											]
-										},
-										{
-											"ID": "20220222230159-6c2xd3z",
-											"Type": "NodeCodeBlock",
-											"IsFencedCodeBlock": true,
-											"Properties": {
-												"id": "20220222230159-6c2xd3z",
-												"updated": "20220222230700"
-											},
-											"Children": [
-												{
-													"Type": "NodeCodeBlockFenceOpenMarker",
-													"Data": "```"
-												},
-												{
-													"Type": "NodeCodeBlockFenceInfoMarker",
-													"CodeBlockInfo": "anM="
-												},
-												{
-													"Type": "NodeCodeBlockCode",
-													"Data": "Promise.all([\n\tnew Promise((resolve,reject)=\u003e{resolve(\"1\")}),\n\tnew Promise((resolve,reject)=\u003e{resolve(\"1\")})\n]),then(\n\tres=\u003e{console.log(res[0])}//这时候res就是一个数字,他里面包含上面的两个抛出来的结果\n)\n"
+													"Data": "function \n"
 												},
 												{
 													"Type": "NodeCodeBlockFenceCloseMarker",

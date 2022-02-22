@@ -5,7 +5,7 @@
 		"icon": "1f7e9",
 		"id": "20211223200801-k7bt9gr",
 		"title": "ES6",
-		"updated": "20220222231045"
+		"updated": "20220222230222"
 	},
 	"Children": [
 		{
@@ -3817,7 +3817,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20220104225542-rawhvh9",
-				"updated": "20220222231045"
+				"updated": "20220222230222"
 			},
 			"Children": [
 				{
@@ -3829,7 +3829,7 @@
 					},
 					"Properties": {
 						"id": "20220222210053-vr1l3x8",
-						"updated": "20220222231045"
+						"updated": "20220222230222"
 					},
 					"Children": [
 						{
@@ -3907,7 +3907,7 @@
 							"ListData": {},
 							"Properties": {
 								"id": "20220222210401-2vrld3s",
-								"updated": "20220222231045"
+								"updated": "20220222230222"
 							},
 							"Children": [
 								{
@@ -4143,7 +4143,7 @@
 									},
 									"Properties": {
 										"id": "20220222221055-jlr4irk",
-										"updated": "20220222231045"
+										"updated": "20220222230222"
 									},
 									"Children": [
 										{
@@ -4465,36 +4465,6 @@
 											]
 										},
 										{
-											"ID": "20220222230926-18xrb84",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20220222230926-18xrb84",
-												"updated": "20220222231045"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "这三种方法都可以,第三种我后头看的时候或许会蒙,其实他就是跑出的一个对象,抛出字符串也可以的 如:"
-												},
-												{
-													"Type": "NodeCodeSpan",
-													"Data": "code",
-													"Children": [
-														{
-															"Type": "NodeCodeSpanOpenMarker"
-														},
-														{
-															"Type": "NodeCodeSpanContent",
-															"Data": "return \"3\";"
-														},
-														{
-															"Type": "NodeCodeSpanCloseMarker"
-														}
-													]
-												}
-											]
-										},
-										{
 											"ID": "20220222230145-4uj4t87",
 											"Type": "NodeParagraph",
 											"Properties": {
@@ -4514,7 +4484,7 @@
 											"IsFencedCodeBlock": true,
 											"Properties": {
 												"id": "20220222230159-6c2xd3z",
-												"updated": "20220222230700"
+												"updated": "20220222230222"
 											},
 											"Children": [
 												{
@@ -4527,7 +4497,7 @@
 												},
 												{
 													"Type": "NodeCodeBlockCode",
-													"Data": "Promise.all([\n\tnew Promise((resolve,reject)=\u003e{resolve(\"1\")}),\n\tnew Promise((resolve,reject)=\u003e{resolve(\"1\")})\n]),then(\n\tres=\u003e{console.log(res[0])}//这时候res就是一个数字,他里面包含上面的两个抛出来的结果\n)\n"
+													"Data": "Promise.all()\n"
 												},
 												{
 													"Type": "NodeCodeBlockFenceCloseMarker",
